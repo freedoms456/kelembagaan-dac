@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SertifikasiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,3 +34,8 @@ Route::get('/rekomendasi-diklat', [DashboardController::class, 'rekomendasiDikla
 Route::get('/profiling-pemeriksa', [DashboardController::class, 'profilingPemeriksa']);
 Route::get('/profiling-pemeriksaDetail/{id}', [DashboardController::class, 'profilingPemeriksaDetail']);
 Route::get('/pembentukan-tim', [DashboardController::class, 'pembentukanTim']);
+
+Route::get('/sertifikasi/getSertifikasiBasedOnName', [SertifikasiController::class, 'getSertifikasiData']);
+Route::get('/sertifikasi/getSertifikasiByJenis', [SertifikasiController::class, 'getSertifikasiByJenis']);
+Route::post('/sertifikasi/getlist/get-datatable', [SertifikasiController::class, 'getTableList'])->name('sertifikasi.list');
+Route::post('/sertifikasi/getlist/get-datatable2', [SertifikasiController::class, 'getTableMilikList'])->name('sertifikasiMilik.list');

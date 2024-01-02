@@ -1,0 +1,576 @@
+﻿id;name;jabatan;satuan_kerja;jenis_kelamin;umur;masa_kerja
+1;Amel;Analis Barang Milik Negara;Jogja;P;34;8
+2;Raisa;Analis Barang Milik Negara;Jogja;P;28;5
+3;Septi;Analis Barang Milik Negara;Banten;L;51;15
+4;Barii;Analis Barang Milik Negara;Banten;L;42;16
+5;Herwansyah;Analis Hukum;Kaltara;L;41;16
+6;Sam;Analis Hukum;Kalsel;L;49;15
+7;Nugroho;Analis Hukum;Kalsel;L;42;16
+8;Abdi;Analis Hukum;Jogja;L;40;13
+9;Cahya;Analis Hukum;Banten;P;33;5
+10;Dessy;Analis Hukum;Banten;P;34;8
+11;Haryan;Analis Hukum;Banten;L;32;9
+12;Seviani;Analis Hukum;Banten;P;27;2
+13;Turi;Analis Hukum;Kepri;P;43;18
+14;Roha;Analis Hukum;Kepri;P;42;14
+15;Hotma;Analis Hukum;Kepri;L;30;5
+16;Brina;Analis Hukum;Kepri;L;35;5
+17;Ulfa;Analis Hukum;Maluku;P;27;4
+18;Ani;Analis Humas;Kalsel;P;47;21
+19;Udin;Analis Humas;Kalsel;L;32;10
+20;Tuti;Analis Humas;Banten;L;23;1
+21;Dhata;Analis Humas;Banten;p;23;1
+22;Tegar;Analis Humas;Maluku;L;42;14
+23;Pradewi;Analis Humas;Maluku;P;35;6
+24;Yanto;Analis Humas;NTB;L;26;2
+25;Intan;Analis Humas;NTB;P;31;2
+26;Ahmad;Analis Humas;NTB;p;30;8
+27;Fani;Analis Kepegawaian;Banten;p;47;12
+28;Fabian;Analis Kepegawaian Ahli Muda;Kaltara;L;39;15
+29;Lesti;Analis Kepegawaian Muda;Kalsel;P;38;9
+30;Adi;Analis Kepegawaian Pertama;Kalsel;L;35;11
+31;Leni;Analis Kepegawaian Pertama;Maluku;L;47;12
+32;Tati;Analis Pengelola Keuangan APBN;Kalsel;P;36;15
+33;Levi;Analis Pengelola Keuangan APBN;Jogja;L;33;7
+34;Bintan;Analis Pengelola Keuangan APBN;Banten;L;29;6
+35;Soraya;Analis Pengelola Keuangan APBN;Banten;L;24;2
+36;Indi;Analis Pengelola Keuangan APBN;Banten;L;36;15
+37;Arya;Analis Pengelola Keuangan APBN;Banten;L;49;27
+38;Nova;Analis Pengelola Keuangan APBN;Kepri;P;33;6
+39;Kusuma;Analis Pengelola Keuangan APBN;Maluku;P;29;2
+40;Sita;Analis Pengelola Keuangan APBN;Maluku;p;23;1
+41;Catur;Analis Pengelola Keuangan APBN;Maluku;L;31;6
+42;Indah;Analis Pengelola Keuangan APBN;Maluku;P;29;6
+43;Tines;Analis Pengelola Keuangan APBN;Maluku;L;35;9
+44;Nesya;Analis Pengelola Keuangan APBN;NTB;L;42;14
+45;Wawan;Analis Pengelola Keuangan APBN Ahli Madya;NTB;L;33;2
+46;Marya;Analis Pengelola Keuangan APBN Ahli Madya;NTB;P;28;2
+47;Anjas;Analis Pengelola Keuangan APBN Ahli Muda;NTB;P;43;18
+48;Ida;Analis Protokol;Kalsel;P;38;9
+49;Amat;Analis Protokol;Kalsel;L;32;11
+50;Sagala;Analis Protokol;Jogja;P;36;6
+51;Dwihar;Analis Protokol;Banten;L;33;6
+52;Tia;Analis Protokol;Banten;p;49;15
+53;Iras;Analis Protokol;Banten;L;49;15
+54;Andin;Analis Protokol;Banten;L;27;4
+55;Akbar;Analis Protokol;Kepri;L;30;5
+56;Santo;Analis Protokol;NTB;L;35;2
+57;Werdi;Analis Protokol;NTB;L;31;2
+58;Hadi;Analis SDM Aparatur;Kalsel;L;36;15
+59;Dwiput;Analis SDM Aparatur;Jogja;P;45;15
+60;Deska;Analis SDM Aparatur;Kepri;P;43;17
+61;Juni;Analis SDM Aparatur;Maluku;L;29;6
+62;Tyas;Analis SDM Aparatur;Maluku;P;33;6
+63;Retno;Analis SDM Aparatur;Maluku;P;49;15
+64;Wiwid;Analis SDM Aparatur;Maluku;P;23;1
+65;Fadli;Analis Sistem Informasi;Banten;L;54;15
+66;Faqih;Analis Sistem Informasi;Banten;L;26;2
+67;Flow;Arsiparis Ahli Muda;Jogja;P;28;3
+68;Saleh;Arsiparis Ahli Muda;NTB;L;26;2
+69;Eka;Arsiparis Ahli Muda;NTB;P;26;2
+70;Artia;Kepala Perwakilan;Kaltara;L;43;18
+71;Madi;Kepala Perwakilan;Kalsel;L;55;25
+72;Rianti;Kepala Perwakilan;Jogja;P;50;25
+73;Karyadi;Kepala Perwakilan;Banten;L;52;25
+74;Mutia;Kepala Perwakilan;Kepri;P;53;28
+75;Purwo;Kepala Perwakilan;Maluku;L;55;29
+76;Tiani;Kepala Perwakilan;NTB;P;51;24
+77;Yudi;Kepala Sekretariat;Kaltara;L;52;24
+78;Alsyah;Kepala Sekretariat;Kalsel;L;47;26
+79;Danang;Kepala Sekretariat;Jogja;L;51;15
+80;Srini;Kepala Sekretariat;Banten;P;43;17
+81;Mulya;Kepala Sekretariat;Kepri;L;55;25
+82;Zendi;Kepala Sekretariat;Maluku;L;42;10
+83;Zaenal;Kepala Sekretariat;NTB;L;42;10
+84;Hadi;Kepala Subauditorat;Kaltara;L;39;16
+85;Jhon;Kepala Subauditorat;Kalsel;L;54;25
+86;Laksmi;Kepala Subauditorat;Jogja;P;54;21
+87;Zahru;Kepala Subauditorat;Banten;L;55;29
+88;Pambu;Kepala Subauditorat;Kepri;L;52;23
+89;Ria;Kepala Subauditorat;Maluku;P;42;10
+90;Susan;Kepala Subauditorat;NTB;P;47;11
+91;Atar;Kepala Subbagian Hukum;Kalsel;L;54;25
+92;Handa;Kepala Subbagian Hukum;Jogja;L;43;17
+93;Tina;Kepala Subbagian Hukum;Banten;P;47;13
+94;Erwin;Kepala Subbagian Hukum;Kepri;L;55;26
+95;Harini;Kepala Subbagian Hukum;Maluku;L;45;15
+96;Agus;Kepala Subbagian Hukum;Kaltara;L;38;16
+97;Agustini;Kepala Subbagian Hukum;NTB;P;38;12
+98;Seno;Kepala Subbagian Humas;Kaltara;L;38;16
+99;Budi;Kepala Subbagian Humas TU kalan;Kalsel;L;49;15
+100;Hutami;Kepala Subbagian Humas TU kalan;Jogja;L;44;13
+101;Andia;Kepala Subbagian Humas TU kalan;Banten;P;48;11
+102;Mamad;Kepala Subbagian Humas TU kalan;Kepri;L;52;26
+103;Dea;Kepala Subbagian Humas TU kalan;Maluku;P;39;16
+104;Erni;Kepala Subbagian Humas TU kalan;NTB;L;45;15
+105;Miko;Kepala Subbagian Keuangan;Kalsel;L;49;27
+106;Esti;Kepala Subbagian Keuangan;Jogja;P;47;13
+107;Wigati;Kepala Subbagian Keuangan;Banten;P;42;14
+108;Mardi;Kepala Subbagian Keuangan;Kepri;L;54;25
+109;Afi;Kepala Subbagian Keuangan;Maluku;P;43;18
+110;Noto;Kepala Subbagian Keuangan;NTB;L;39;14
+111;Wati;Kepala Subbagian Keuangan;Kaltara;P;47;13
+112;Ipul;Kepala Subbagian SDM;Kalsel;L;48;20
+113;Triana;Kepala Subbagian SDM;Jogja;P;42;15
+114;Alkausar;Kepala Subbagian SDM;Banten;L;44;13
+115;Endang;Kepala Subbagian SDM;Kepri;P;54;26
+116;Putra;Kepala Subbagian SDM;Maluku;L;41;10
+117;Yudis;Kepala Subbagian SDM;NTB;L;38;9
+118;Lina;Kepala Subbagian SDM;Kaltara;P;43;17
+119;Ferdi;Kepala Subbagian umum;Kaltara;L;42;16
+120;Sigit;Kepala Subbagian Umum TI;Kalsel;L;43;17
+121;Vita;Kepala Subbagian Umum TI;Jogja;P;48;11
+122;Neni;Kepala Subbagian Umum TI;Banten;P;35;6
+123;Wicak;Kepala Subbagian Umum Ti;Kepri;L;44;17
+124;Wulan;Kepala Subbagian Umum Ti;Maluku;P;42;14
+125;Wiwik;Kepala Subbagian Umum Ti;NTB;P;38;16
+126;Buditomo;Pemelihara Sarana dan Prasarana;Kaltara;L;52;25
+127;Alriyadi;Pemelihara Sarana dan Prasarana;Kaltara;L;25;4
+128;Mawan;Pemelihara Sarana dan Prasarana;Jogja;L;26;3
+129;Priyo;Pemelihara Sarana dan Prasarana;Banten;L;32;4
+130;Mona;pemelihara Sarana dan Prasarana;Kalsel;P;32;13
+131;Adul;pemelihara Sarana dan Prasarana;Kalsel;L;51;15
+132;Zali;pemelihara Sarana dan Prasarana;Kalsel;L;42;16
+133;Erni;pemelihara Sarana dan Prasarana;Banten;P;31;6
+134;Jaya;pemelihara Sarana dan Prasarana;Banten;L;28;4
+135;Harli;pemelihara Sarana dan Prasarana;Banten;L;27;2
+136;Kodir;pemelihara Sarana dan Prasarana;Kepri;L;32;5
+137;Wanto;Pemeriksa Ahli Madya;Kaltara;L;48;22
+138;Anti;Pemeriksa Ahli Madya/Madya;Kaltara;L;36;8
+139;Dewi;Pemeriksa Ahli Madya/Madya;Kalsel;P;52;23
+140;Fauzi;Pemeriksa Ahli Madya/Madya;Kalsel;L;54;26
+141;Hamdan;Pemeriksa Ahli Madya/Madya;Kalsel;L;45;20
+142;Krisdina;Pemeriksa Ahli Madya/Madya;Jogja;P;51;25
+143;Alfian;Pemeriksa Ahli Madya/Madya;Jogja;L;45;26
+144;Ardi;Pemeriksa Ahli Madya/Madya;Banten;L;28;2
+145;Laksono;Pemeriksa Ahli Madya/Madya;Banten;L;35;2
+146;Dayat;Pemeriksa Ahli Madya/Madya;Banten;L;31;2
+147;Riana;Pemeriksa Ahli Madya/Madya;Banten;P;26;2
+148;Suko;Pemeriksa Ahli Madya/Madya;Banten;L;33;2
+149;Dinata;Pemeriksa Ahli Madya/Madya;Kepri;L;38;15
+150;Safi;Pemeriksa Ahli Madya/Madya;Kepri;P;45;20
+151;Dhina;Pemeriksa Ahli Madya/Madya;Kepri;P;37;15
+152;Hardani;Pemeriksa Ahli Madya/Madya;Maluku;L;32;5
+153;Dyo;Pemeriksa Ahli Madya/Madya;Maluku;L;54;26
+154;Nara;Pemeriksa Ahli Madya/Madya;NTB;P;48;22
+155;Erya;Pemeriksa Ahli Madya/Madya;NTB;P;43;17
+156;Tiyawati;Pemeriksa Ahli Madya/Madya;NTB;L;38;13
+157;Nuris;Pemeriksa Ahli Madya/Madya;NTB;L;40;17
+158;Doso;Pemeriksa Ahli Madya/Madya;NTB;L;38;13
+159;Fonel;Pemeriksa Ahli Madya/Madya;NTB;L;52;21
+160;Toto;Pemeriksa Ahli Madya/Madya;NTB;L;33;10
+161;Ila;Pemeriksa Ahli Madya/Madya;NTB;P;51;25
+162;Anung;Pemeriksa Ahli Madya/Madya;NTB;L;50;22
+163;Setiawan;Pemeriksa Ahli Muda;Kaltara;L;43;17
+164;Fernand;Pemeriksa Ahli Muda;Kaltara;L;45;18
+165;Cahyono;Pemeriksa Ahli Muda;Kaltara;L;43;18
+166;Anta;Pemeriksa Ahli Muda;Kaltara;L;42;14
+167;Radius;Pemeriksa Ahli Muda/Muda;Kaltara;L;34;5
+168;Victor;Pemeriksa Ahli Muda/Muda;Kaltara;L;28;3
+169;Anin;Pemeriksa Ahli Muda/Muda;Kaltara;L;38;10
+170;Novi;Pemeriksa Ahli Muda/Muda;Kalsel;P;39;15
+171;Arul;Pemeriksa Ahli Muda/Muda;Kalsel;L;55;25
+172;Faisal;Pemeriksa Ahli Muda/Muda;Kalsel;L;55;26
+173;Titin;Pemeriksa Ahli Muda/Muda;Kalsel;P;52;26
+174;Mawar;Pemeriksa Ahli Muda/Muda;Kalsel;P;44;17
+175;Ardi;Pemeriksa Ahli Muda/Muda;Kalsel;L;43;15
+176;Nur;Pemeriksa Ahli Muda/Muda;Kalsel;P;46;16
+177;Tomy;Pemeriksa Ahli Muda/Muda;Kalsel;L;39;16
+178;Tanti;Pemeriksa Ahli Muda/Muda;Kalsel;P;46;20
+179;Era;Pemeriksa Ahli Muda/Muda;Kalsel;L;38;15
+180;Gama;Pemeriksa Ahli Muda/Muda;Kalsel;L;37;15
+181;Yani;Pemeriksa Ahli Muda/Muda;Jogja;P;45;18
+182;Firda;Pemeriksa Ahli Muda/Muda;Jogja;P;40;17
+183;Lintang;Pemeriksa Ahli Muda/Muda;Jogja;P;45;17
+184;Rendra;Pemeriksa Ahli Muda/Muda;Jogja;L;45;17
+185;Hari;Pemeriksa Ahli Muda/Muda;Jogja;L;53;25
+186;Aris;Pemeriksa Ahli Muda/Muda;Jogja;L;55;27
+187;Arkan;Pemeriksa Ahli Muda/Muda;Jogja;L;53;27
+188;Maria;Pemeriksa Ahli Muda/Muda;Jogja;P;46;20
+189;Eli;Pemeriksa Ahli Muda/Muda;Jogja;P;43;24
+190;Ade;Pemeriksa Ahli Muda/Muda;Banten;L;43;18
+191;Mardias;Pemeriksa Ahli Muda/Muda;Banten;P;42;14
+192;Iqbal;Pemeriksa Ahli Muda/Muda;Banten;P;29;6
+193;Augea;Pemeriksa Ahli Muda/Muda;Banten;L;32;2
+194;Fulan;Pemeriksa Ahli Muda/Muda;Banten;L;32;2
+195;Mei;Pemeriksa Ahli Muda/Muda;Banten;P;26;2
+196;Saint;Pemeriksa Ahli Muda/Muda;Banten;L;32;4
+197;Liem;Pemeriksa Ahli Muda/Muda;Banten;P;28;3
+198;Indra;Pemeriksa Ahli Muda/Muda;Banten;L;41;16
+199;Henik;Pemeriksa Ahli Muda/Muda;Banten;L;41;16
+200;Ririn;Pemeriksa Ahli Muda/Muda;Banten;P;35;6
+201;Andri;Pemeriksa Ahli Muda/Muda;Banten;L;27;6
+202;Widi;Pemeriksa Ahli Muda/Muda;Banten;P;52;25
+203;Bangun;Pemeriksa Ahli Muda/Muda;Banten;L;24;3
+204;Heru;Pemeriksa Ahli Muda/Muda;Banten;L;30;2
+205;Arini;Pemeriksa Ahli Muda/Muda;Banten;P;37;2
+206;Alvaz;Pemeriksa Ahli Muda/Muda;Banten;L;26;2
+207;Fauz;Pemeriksa Ahli Muda/Muda;Banten;L;28;2
+208;Agvita;Pemeriksa Ahli Muda/Muda;Banten;P;26;2
+209;Kartika;Pemeriksa Ahli Muda/Muda;Banten;P;31;2
+210;Naldo;Pemeriksa Ahli Muda/Muda;Kepri;L;52;23
+211;Ustian;Pemeriksa Ahli Muda/Muda;Kepri;L;55;25
+212;Lupi;Pemeriksa Ahli Muda/Muda;Kepri;P;54;26
+213;Carolin;Pemeriksa Ahli Muda/Muda;Kepri;P;55;26
+214;Mulia;Pemeriksa Ahli Muda/Muda;Kepri;P;52;26
+215;Cut;Pemeriksa Ahli Muda/Muda;Kepri;P;28;2
+216;Maurid;Pemeriksa Ahli Muda/Muda;Kepri;L;26;2
+217;Yitno;Pemeriksa Ahli Muda/Muda;Kepri;L;34;5
+218;Nisa;Pemeriksa Ahli Muda/Muda;Kepri;P;41;16
+219;Yahya;Pemeriksa Ahli Muda/Muda;Kepri;L;39;15
+220;Rahmi;Pemeriksa Ahli Muda/Muda;Kepri;P;41;16
+221;Sisto;Pemeriksa Ahli Muda/Muda;Kepri;L;43;18
+222;Andi;Pemeriksa Ahli Muda/Muda;Kepri;L;40;10
+223;Dody;Pemeriksa Ahli Muda/Muda;Maluku;L;31;5
+224;Warda;Pemeriksa Ahli Muda/Muda;Maluku;P;31;5
+225;Afian;Pemeriksa Ahli Muda/Muda;Maluku;L;32;4
+226;Daru;Pemeriksa Ahli Muda/Muda;Maluku;L;29;4
+227;Dona;Pemeriksa Ahli Muda/Muda;Maluku;L;28;3
+228;Nining;Pemeriksa Ahli Muda/Muda;Maluku;P;41;16
+229;Maya;Pemeriksa Ahli Muda/Muda;Maluku;P;39;15
+230;Yuni;Pemeriksa Ahli Muda/Muda;Maluku;P;41;16
+231;Aris;Pemeriksa Ahli Muda/Muda;Maluku;L;35;6
+232;Fikri;Pemeriksa Ahli Muda/Muda;Maluku;L;25;4
+233;Jafar;Pemeriksa Ahli Muda/Muda;Maluku;L;44;17
+234;Supan;Pemeriksa Ahli Muda/Muda;Maluku;L;43;15
+235;Seti;Pemeriksa Ahli Muda/Muda;Maluku;P;36;17
+236;Martuin;Pemeriksa Ahli Muda/Muda;Maluku;P;52;23
+237;Driya;Pemeriksa Ahli Muda/Muda;Maluku;P;55;25
+238;Nurlail;Pemeriksa Ahli Muda/Muda;Maluku;P;55;26
+239;Sanuri;Pemeriksa Ahli Muda/Muda;Maluku;L;52;26
+240;Yani;Pemeriksa Ahli Muda/Muda;NTB;P;40;15
+241;Purna;Pemeriksa Ahli Muda/Muda;NTB;P;45;22
+242;Wijang;Pemeriksa Ahli Muda/Muda;NTB;L;47;23
+243;Bibah;Pemeriksa Ahli Muda/Muda;NTB;P;27;4
+244;Tfiqur;Pemeriksa Ahli Muda/Muda;NTB;L;43;11
+245;Riza;Pemeriksa Ahli Muda/Muda;NTB;L;43;11
+246;Nitra;Pemeriksa Ahli Muda/Muda;NTB;p;46;23
+247;Prasojo;Pemeriksa Ahli Muda/Muda;NTB;L;36;13
+248;Lia;Pemeriksa Ahli Muda/Muda;NTB;P;36;13
+249;Anes;Pemeriksa Ahli Muda/Muda;NTB;L;40;15
+250;Kurnia;Pemeriksa Ahli Muda/Muda;NTB;L;35;10
+251;Suryo;Pemeriksa Ahli Muda/Muda;NTB;L;33;10
+252;Irsa;Pemeriksa Ahli Muda/Muda;NTB;P;36;10
+253;Dewa;Pemeriksa Ahli Muda/Muda;NTB;L;36;10
+254;Suli;Pemeriksa Ahli Muda/Muda;NTB;L;41;15
+255;Leli;Pemeriksa Ahli Muda/Muda;NTB;L;46;22
+256;Yono;Pemeriksa Ahli Muda/Muda;NTB;P;42;21
+257;Nana;Pemeriksa Ahli Muda/Muda;NTB;P;36;13
+258;Heru;Pemeriksa Ahli Muda/Muda;NTB;L;54;14
+259;Tito;Pemeriksa Ahli Muda/Muda;NTB;L;36;10
+260;Fitri;Pemeriksa Ahli Muda/Muda;NTB;P;36;10
+261;Vitajar;Pemeriksa Ahli Muda/Muda;NTB;L;41;15
+262;Sofi;Pemeriksa Ahli Muda/Muda;NTB;P;46;22
+263;Anas;Pemeriksa Ahli Muda/Muda;NTB;L;56;25
+264;Azwir;Pemeriksa Ahli Muda/Muda;NTB;L;46;21
+265;Komang;Pemeriksa Ahli Muda/Muda;NTB;L;44;15
+266;Rida;Pemeriksa Ahli Muda/Muda;NTB;P;41;19
+267;Imror;Pemeriksa Ahli Muda/Muda;NTB;L;38;12
+268;Marliyana;Pemeriksa Ahli Pertama;Kaltara;P;35;6
+269;Hayati;Pemeriksa Ahli Pertama;Kaltara;P;29;6
+270;Prihastuty;Pemeriksa Ahli Pertama;Kaltara;P;33;6
+271;Zulni;Pemeriksa Ahli Pertama;Kaltara;P;33;6
+272;Patryne;Pemeriksa Ahli Pertama;Kaltara;P;31;6
+273;Putri;Pemeriksa Ahli Pertama;Kaltara;P;29;6
+274;Irayanti;Pemeriksa Ahli Pertama;Kaltara;P;39;13
+275;Prabowo;Pemeriksa Ahli Pertama;Kaltara;L;35;9
+276;Dyah;Pemeriksa Ahli Pertama;Kaltara;P;31;5
+277;Ramadhan;Pemeriksa Ahli Pertama;Kaltara;L;32;5
+278;Novi;Pemeriksa Ahli Pertama;Kaltara;P;30;5
+279;Deviana;Pemeriksa Ahli Pertama;Kaltara;P;30;5
+280;Rahma;Pemeriksa Ahli Pertama;Kaltara;P;31;5
+281;Adriana;Pemeriksa Ahli Pertama;Kaltara;P;35;5
+282;Paulus;Pemeriksa Ahli Pertama;Kaltara;L;32;4
+283;Yuvita;Pemeriksa Ahli Pertama;Kaltara;P;29;4
+284;Febriani;Pemeriksa Ahli Pertama;Kaltara;P;28;3
+285;Putra;Pemeriksa Ahli Pertama;Kaltara;L;35;6
+286;Mawwadah;Pemeriksa Ahli Pertama;Kaltara;P;27;6
+287;Tika;Pemeriksa Ahli Pertama;Kaltara;P;32;2
+288;Rahmi;Pemeriksa Ahli Pertama;Kaltara;P;24;2
+289;Bagus;Pemeriksa Ahli Pertama;Kaltara;L;30;2
+290;Suci;Pemeriksa Ahli Pertama;Kaltara;P;37;2
+291;Niati;Pemeriksa Ahli Pertama;Kaltara;P;26;2
+292;Fhandas;Pemeriksa Ahli Pertama;Kaltara;L;28;2
+293;Fiskurniawan;Pemeriksa Ahli Pertama;Kaltara;L;28;2
+294;Rezeki;Pemeriksa Ahli Pertama;Kaltara;L;35;2
+295;Pradea;Pemeriksa Ahli Pertama;Kaltara;L;31;2
+296;Triani;Pemeriksa Ahli Pertama;Kaltara;P;26;2
+297;Latipah;Pemeriksa Ahli Pertama;Kaltara;P;26;2
+298;Ranty;Pemeriksa Ahli Pertama;Kaltara;P;31;2
+299;Natsir;Pemeriksa Ahli Pertama;Kaltara;L;26;2
+300;Burhan;Pemeriksa Ahli Pertama;Kaltara;L;33;2
+301;Shinta;Pemeriksa Ahli Pertama;Kaltara;P;26;2
+302;Yazid;Pemeriksa Ahli Pertama;Kaltara;L;26;2
+303;Wahyudi;Pemeriksa Ahli Pertama;Kaltara;L;28;2
+304;Praja;Pemeriksa Ahli Pertama;Kaltara;L;26;2
+305;Zulfikar;Pemeriksa Ahli Pertama;Kaltara;L;31;2
+306;Kholisah;Pemeriksa Ahli Pertama;Kaltara;P;29;2
+307;Ika;Pemeriksa Ahli Pertama;Kaltara;P;32;2
+308;Ulik;Pemeriksa Ahli Pertama;Kaltara;P;29;2
+309;Edu;Pemeriksa Ahli Pertama/ Pertama;Kaltara;L;25;2
+310;Rian;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;32;4
+311;Rozi;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;31;3
+312;Astuti;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;41;16
+313;Eko;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;45;15
+314;Aji;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;40;15
+315;Tutul;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;36;9
+316;Caca;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;34;5
+317;Adel;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;28;4
+318;Alex;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;33;4
+319;Monthe;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;32;4
+320;Hendra;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;32;5
+321;Thisa;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;30;4
+322;Laila;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;28;4
+323;Lela;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;32;4
+324;Wahyu;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;36;17
+325;Alisa;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;38;14
+326;Tiara;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;27;2
+327;Juned;Pemeriksa Ahli Pertama/ Pertama;Kalsel;L;25;2
+328;Arin;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;25;2
+329;Ratri;Pemeriksa Ahli Pertama/ Pertama;Kalsel;P;25;2
+330;Usman;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;2
+331;Cilla;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;26;2
+332;Lida;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;29;2
+333;Chris;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;28;2
+334;Kukuh;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;25;2
+335;Valen;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;29;2
+336;Wina;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;26;2
+337;Lia;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;27;2
+338;Prima;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;28;3
+339;Fida;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;4
+340;Zein;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;5
+341;Lestari;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;27;11
+342;Aisah;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;29;2
+343;Haidar;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;30;2
+344;Adipra;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;27;2
+345;Munawaroh;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;30;2
+346;Santosa;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;29;2
+347;Rama;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;28;4
+348;Dina;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;26;2
+349;Yasyfa;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;27;2
+350;Darma;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;25;2
+351;Topan;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;38;16
+352;Elis;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;35;4
+353;Tyadi;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;31;4
+354;Gunawan;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;28;4
+355;Silka;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;34;5
+356;Siregar;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;31;5
+357;Ecosyah;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;4
+358;Rony;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;4
+359;Vandi;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;33;5
+360;Rini;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;34;8
+361;Lea;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;35;11
+362;Dedi;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;9
+363;Asna;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;27;2
+364;Bakti;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;30;2
+365;Adhan;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;27;2
+366;Nopal;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;26;2
+367;Ari;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;28;5
+368;Khoir;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;30;5
+369;Rukmana;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;26;4
+370;Monik;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;28;11
+371;Nela;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;33;2
+372;Rani;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;28;2
+373;Herta;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;2
+374;Candra;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;32;2
+375;Sandy;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;26;2
+376;Putri;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;29;2
+377;Hari;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;30;2
+378;Ningsih;Pemeriksa Ahli Pertama/ Pertama;Jogja;P;26;2
+379;Pras;Pemeriksa Ahli Pertama/ Pertama;Jogja;L;27;2
+380;Raharjo;Pemeriksa Ahli Pertama/ Pertama;Banten;L;36;9
+381;Suranto;Pemeriksa Ahli Pertama/ Pertama;Banten;L;34;5
+382;Wibowo;Pemeriksa Ahli Pertama/ Pertama;Banten;L;35;6
+383;Pramidi;Pemeriksa Ahli Pertama/ Pertama;Banten;L;29;6
+384;Mega;Pemeriksa Ahli Pertama/ Pertama;Banten;L;33;6
+385;Setia;Pemeriksa Ahli Pertama/ Pertama;Banten;P;33;6
+386;Nani;Pemeriksa Ahli Pertama/ Pertama;Banten;P;31;6
+387;Winda;Pemeriksa Ahli Pertama/ Pertama;Banten;L;39;13
+388;Bangkit;Pemeriksa Ahli Pertama/ Pertama;Banten;L;35;9
+389;Zamron;Pemeriksa Ahli Pertama/ Pertama;Banten;L;31;5
+390;Adit;Pemeriksa Ahli Pertama/ Pertama;Banten;L;29;4
+391;Ridwan;Pemeriksa Ahli Pertama/ Pertama;Banten;L;39;15
+392;Arif;Pemeriksa Ahli Pertama/ Pertama;Banten;L;25;6
+393;Sukma;Pemeriksa Ahli Pertama/ Pertama;Banten;P;28;4
+394;Fikar;Pemeriksa Ahli Pertama/ Pertama;Banten;L;27;4
+395;Ivan;Pemeriksa Ahli Pertama/ Pertama;Banten;L;25;4
+396;Yetik;Pemeriksa Ahli Pertama/ Pertama;Banten;P;32;2
+397;Wikan;Pemeriksa Ahli Pertama/ Pertama;Banten;L;24;2
+398;Heni;Pemeriksa Ahli Pertama/ Pertama;Banten;P;26;2
+399;Ikhwan;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;45;18
+400;Zebri;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;32;4
+401;Lambok;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;29;4
+402;Elman;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;28;3
+403;Whil;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;41;16
+404;Ridha;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;39;15
+405;Ryki;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;41;16
+406;Sandi;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;35;6
+407;Nadi;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;27;6
+408;Bakti;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;52;25
+409;Robert;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;25;6
+410;Marta;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;28;4
+411;Ujan;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;27;4
+412;Tony;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;25;4
+413;Setia;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;24;3
+414;Vidya;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;32;2
+415;Handy;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;24;2
+416;Stepan;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;30;2
+417;Mahar;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;37;2
+418;Dita;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;26;2
+419;Affa;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;28;2
+420;Funika;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;28;2
+421;Risak;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;35;2
+422;Dito;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;31;2
+423;Abadi;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;35;6
+424;Boby;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;29;6
+425;Fisha;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;26;2
+426;Iro;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;26;2
+427;Manulang;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;28;2
+428;Trista;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;26;2
+429;Lubis;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;31;2
+430;Fendi;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;29;2
+431;Yan;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;26;2
+432;Lora;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;32;2
+433;Gia;Pemeriksa Ahli Pertama/ Pertama;Kepri;P;29;2
+434;Purwan;Pemeriksa Ahli Pertama/ Pertama;Kepri;L;37;5
+435;Alif;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;30;5
+436;Liga;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;30;5
+437;Zuhri;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;35;5
+438;Anak;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;27;6
+439;Glory;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;52;25
+440;Rina;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;25;6
+441;Rahmat;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;28;4
+442;Rizka;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;27;4
+443;Moniq;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;24;3
+444;Yusti;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;52;26
+445;Dori;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;54;25
+446;Wanto;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;46;16
+447;Malik;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;39;16
+448;Olan;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;46;20
+449;Batu;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;38;14
+450;Diono;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;27;2
+451;Ranjy;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;25;2
+452;Hafizh;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;25;2
+453;Raja;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;25;2
+454;Yanda;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;38;15
+455;Ipur;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;45;20
+456;Wini;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;37;15
+457;Iyah;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;26;2
+458;Rahim;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;26;2
+459;Ghofur;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;28;2
+460;Joni;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;34;5
+461;Bagis;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;35;6
+462;Qiqi;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;29;6
+463;Eril;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;26;2
+464;Aril;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;26;2
+465;Ayit;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;28;2
+466;Bayu;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;26;2
+467;Kipli;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;31;2
+468;Zizit;Pemeriksa Ahli Pertama/ Pertama;Maluku;L;29;2
+469;Kai;Pemeriksa Ahli Pertama/ Pertama;Maluku;P;26;2
+470;Joko;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;2
+471;Agape;Pemeriksa Ahli Pertama/ Pertama;NTB;L;31;6
+472;Ati;Pemeriksa Ahli Pertama/ Pertama;NTB;L;29;6
+473;Zeze;Pemeriksa Ahli Pertama/ Pertama;NTB;L;39;13
+474;Dian;Pemeriksa Ahli Pertama/ Pertama;NTB;L;35;9
+475;Yoni;Pemeriksa Ahli Pertama/ Pertama;NTB;L;30;5
+476;Marta;Pemeriksa Ahli Pertama/ Pertama;NTB;P;34;7
+477;Amrul;Pemeriksa Ahli Pertama/ Pertama;NTB;L;33;6
+478;Ilham;Pemeriksa Ahli Pertama/ Pertama;NTB;L;24;2
+479;Tara;Pemeriksa Ahli Pertama/ Pertama;NTB;L;36;15
+480;Hakim;Pemeriksa Ahli Pertama/ Pertama;NTB;L;49;27
+481;Tanto;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;4
+482;Mukti;Pemeriksa Ahli Pertama/ Pertama;NTB;L;30;5
+483;Sauda;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;3
+484;Marsum;Pemeriksa Ahli Pertama/ Pertama;NTB;L;36;9
+485;Utama;Pemeriksa Ahli Pertama/ Pertama;NTB;L;34;5
+486;Hayyu;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;4
+487;Nandos;Pemeriksa Ahli Pertama/ Pertama;NTB;L;33;4
+488;Rofik;Pemeriksa Ahli Pertama/ Pertama;NTB;L;32;4
+489;Septa;Pemeriksa Ahli Pertama/ Pertama;NTB;P;32;5
+490;Prakoso;Pemeriksa Ahli Pertama/ Pertama;NTB;L;30;4
+491;Suseno;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;2
+492;Zaki;Pemeriksa Ahli Pertama/ Pertama;NTB;L;30;4
+493;Gigih;Pemeriksa Ahli Pertama/ Pertama;NTB;L;28;2
+494;Beny;Pemeriksa Ahli Pertama/ Pertama;NTB;L;27;2
+495;Yulita;Pemeriksa Ahli Pertama/ Pertama;NTB;P;33;2
+496;Fatur;Pengadministrasi Umum;Kalsel;L;39;19
+497;Tino;Pengadministrasi Umum;Kalsel;L;43;21
+498;Tyo;Pengadministrasi Umum;Kalsel;L;39;11
+499;Rani;Pengadministrasi Umum;Kalsel;P;43;16
+500;Iyus;Pengadministrasi Umum;Kalsel;L;46;23
+501;Sahil;Pengadministrasi Umum;Kalsel;L;54;15
+502;Iman;Pengadministrasi Umum;Kalsel;L;47;14
+503;Adam;Pengadministrasi Umum;Kalsel;L;42;16
+504;Fona;Pengadministrasi Umum;Banten;p;29;2
+505;Lila;Pengadministrasi Umum;Banten;P;25;2
+506;Nita;Pengadministrasi Umum;NTB;L;26;2
+507;Lidya;Pengadministrasi Umum;NTB;L;35;6
+508;Karisma;Pengelola Humas Muda;Banten;P;35;11
+509;Elyda;Pengelola Humas Muda;Kepri;L;38;16
+510;Rena;Pengelola Humas Muda;NTB;P;45;18
+511;Rakhman;Pengelola Humas Muda;Kaltara;L;41;16
+512;Gatot;Pengelola Humas Pertama;Jogja;L;30;8
+513;Dadang;Pengelola Humas Pertama;NTB;L;31;2
+514;Khalis;Pengelola Humas Pertama;NTB;P;28;6
+515;Utomo;Pengelola Kehumasan;NTB;L;26;2
+516;Fahreza;Pengelola Kehumasan;Kaltara;L;27;4
+517;Amas;Pengelola Kehumasan;Jogja;L;41;10
+518;Farid;Pengelola Kehumasan;NTB;L;26;2
+519;Ipung;Pengelola Kepegawaian;Banten;L;45;18
+520;Sonly;Pengelola Kepegawaian;Maluku;L;33;6
+521;Ossi;Pengelola Kepegawaian;Maluku;L;31;6
+522;Suhai;Pengelola Keuangan;Kaltara;L;24;3
+523;Adnan;Pengelola Keuangan;Kalsel;L;25;3
+524;Galih;Pengelola Keuangan;Kalsel;L;23;1
+525;Ucup;Pengelola Keuangan;Kalsel;L;23;1
+526;Ira;Pengelola Keuangan;Kalsel;P;23;1
+527;Cika;Pengelola Keuangan;Kalsel;P;28;4
+528;Ayu;Pengelola Keuangan;Kalsel;P;27;4
+529;Danang;Pengelola Keuangan;Kalsel;L;23;1
+530;Anto;Pengelola Keuangan;Kalsel;L;23;1
+531;Nia;Pengelola Keuangan;Kalsel;P;24;2
+532;Rara;Pengelola Keuangan;Jogja;P;39;8
+533;Pipit;Pengelola Keuangan;Banten;L;46;23
+534;Sarah;Pengelola Keuangan;Kepri;P;35;6
+535;Fuad;Pengelola Keuangan;Kepri;L;29;6
+536;Lusy;Pengelola Keuangan;Kepri;P;31;6
+537;Dono;Pengelola Keuangan;Maluku;P;36;15
+538;Isna;Pengelola Keuangan;NTB;P;28;6
+539;Hasbullah;Pengelola Keuangan APBN Mahir;Banten;L;36;13
+540;Laksana;Pengelola Keuangan APBN Mahir;Maluku;L;46;23
+541;Dini;Pengelola Keuangan APBN Penyelia;Kalsel;P;36;13
+542;Santi;Pengelola Keuangan APBN Terampil;Maluku;p;24;2
+543;Viny;Pengelola Pengadaan Barang/Jasa Ahli Pertama;Banten;p;27;2
+544;Decky;Pengelola Pengadaan Barang/Jasa Ahli Pertama;Kepri;L;31;5
+545;Andik;Pengolah Data dan Informasi;Kaltara;L;23;1
+546;Okta;Pengolah Data dan Informasi;Kaltara;P;22;1
+547;Nanda;Pengolah Data dan Informasi;Kaltara;L;23;1
+548;Leo;Pengolah Data dan Informasi;Kaltara;L;23;1
+549;Febri;Pengolah Data dan Informasi;Jogja;L;32;8
+550;Sukma;Pengolah Data dan Informasi;Jogja;P;32;4
+551;Papaz;Pengolah Data dan Informasi;Kepri;L;48;22
+552;Ganis;Pengolah Data dan Informasi;Kepri;L;33;6
+553;Nanda;Pengolah Data dan Informasi;Kepri;L;39;13
+554;Narni;Pengolah Data dan Informasi;Maluku;L;28;4
+555;Anwar;Pengolah Data Informasi dan Hukum;Kalsel;L;26;3
+556;Yoga;Pengolah Data Informasi dan Hukum;Kaltara;L;27;2
+557;Fahrul;Pengolah Data Informasi dan Hukum;Kalsel;L;29;2
+558;Firza;Pengolah Data Informasi dan Hukum;Kepri;L;31;5
+559;Pipin;Pengolah Data Informasi dan Hukum;Maluku;P;39;13
+560;Romeli;Pranata Kearsipan;Banten;L;32;13
+561;Abdul;Pranata Kearsipan;Kaltara;L;25;6
+562;Alhas;Pranata Kearsipan;Jogja;L;42;10
+563;Syahri;Pranata Komputer Ahli Pertama;Kaltara;L;26;2
+564;Hiba;Pranata Komputer Ahli Pertama/ Pertama;Kalsel;L;26;2
+565;Priyadi;Pranata Komputer Ahli Pertama/Pertama;Banten;L;30;2
+566;Dafi;Pranata Komputer Ahli Pertama/Pertama;Kepri;L;35;9
+567;Bagarela;Pranata Komputer Terampil;Kaltara;L;28;4
+568;Sri;Pranata Komputer Terampil;Kalsel;P;26;3
+569;Wanto;Pranata Komputer Terampil;Jogja;L;42;10
+570;Iska;Pranata Komputer Terampil;Banten;L;33;6
+571;Aria;Pranata Komputer Terampil;Banten;L;28;4
+572;Anjar;Pranata Komputer Terampil;Banten;L;29;2
+573;Waldo;Pranata Komputer Terampil;Kepri;P;29;6
+574;Grhoho;Pranata Komputer Terampil;Maluku;L;49;15
+575;Cholis;Pranata Komputer Terampil;NTB;P;28;2

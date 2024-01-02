@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Sertifikasi;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Models\MengikutiSertifikasi;
 
 class DashboardController extends Controller
 {
@@ -11,6 +14,7 @@ class DashboardController extends Controller
         return view('index');
     }
     public function sertifikasi(){
+
         return view('sertifikasi');
     }
     public function kediklatan(){

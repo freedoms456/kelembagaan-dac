@@ -32,40 +32,53 @@
                 <div class="card-body row">
                     <div class="col-3">
                         <label class="control-label">Perwakilan</label>
-                        <select class="form-control custom-select">
-                            <option value="">Pilih Perwakilan</option>
-                            <option value="">Semua Perwakilan</option>
-                            <option value="">Nusa Tenggara Barat</option>
-                            <option value="">Kalimantan Utara</option>
-                            <option value="">Kalimantan Barat</option>
-                            <option value="">Kalimantan Selatan</option>
-                            <option value="">Kalimantan Timur</option>
+                        <select id="perwakilan" class="form-control custom-select">
+                            <option value="all">Pilih Perwakilan</option>
+                            <option value="all">Semua Perwakilan</option>
+                            <option value="Jogja">Yogyakarta</option>
+                            <option value="Kaltara">Kalimantan Utara</option>
+
                         </select>
                     </div>
-
                     <div class="col-3">
                         <label for="kategori-sert">Kategori/Bidang Sertifikasi</label>
-                        <select name="" id="kategori-sert" class="form-control" placeholder="Pilih Kategori">
-                            <option value="">Pilih Kategori</option>
-                            <option value="">Akuntansi</option>
-                            <option value="">Audit</option>
-                            <option value="">Audit Forensik</option>
-                            <option value="">Coaching</option>
-                            <option value="">Data Analitik</option>
-                            <option value="">Forensik</option>
+                        <select name="bidang" id="bidang" class="form-control" placeholder="Pilih Kategori">
+                            <option value="all">Pilih Bidang</option>
+                            <option value="all">Semua Bidang</option>
+                            <option value="akuntansi">Akuntansi</option>
+                            <option value="Audit">Audit</option>
+                            <option value="Audit Forensik">Audit Forensik</option>
+                            <option value="Coaching">Coaching</option>
+                            <option value="Data Analitik">Data Analitik</option>
+                            <option value="Forensik">Forensik</option>
                         </select>
                     </div>
                     <div class="col-3">
-                        <button type="button" class="btn btn-primary" style="margin-top: 25px;">Cari</button>
+                        <button type="button" id="cari" class="btn btn-primary" style="margin-top: 25px;">Cari</button>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body row">
-                    <div class="col-md-5">
-                        <canvas id="pie-satker" width="400" height="400"></canvas>
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <label class="control-label">Data Sertifikasi</label>
+                            <table class="table" id="myTable2">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Nama Sertifikasi</th>
+                                        <th>Bidang</th>
+                                        <th>Jumlah Pegawai yang memiliki</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-md-5">
+                        <label class="control-label">Chart Sertifikasi yang diambil pegawai</label>
                         <canvas id="horizontalBarChart" width="400" height="400"></canvas>
                     </div>
                 </div>
@@ -78,10 +91,11 @@
 
 
     <div class="row">
-        <div class="col-12">
+        <div class="col-6">
             <div class="card">
                 <div class="card-body">
                     <div class="table-responsive">
+                        <label class="control-label">Detail Sertifikasi yang diambil</label>
                         <table class="table" id="myTable">
                             <thead>
                                 <tr>
@@ -92,47 +106,22 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Deshmukh</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Prohaska</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Deshmukh</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Gaylord</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Sanghani</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Gusikowski</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Roshan</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Rogahn</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Joshi</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Hickle</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Nigam</td>
-                                    <td>BPK perwakilan provinsi Kalimantan Utara</td>
-                                    <td>Eichmann</td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+            <input type="hidden" id="urlDataTable" value="{{ route('sertifikasi.list') }}">
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <label class="control-label">Jenis Sertifikasi yang diambil</label>
+                    <canvas id="pie-satker" width="400" height="400"></canvas>
+
+                </div>
+            </div>
+            <input type="hidden" id="urlDataTable2" value="{{ route('sertifikasiMilik.list') }}">
         </div>
     </div>
 </div>
@@ -140,83 +129,244 @@
 @endsection
 @section('custom-script')
 <script type="text/javascript">
- var table = $('#myTable').DataTable({});
-var pieData = {
-            labels: ['Banten', 'Jogja', 'Kalsel', 'Kaltara', 'Kepri','Maluku','NTB'],
-            datasets: [{
-                label: 'Jumlah',
+//  var table = $('#myTable').DataTable({});
+ var myChart = null;
+ var table = null;
+ var table2 = null;
+var pieSatker = null;
+    $(function() {
 
-                data: [20, 35, 40, 15, 25,20] // Replace with your data values
-            }]
-        };
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                }
+            })
 
-        // Options for the horizontal bar chart
-        var pieOptions = {
-            indexAxis: 'y',
-            scales: {
-                xAxes: [{
-                    ticks: {
-                        beginAtZero: true // Start the x-axis at zero
-                    }
-                }]
+
+            $("#cari").click(function (e) {
+                updateChart();
+                getDataTable();
+            });
+
+    });
+
+      if (table !== null) {
+                table.destroy(); // Destroy the DataTable instance if it exists
             }
-        };
+            table = $('#myTable').DataTable({
+            processing: true,
+            serverSide: true,
+            responsive: true,
+            ajax: {
+                url : $('#urlDataTable').val(),
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                data : function(d) {
+                    d.perwakilan = document.getElementById('perwakilan').value
+                    d.bidang = document.getElementById('bidang').value
+                },
 
-        // Get the canvas element
-        var ctx = document.getElementById('pie-satker').getContext('2d');
 
-        // Create the horizontal bar chart
-        var pieSatker = new Chart(ctx, {
-            type: 'pie',
-            data: pieData,
-            options: pieOptions
-        });
 
-        var barData = {
-            labels: ['AK', 'CA', 'CPSAK', 'CPA', 'CMA','ACPA','AAP B','AAP A','CGAA','AAP'],
-            datasets: [{
-                label: 'Jumlah',
-                backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(255, 205, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(201, 203, 207, 0.2)'
-                ],
-                borderColor: [
-                'rgb(255, 99, 132)',
-                'rgb(255, 159, 64)',
-                'rgb(255, 205, 86)',
-                'rgb(75, 192, 192)',
-                'rgb(54, 162, 235)',
-                'rgb(153, 102, 255)',
-                'rgb(201, 203, 207)'
-                ],
-                borderWidth: 1,
-                data: [20, 35, 40, 15, 25,20, 21, 10,13, 5] // Replace with your data values
-            }]
-        };
+            },
+            columns: [
+                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'pegawai.name', name: 'pegawai.name'},
+                {data: 'pegawai.satuan_kerja', name: 'pegawai.satuan_kerja'},
+                {data: 'sertifikasi.nama', name: 'sertifikasi.nama'},
 
-        // Options for the horizontal bar chart
-        var barOptions = {
-            scales: {
-                      y: {
-                        beginAtZero: true
-                        }
+            ]
+            });
+
+        function updateChart() {
+            var perwakilan = document.getElementById('perwakilan').value;
+            var bidang = document.getElementById('bidang').value;
+            // var selectedYear = document.getElementById('year').value;
+
+            // Make an Ajax request to get the data for the selected month and year
+
+             $.ajax({
+                method: 'GET',
+                url: '/sertifikasi/getSertifikasiBasedOnName',
+                data: {
+                    perwakilan: perwakilan,
+                    bidang: bidang
+                },
+                success: function (data) {
+                    let labels = data.map(item => item.nama);
+                    let values = data.map(item => item.total);
+
+                    // Check if myChart exists and destroy it before creating a new one
+                    if (myChart !== null) {
+                        myChart.destroy();
                     }
-        };
 
-        // Get the canvas element
-        var ctx = document.getElementById('horizontalBarChart').getContext('2d');
+                    let chartData = {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Total',
+                            data: values,
+                            axis: 'y',
+                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
+                    };
 
-        // Create the horizontal bar chart
-        var horizontalBarChart = new Chart(ctx, {
-            type: 'bar',
-            data: barData,
-            options: barOptions
-        });
+                    let chartConfig = {
+                        type: 'bar',
+                        data: chartData,
+                        options: {
+                            indexAxis: 'y',
 
+                        }
+                    };
+
+                    let ctx = document.getElementById('horizontalBarChart');
+
+                    // If myChart exists, remove the previous chart
+                    if (myChart !== null) {
+                        myChart.destroy();
+                    }
+
+                    // Create the new chart
+                    myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: chartData,
+                        options: {
+                            indexAxis: 'y',
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                }
+            });
+
+            $.ajax({
+                method: 'GET',
+                url: '/sertifikasi/getSertifikasiByJenis',
+                data: {
+                    perwakilan: perwakilan,
+                    bidang: bidang
+                },
+                success: function (data) {
+                    let labels = data.map(item => item.bidang);
+                    let values = data.map(item => item.total);
+
+                    // Check if myChart exists and destroy it before creating a new one
+
+                    var pieData = {
+                        labels:labels,
+                        datasets: [{
+                            label: 'Jumlah',
+
+                            data: values // Replace with your data values
+                        }]
+                    };
+
+                      // Options for the horizontal bar chart
+                        var pieOptions = {
+                            indexAxis: 'y',
+                            scales: {
+                                xAxes: [{
+                                    ticks: {
+                                        beginAtZero: true // Start the x-axis at zero
+                                    }
+                                }]
+                            }
+                        };
+
+                        // Get the canvas element
+                        var ctx = document.getElementById('pie-satker').getContext('2d');
+                          // If myChart exists, remove the previous chart
+                        if (pieSatker !== null) {
+                            pieSatker.destroy();
+                        }
+
+                        // Create the horizontal bar chart
+                        pieSatker = new Chart(ctx, {
+                            type: 'pie',
+                            data: pieData,
+                            options: pieOptions
+                        });
+
+
+                    // Create the new chart
+
+                }
+            });
+
+
+
+
+
+        }
+
+        function getDataTable(){
+            if (table !== null) {
+                table.destroy(); // Destroy the DataTable instance if it exists
+            }
+            table = $('#myTable').DataTable({
+            processing: true,
+            serverSide: true,
+            responsive: true,
+            ajax: {
+                url : $('#urlDataTable').val(),
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                data : function(d) {
+                    d.perwakilan = document.getElementById('perwakilan').value
+                    d.bidang = document.getElementById('bidang').value
+                },
+
+
+
+            },
+            columns: [
+                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'pegawai.name', name: 'pegawai.name'},
+                {data: 'pegawai.satuan_kerja', name: 'pegawai.satuan_kerja'},
+                {data: 'sertifikasi.nama', name: 'sertifikasi.nama'},
+
+            ]
+            });
+            // TABLE 2
+            if (table2 !== null) {
+                table2.destroy(); // Destroy the DataTable instance if it exists
+            }
+            table2 = $('#myTable2').DataTable({
+            processing: true,
+            serverSide: true,
+            responsive: true,
+            ajax: {
+                url : $('#urlDataTable2').val(),
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                data : function(d) {
+                    d.perwakilan = document.getElementById('perwakilan').value
+                    d.bidang = document.getElementById('bidang').value
+                },
+
+
+
+            },
+            columns: [
+                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'nama', name: 'nama'},
+                {data: 'bidang', name: 'bidang'},
+                {data: 'total', name: 'total'},
+
+            ]
+            });
+        }
 </script>
 @endsection

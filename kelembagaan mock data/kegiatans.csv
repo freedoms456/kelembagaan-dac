@@ -1,0 +1,1173 @@
+﻿id;jabatan;unsur;sub_unsur;kegiatan;bobot
+1;Kepala Perwakilan;Kepala Perwakilan;Kepala Perwakilan;Perumusan dan pengevaluasian rencana aksi BPK Perwakila;4.000
+2;Kepala Perwakilan;Kepala Perwakilan;Kepala Perwakilan;Pengelolaan BPK perwakilan yang dilimpahkan dari AKN VI;4.000
+3;Kepala Perwakilan;Kepala Perwakilan;Kepala Perwakilan;Perumusan kebijakan pelaksanaan pemeriksaan pengelolaan dan tanggung jawab keuangan daerah;4.000
+4;Kepala Perwakilan;Kepala Perwakilan;Kepala Perwakilan;Penetapan tim pemeriksa untuk melaksanakan kegiatan pemeriksaan;4.000
+5;Kepala Subauditorat;Kepala Subauditorat;Kepala Subauditorat;Penyusunan program, pelaksanaan dan pengendalian kegiatan pemeriksaan pengelolaan dan tanggung jawab keuangan daerah;2.000
+6;Kepala Subauditorat;Kepala Subauditorat;Kepala Subauditorat;Pemeriksaan atas obyek-obyek pemeriksaan yang dilimpahkan oleh AKN;2.000
+7;Kepala Subauditorat;Kepala Subauditorat;Kepala Subauditorat;Pengelolaan dan pemantauan database profil entitas pemeriksaan pada lingkup tugas Sub Auditorat;2.000
+8;Kepala Subauditorat;Kepala Subauditorat;Kepala Subauditorat;Pemantauan penyelesaian kerugian daerah pada lingkup tugas Sub Auditorat;2.000
+9;Kepala Sekretariat;Kepala Sekretariat;Kepala Sekretariat;Pelaksanaan kegiatan kesekretariatan BPK Perwakilan;2.000
+10;Kepala Sekretariat;Kepala Sekretariat;Kepala Sekretariat;Pengurusan sumber daya manusia, keuangan, serta sarana dan prasarana dilingkungan BPK perwakilan;2.000
+11;Kepala Sekretariat;Kepala Sekretariat;Kepala Sekretariat;Pemberian layanan di bidang hukum, hubungan masyarakat, teknologi informasi, administrasi umum, dan keprotokolan BPK Perwakilan;2.000
+12;Kepala Sekretariat;Kepala Sekretariat;Kepala Sekretariat;Penyusunan laporan keuangan Perwakilan;2.000
+13;Kepala Subagian SDM;Kepala Subagian SDM;Kepala Subagian SDM;pengurusan sumber daya manusia di lingkungan BPK Perwakilan;1.000
+14;Kepala Subagian SDM;Kepala Subagian SDM;Kepala Subagian SDM;Pengelolaan administrasi kepegawaian;1.000
+15;Kepala Subagian SDM;Kepala Subagian SDM;Kepala Subagian SDM;Manajemen pengetahun, kompetensi, dan keahlian pegawai;1.000
+16;Kepala Subagian SDM;Kepala Subagian SDM;Kepala Subagian SDM;Koordinasi pelayanan kesehatan;1.000
+17;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Kepala Subbagian Hukum;pemberian layanan legislasi di bidang hukum;1.000
+18;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Kepala Subbagian Hukum;pemberian infromasi terkait hukum tentang pemeriksaan, kerugian daerah;1.000
+19;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Pengelolaan JDIH BPK perwakilan;1.000
+20;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Kepala Subbagian Hukum;Pemberian layanan konsultasi hukum;1.000
+21;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;melaksanakan kegiatan di bidang kehumasan;1.000
+22;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;mengelola perpustakaan, kesekretariatan, keprotokolan;1.000
+23;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;menyiapkan informasi yang dibutuhkan oleh Kepala Perwakilan;1.000
+24;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;Kepala Subbagian Humas TU Kalan;pemutakhiran data pada aplikasi SIMAK dalam rangka pengukuran IKU unit kerja;1.000
+25;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;pemberian layanan administrasi umum;1.000
+26;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Pemberian layanan teknologi informasi;1.000
+27;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Pemberian layanan kearsipan;1.000
+28;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;Kepala Subbagian Umum TI;pengurusan sarana dan prasarana di lingkungan BPK Perwakilan;1.000
+29;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;melaksanakan kebijakan anggaran;1.000
+30;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Melakukan tata kelola dokumen keuangan BPK Perwakilan;1.000
+31;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Menyiapkan bahan pendukung dalam rangka penyusunan Laporan Keuangan;1.000
+32;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;Kepala Subbagian Keuangan;perbendaharaan, penatausahaan, dan pertanggungjawaban keuangan;1.000
+33;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Inventarisasi data dan klasifikasi arah kebijakan fiskal dan prioritas;0.050
+34;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun rekomendasi tingkat 1 hasil analisis;0.050
+35;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;ginventarisasi data, bahan, dan parameter penyusunan asumsi dasar ekonomi makro;0.030
+36;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun rekomendasi tingkat 1 hasil pengujian parameter;0.050
+37;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi data, bahan dan parameter penyusunan usulan kebijakan dan proyeksi perhitungan (exercise) RAPBN;0.050
+38;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;rekomendasi tingkat 1 hasil pengujian parameter proyeksi perhitungan (exercise) RAPBN dan usulan kebijakan;0.040
+39;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;rekomendasi tingkat 1 hasil pengujian parameter penyusunan postur RAPBN;0.040
+40;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi data dan bahan telaahan kebijakan fiskal dan ekonomi makro;0.040
+41;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi kebutuhan data, bahan, dan parameter penyusunan KEM & PPKF;0.040
+42;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;rekomendasi tingkat 1 atas hasil pengujian data, bahan, dan parameter penyusunan KEM & PPKF;0.040
+43;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;nventarisasi bahan dan data materi pengaturan dalam RUU APBN/APBN-P;0.040
+44;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;rekomendasi tingkat 1 Laporan hasil analisis kelengkapan materi dalam pasal-pasal dan kesesuaian dengan angka dalam RAPBN/RAPBN-P;0.080
+45;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi kebutuhan bahan dan data penyusunan Model Perencanaan APBN / Model Fiskal / Model Dampak APBN;0.090
+46;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi kebutuhan bahan dan data penyusunan policy paper;0.120
+47;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;menyiapkan policy paper di bidang asumsi makro / pendapatan negara / belanja negara / pembiayaan anggaran;0.090
+48;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi kebutuhan bahan penyusunan RAPBN/RAPBN-P;0.080
+49;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis bahan penyusunan RAPBN/RAPBN-P;0.080
+50;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi hasil-hasil kesepakatan antara Pemerintah dan DPR-RI;0.090
+51;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;identifikasi dan inventarisasi data bahan reviu angka dasar dan/atau perkiraan maju;0.060
+52;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis angka dasar dan/atau perkiraan maju kebutuhan dasar per satker;0.070
+53;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis angka dasar dan/atau perkiraan maju kebutuhan dasar per program;0.060
+54;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;gidentifikasi dan menginventarisasi data terkait arsitektur dan Informasi kinerja penganggaran;0.200
+55;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Merancang arsitektur dan informasi kinerja penganggaran;0.070
+56;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;ganalisis hasil rancangan arsitektur dan informasi kinerja penganggaran per program;0.050
+57;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;identifikasi dan menginventarisasi data terkait penyusunan pagu;0.090
+58;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis pagu per program;0.100
+59;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;identifikasi dan menginventarisasi data dan parameter Inisiatif Baru;0.070
+60;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;identifikasi dan menginventarisasi data dan parameter konsolidasi dan penajaman pendanaan kegiatan prioritas nasiona;0.070
+61;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;gidentifikasi dan menginventarisasi data dan parameter penyusunan rencana kerja K/L;0.040
+62;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi bahan dan parameter rencana kerja dan anggaran;0.040
+63;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi data dan parameter penelaahan rencana kerja dan anggaran;0.070
+64;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi bahan dan parameter revisi anggaran;0.050
+65;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan bahan monitoring dan evaluasi penganggaran;0.070
+66;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Melaksanakan monitoring dan evaluasi aspek implementasi;0.080
+67;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengumpulkan dan mentabulasi data lapangan dalam kegiatan monitoring dan evaluasi;0.050
+68;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi data dan parameter persetujuan pendanaan pekerjaan tahun jamak;0.060
+69;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi data dan parameter standar biaya;0.050
+70;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi dan mengidentifikasi data dan parameter penghitungan sanksi/ganjaran bagi K/L;0.070
+71;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengidentifikasi dan menginventarisasi data dan parameter indikasi kebutuhan dana pengeluaran BUN (Renstra, KPJM, hasil Monitoring dan evaluasi);0.080
+72;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;inventarisasi dan mengidentifikasi data dan parameter penyusunan usul tambahan anggaran;0.060
+73;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis kelengkapan materi pengaturan di bidang pengelolaan belanja K/L;0.070
+74;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan dan mengidentifikasi parameter dan data pendukung;0.050
+75;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menginventarisasi pokok-pokok bahasan dalam pembahasan Ijin Pemanfaatan Belanja;0.070
+76;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengolah data perumusan kebijakan sistem penganggaran;0.080
+77;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengolah data terkait pelaksanaan Standar Biaya;0.320
+78;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun kajian usulan Standar Biaya;0.860
+79;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengolah data terkait pelaksanaan Monitoring dan evaluasi Kinerja Penganggaran;0.080
+80;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Kompilasi data tematik penganggaran;0.060
+81;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengolah data penerapan sistem penganggaran;0.020
+82;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;gidentifikasi dan menginventarisasi data terkait usulan kebijakan/peraturan penganggaran;0.050
+83;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;idenfikasi dan menginventarisasi permasalahan implementasi kebijakan/peraturan penganggaran;0.050
+84;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;kaji peraturan yang mengalami kendala dan/atau permasalahan pada tataran implementasi;0.110
+85;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;diseminasi laporan hasil evaluasi implementasi kebijakan/peraturan kepada stakeholders;0.250
+86;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;gidentifikasi dan menginventarisasi data terkait usulan besaran hak keuangan/remunerasi;0.120
+87;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Melaksanakan kajian awal terkait usulan besaran hak keuangan/remunerasi;0.060
+88;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;assesment terhadap pemangku jabatan yang diusulkan besaran hak keuangan/remunerasi;0.110
+89;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;pembobotan terhadap hasil assesment bersama instansi/ stakeholders terkait;0.100
+90;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Melaksanakan kajian lanjutan terkait usulan besaran hak keuangan/remunerasi;0.100
+91;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun rekomendasi besaran hak keuangan/remunerasi;0.180
+92;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;gidentifikasi dan menginventarisasi data terkait usulan besaran hak keuangan/remunerasi;0.080
+93;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengkaji dampak fiskal yang mungkin timbul dari kebijakan remunerasi;0.140
+94;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun laporan rekomendasi terhadap kebijakan remunerasi;0.100
+95;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Mengidentifikasi masalah kajian pengembangan/tematik;0.100
+96;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;ginventarisasi data terkait kajian tematik dan pengembangan;0.180
+97;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;analisis data terkait kajian tematik dan pengembangan;0.230
+98;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun rekomendasi kajian tematik dan pengembangan;0.130
+99;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyusun bahan diseminasi kajian tematik dan pengembangan;0.080
+100;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menganalisis kebutuhan bimbingan teknis penganggaran;0.110
+101;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Menyiapkan bahan bimbingan teknis penganggaran;0.120
+102;Analis Anggaran;Analisis di Bidang Penganggaran dalam pengelolaan APBN;Analisis penganggaran dalam pengelolaan APBN;Melaksanakan bimbingan teknis penganggaran;0.110
+103;Analis Kebijakan;Kajian dan Analisis Kebijakan;Riset dan Analisis Kebijakan;Menyediakan informasi terkait perumusan masalah kebijakan;3.000
+104;Analis Kebijakan;Kajian dan Analisis Kebijakan;Riset dan Analisis Kebijakan;Merumuskan isue-isue kebijakan ke dalam rumusan masalah kebijakan;5.000
+105;Analis Kebijakan;Kajian dan Analisis Kebijakan;Riset dan Analisis Kebijakan;Melaksanakan Pemantauan dan evaluasi implementasi Kebijakan;10.000
+106;Analis Kebijakan;Kajian dan Analisis Kebijakan;Riset dan Analisis Kebijakan;Penyusunan Naskah Akademik;16.000
+107;Analis Kebijakan;Kajian dan Analisis Kebijakan;Rekomendasi Kebijakan;Menyediakan rekomendasi kebijakan;3.000
+108;Analis Kebijakan;Kajian dan Analisis Kebijakan;Rekomendasi Kebijakan;Melakukan Fokus Group Diskusi kepada pejabat publik dan pemangku;15.000
+109;Analis Kebijakan;Kajian dan Analisis Kebijakan;Rekomendasi Kebijakan;Melakukan uji publik rancangan rekomendasi kebijakan;15.000
+110;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Melakukan kerjasama dan konsultasi dengan pejabat publik dan pemangku kepentingan;1.000
+111;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Menyelenggarakan konsultasi , dialog dan diskusi dengan para pemangku kepentingan untuk memperoleh tanggapan terhadap usulan rancangan kebijakan;5.000
+112;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Melakukan konsultasi, dialog dan diskusi dengan para pemangku kepentingan untuk memperoleh tanggapan terhadap kebijakan;1.000
+113;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Melakukan advokasi kebijakan;3.000
+114;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Melakukan diseminasi kebijakan;3.000
+115;Analis Kebijakan;Kajian dan Analisis Kebijakan;Komunikasi, Koordinasi advokasi, konsultasi, dan negosiasi kebijakan;Menyampaikan gagasan kebijakan kepada pemangku kepentingan;5.000
+116;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Mempublikasi monograf;15.000
+117;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Mempublikasi buku referensi tingkat nasional;20.000
+118;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Mempublikasi buku referensi tingkat intenasional;25.000
+119;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Mempublikasi artikel jurnal ilmiah tidak terakreditasi;10.000
+120;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Mempublikasi artikel jurnal nasional terakreditasi;15.000
+121;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;mempublikasi artikel dalam jurnal internasional;20.000
+122;Analis Kebijakan;Kajian dan Analisis Kebijakan;Publikasi hasil Kajian Kebijakan;Menulis artikell di media massa;5.000
+123;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Menyusun kebutuhan Aparatur Sipil Negara sesuai pedoman dan peraturan perundang-undangan;0.250
+124;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Menganalisis proses penyusunan kebutuhan ASN;0.300
+125;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Mengevaluasi pelaksanaan penyusunan dan/atau penetapan kebutuhan ASN;0.900
+126;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Mengembangkan sistem/model penyusunan dan/atau penetapan kebutuhan ASN instansional/nasional;2.000
+127;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Menyusun analisis jabatan/ analisis beban kerja/rencana redistribusi pegawai/proyeksi kebutuhan pegawai lima tahun dan peta jabatan ASN;0.400
+128;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Mengembangkan sistem/ model analisis jabatan/ analisis beban kerja/ rencana redistribusi pegawai/proyeksi kebutuhan pegawai lima tahun dan peta jabatan ASN;2.000
+129;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penyusunan dan Penetapan Kebutuhan Aparatur Sipil Negara;Mengevaluasi penerapan analisis jabatan/analisis beban kerja/rencana redistribusi pegawai/proyeksi kebutuhan pegawai lima tahun dan peta jabatan dalam praktik manajemen ASN;0.900
+130;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Menyusun rancangan pengadaan ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+131;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Menganalisis proses pengadaan ASN;0.400
+132;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Mengevaluasi pelaksanaan pengadaan ASN;0.900
+133;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Mengembangkan sistem/model pengadaan ASN instansional/ nasional;2.000
+134;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Menyusun instrumen/perangkat seleksi pengadaan ASN;0.400
+135;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengadaan Aparatur Sipil Negara;Menganalisis pengembangan instrumen, materi uji dan validasi kompetensi untuk seleksi ASN;1.200
+136;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pangkat dan Jabatan ASN;Menyusun kerangka kerja pangkat dan jabatan ASN sesuai pedoman dan peraturan perundangundangan;0.450
+137;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pangkat dan Jabatan ASN;Menganalisis proses pangkat dan jabatan ASN;0.400
+138;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pangkat dan Jabatan ASN;Mengevaluasi pelaksanaan pangkat dan jabatan ASN;0.900
+139;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pangkat dan Jabatan ASN;Mengembangkan sistem/model pangkat dan jabatan ASN;2.000
+140;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pangkat dan Jabatan ASN;Merancang dan mengembangkan instrumen, materi dan validasi uji kompetensi pengisian jabatan ASN;0.300
+141;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembanga n Karier ASN;Menyusun kerangka kerja pengembangan karier ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+142;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembanga n Karier ASN;Menganalisis proses pengembangan karier ASN;0.400
+143;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembanga n Karier ASN;Mengevaluasi pelaksanaan pengembangan karier ASN;0.900
+144;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembanga n Karier ASN;Mengembangkan sistem/model pengembangan karier ASN instansional/nasional;2.450
+145;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pola Karier ASN;Menyusun pola karier ASN sesuai pedoman dan peraturan perundang-undangan;0.400
+146;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pola Karier ASN;Menganalisis proses penyusunan pola karier ASN;0.900
+147;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pola Karier ASN;Mengevaluasi pelaksanaan pola karier ASN;2.000
+148;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pola Karier ASN;Mengembangkan sistem/model pola karier ASN instansional/nasional;0.450
+149;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Promosi ASN;Menyusun kerangka kerja promosi ASN sesuai pedoman dan peraturan perundang-undangan Dokumen kerangka kerja promosi;0.300
+150;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Promosi ASN;Menganalisis proses promosi ASN;0.500
+151;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Promosi ASN;Mengevaluasi pelaksanaan promosi ASN;2.000
+152;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Promosi ASN;Mengembangkan sistem/model promosi ASN instansional/nasional;0.450
+153;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Mutasi ASN;Menyusun kerangka kerja mutasi ASN sesuai pedoman dan peraturan perundang-undangan;0.400
+154;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Mutasi ASN;Menganalisis proses mutasi ASN;0.900
+155;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Mutasi ASN;Menganalisis proses mutasi ASN;2.000
+156;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Mutasi ASN;Mengembangkan sistem/ model mutasi ASN instansional/nasional;0.450
+157;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Menyusun kerangka kerja penugasan ASN sesuai pedoman dan peraturan perundangundangan;0.400
+158;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Menganalisis proses penugasan ASN;0.900
+159;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Mengevaluasi pelaksanaan penugasan ASN;2.000
+160;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Mengembangkan sistem/ model penugasan ASN;0.400
+161;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Mengelola sistem informasi manajemen karier ASN;0.400
+162;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penugasan ASN;Mengembangkan model manajemen karier ASN berbasis sistem merit;0.450
+163;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Merancang kebutuhan dan rencana pengembangan kompetensi ASN;0.400
+164;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Menganalisis perangkat/ instrumen pengembangan kompetensi ASN;0.900
+165;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Mengevaluasi pelaksanaan pengembangan kompetensi ASN;2.000
+166;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Mendisain sistem/model pengembangan kompetensi ASN instansional/nasional;0.400
+167;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Menyusun dan memvalidasi instrumen uji/sertifikasi kompetensi ASN;0.060
+168;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Melaksanakan kegiatan proses uji kompetensi dan sertifikasi ASN;0.200
+169;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Menganalisis kebutuhan CoachingASN;1.200
+170;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Mendesain program CoachingASN;0.400
+171;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Mengevaluasi pelaksanaan CoachingASN;3.000
+172;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Merancang model proses Coachingdan pengembangan strategik (strategic training and development process) yang efektif untuk ASN;0.400
+173;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pengembangan Kompetensi ASN;Menyusun rencana pengembang an individu pegawai;0.450
+174;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun kerangka kerja sistem manajemen kinerja ASN terintegrasi sesuai pedoman dan peraturan perundangan-undangan;0.400
+175;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun peta strategi;0.450
+176;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun perencanaan kinerja ASN;0.300
+177;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Mengelola kinerja pegawai;1.200
+178;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Merumuskan standar perilaku kerja dalam jabatan ASN;1.000
+179;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Mendokumentasikan pelaksanaan rencana kinerja pegawai secara periodik;0.050
+180;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Melakukan monitoring/pemantau an kinerja ASN;0.500
+181;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun instrumen pelaksanaan pengukuran kinerja pegawai;0.150
+182;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun dokumen hasil pengukuran kinerja pegawai;0.080
+183;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Melaksanakan bimbingan kinerja pegawai;0.020
+184;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Melakukan layanan konseling kinerja pegawai;1.500
+185;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun program mentoring, coaching dan konseling peningkatan kinerja pegawai;0.200
+186;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun dokumen penilaian Sasaran Kenerja Pegawai (SKP);0.900
+187;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis penggunaan metode proporsional hasil kinerja periode SKP;0.200
+188;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun dokumen penilaian perilaku kerja;0.450
+189;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun instrumen penetapan penciptaan ide baru dan/atau cara baru dalam peningkatan kinerja yang bermanfaat bagi organisasi/negara;0.400
+190;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis pelaksanaan pendistribusian predikat penilaian kinerja pada unit kerja/organisasi/instansi pemerintah;0.900
+191;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis pelaksanaan penilaian kinerja yang menjalankan tugas belajar/penugasan khusus;0.400
+192;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis penilaian kinerja yang dilakukan oleh Pejabat Penilai Kinerja;0.450
+193;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;enyusun dokumen tindak lanjut penilaian kinerja;0.400
+194;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun profil kinerja pegawai berdasarkan pemeringkatan kinerja dalam lingkup satu unit kerja/ organisasi/instansi pemerintah;1.500
+195;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun penentuan prioritas pengembangan kompetensi dan pengembangan karier berdasarkan pemeringkatan kinerja;0.800
+196;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis pelaksanaan pembayaran tunjangan kinerja dan/atau penghargaan lain berdasarkan laporan dokumen penilaian kinerja;0.450
+197;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Merancang instrumen dan materi uji untuk perbaikan/evaluasi kinerja;0.500
+198;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun dokumentasi tertulis pelaksanaan pemberian sanksi dan evaluasi kinerja;0.150
+199;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun kerangka kerja/ blueprint sistem informasi kinerja;1.000
+200;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Membuat catatan/record kinerja pegawai;0.080
+201;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menganalisis proses manajemen kinerja ASN;0.400
+202;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Mengevaluasi pelaksanaan manajemen kinerja ASN;0.900
+203;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Mengembangkan sistem/ model manajemen kinerja ASN;2.000
+204;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Merancang manajemen kinerja organisasi berdasarkan ballance scorecard atau sistem lain;0.200
+205;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penilaian Kinerja ASN;Menyusun indikator kinerja utama (key performance indicator) dan kompetensi dalam penilaian kinerja ASN;0.600
+206;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Menyusun kerangka kerja disiplin ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+207;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Menganalisis proses disiplin ASN;0.400
+208;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Mengevaluasi penerapan disiplin ASN;0.900
+209;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Mengembangkan sistem/model disiplin ASN;2.000
+210;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Menganalisis status dan kedudukan hukum kepegawaian ASN;0.900
+211;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Menyusun kerangka kerja sistem penghargaan ASN sesuai pedoman dan peraturan UU;0.450
+212;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Merumuskan rekomendasi pengha rgaan ASN;0.500
+213;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Mengevaluasi pelaksanaan penghargaan ASN;0.900
+214;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Disiplin ASN;Mengembangkan sistem/ model pemberian penghargaan ASN;2.000
+215;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penggajian, Tunjangan dan Fasilitas ASN;Menyusun kerangka kerja sistem penggajian, tunjangan dan fasilitas ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+216;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penggajian, Tunjangan dan Fasilitas ASN;Menganalisis sistem penggajian, tunjangan dan fasilitas ASN;0.400
+217;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penggajian, Tunjangan dan Fasilitas ASN;Mengevaluasi pelaksanaan sistem penggajian, tunjangan dan fasilitas ASN;0.900
+218;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Penggajian, Tunjangan dan Fasilitas ASN;Mengembangkan sistem/ model penggajian, tunjangan dan fasilitas ASN;2.000
+219;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pemberhentian ASN;Menyusun kerangka kerja sistem pemberhentian ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+220;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pemberhentian ASN;Menganalisis proses pemberhentian ASN;0.400
+221;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pemberhentian ASN;Mengevaluasi pelaksanaan pe mberhentian ASN;0.900
+222;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Pemberhentian ASN;Mengembangkan sistem/model pemberhentian ASN;2.000
+223;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Jaminan Pensiun dan Jaminan Hari Tua ASN;Menyusun kerangka kerja Jaminan Pensiun dan Jaminan Hari Tua ASN sesuai pedoman dan peraturan perundangundangan;0.450
+224;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Jaminan Pensiun dan Jaminan Hari Tua ASN;Menganalisis proses Jaminan Pensiun dan Jaminan Hari Tua ASN;0.400
+225;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Jaminan Pensiun dan Jaminan Hari Tua ASN;Mengevaluasi pelaksanaan Jaminan Pensiun dan Jaminan Hari Tua ASN;0.900
+226;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Jaminan Pensiun dan Jaminan Hari Tua ASN;Mengembangkan sistem/model Jaminan Pensiun dan Jaminan Hari Tua ASN;2.000
+227;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Perlindungan ASN;Menyusun kerangka kerja sistem perlindungan ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+228;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Perlindungan ASN;Menganalisis proses perlindungan ASN;0.400
+229;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Perlindungan ASN;Mengevaluasi pelaksanaan perlindungan ASN;0.900
+230;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Perlindungan ASN;Mengembangkan sistem/model perlindungan ASN;2.000
+231;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Cuti ASN;Menyusun kerangka kerja cuti ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+232;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Cuti ASN;Menganalisis proses cuti ASN;0.400
+233;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Cuti ASN;Mengevaluasi pelaksanaan cuti ASN;0.900
+234;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Cuti ASN;Mengembangkan sistem/model cuti ASN;2.000
+235;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Sistem Informasi ASN;Menyusun kerangka kerja sistem informasi ASN sesuai pedoman dan peraturan perundang-undangan;0.450
+236;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Sistem Informasi ASN;Mengelola sistem informasi ASN;0.400
+237;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Sistem Informasi ASN;Mengevaluasi penerapan sistem informasi dalam praktik manajemen ASN;0.900
+238;Analis SDM Aparatur;Sistem Manajemen Aparatur Sipil Negara;Sistem Informasi ASN;Mengembangan model sistem informasi ASN instansional/nasional;2.000
+239;Analis SDM Aparatur;Manajemen SDM Aparatur Strategik & Reformasi Birokrasi;Manajemen SDM Aparatur;Menyusun kerangka kerja sistem manajemen SDM aparatur strategik berberbasis kompetensi atau talenta/reformasi birokrasi/zona integritas sesuai pedoman dan peraturan perundangan-undangan;0.450
+240;Analis SDM Aparatur;Manajemen SDM Aparatur Strategik & Reformasi Birokrasi;Manajemen SDM Aparatur;Mengelola pelaksanaan manajemen SDM aparatur strategik berberbasis kompetensi atau talenta/reformasi birokrasi/zona integritas;0.200
+241;Analis SDM Aparatur;Manajemen SDM Aparatur Strategik & Reformasi Birokrasi;Reformasi Birokrasi;Mengevaluasi pelaksanaan manajemen SDM berberbasis kompetensi atau talenta/reformasi birokrasi/zona integritas;0.900
+242;Analis SDM Aparatur;Manajemen SDM Aparatur Strategik & Reformasi Birokrasi;Reformasi Birokrasi;Menyusun saran kebijakan pelaksanaan manajemen SDM berberbasis kompetensi atau talenta/reformasi birokrasi/zona integritas;0.400
+243;Analis SDM Aparatur;Manajemen SDM Aparatur Strategik & Reformasi Birokrasi;Reformasi Birokrasi;Menyusun perangkat implementasi manajemen SDM berberbasis kompetensi atau talenta/reformasi birokrasi/zona integritas;0.900
+244;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Analisis Organisasi Publik;Menyusun struktur/ kelembagaan/ tatalaksana/ proses bisnis unit kerja/ instansi;0.450
+245;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Analisis Organisasi Publik;Mendiagnosis struktur/ kelembagaan/tatalaksana/proses bisnis yang efektif untuk instansi pemerintah;0.400
+246;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Analisis Organisasi Publik;Mengevaluasi penerapan struktur/kelembagaan/tatalaksan a/proses bisnis unit kerja/instansi;1.500
+247;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Analisis Organisasi Publik;Mengembangkan model struktur/kelembagaan/tatalaksan a/proses bisnis yang adaptif bagi organisasi;0.800
+248;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Rancangan Organisasi Publik;Menganalisis dan menyusun rekomendasi peran, fungsi, kewenangan dan mekanisme kerja kelembagaan ASN dan/atau lembaga pengelola kepegawaian dengan unit kerja dalam penguatan efektivitas organisas;0.400
+249;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Rancangan Organisasi Publik;Mengembangkan model dan strategi peran, fungsi & kewenangan serta mekanisme kerja kelembagaan ASN dan/atau lembaga pengelola kepegawaian dalam penguatan kepegawaian ASN;1.800
+250;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Rancangan Organisasi Publik;Menyusun rencana strategik/ rencana kerja unit kerja/instansi;0.800
+251;Analis SDM Aparatur;Analisis dan Rancangan Organisasi Publik;Rancangan Organisasi Publik;Menganalisis dan menyusun rekomendasi peran, fungsi, kewenangan dan mekanisme kerja instansi pembina, instansi pengguna dan organisasi profesi dalam pengelolaan jabatan ASN;1.200
+252;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Proses Kebijakan/ Regulasi Bidang SDM Aparatur;Menyusun kerangka kerja proses penyusunan kebijakan/regulasi Bidang SDM Aparatur;0.250
+253;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Proses Kebijakan/ Regulasi Bidang SDM Aparatur;Menganalisis proses penyusunan kebijakan/regulasi Bidang SDM Aparatu;0.400
+254;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Proses Kebijakan/ Regulasi Bidang SDM Aparatur;Mengevaluasi pelaksanaan kebijakan/regulasi Bidang SDM Aparatur;1.050
+255;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Mendisain sistem/model kebijakan/regulasi Bidang SDM Aparatur;2.000
+256;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Menyusun panduan/naskah akademik kebijakan/regulasi bidang SDM aparatur;0.500
+257;Analis SDM Aparatur;Proses & Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Analisis Kebijakan/ Regulasi Bidang SDM Aparatur;Melaksanakan asistensi dan konsultasi pengelolaan sistem kepegawaian ASN/SDM aparatur;0.020
+258;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;menyusun rencana pelaksanaan kegiatan dan rencana penarikan dana;0.010
+259;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;menerbitkan Surat Penunjukan Penyedia Barang/Jasa;0.010
+260;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;membuat, menandatangani dan melaksanakan perjanjian dengan Penyedia Barang/Jasa;0.010
+261;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;melaksanakan kegiatan swakelola;0.010
+262;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;memberitahukan kepada Kuasa Bendahara Umum Negara atas perjanjian yang dilakukannya;0.010
+263;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;mengendalikan pelaksanaan perikatan;0.010
+264;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;menguji dan menandatangani surat bukti mengenai hak tagih kepada negara;0.010
+265;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;membuat dan menandatangani Surat Permintan Pembayaran atau dokumen lain yang dipersamakan dengan Surat Permintan Pembayaran;0.010
+266;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;melaporkan pelaksanaan/penyelesaian Kegiatan kepada Kuasa Pengguna Anggaran;0.010
+267;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;menyerahkan hasil pekerjaan pelaksanaan Kegiatan kepada Kuasa Pengguna Anggaran dengan Berita Acara Penyerahan;0.010
+268;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;menyimpan dan menjaga keutuhan seluruh dokumen pelaksanaan Kegiatan;0.010
+269;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;melaksanakan tugas dan wewenang lainnya yang berkaitan dengan tindakan yang mengakibatkan pengeluaran anggaran Belanja Negara;0.010
+270;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis/update analisis kualitas rencana pelaksanaan kegiatan dan rencana penarikan dana;0.010
+271;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Mengevaluasi analisis/update analisis kualitas rencana pelaksanaan kegiatan dan rencana penarikan dana;0.020
+272;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi rencana pelaksanaan kegiatan dan rencana penarikan dana;0.010
+273;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis/update kebutuhan penyedia barang/jasa;0.010
+274;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Mengevaluasi analisis/update kebutuhan penyedia barang/jasa;0.020
+275;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi analisis/update kebutuhan penyedia barang/jasa;0.010
+276;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis klasifikasi/update klasifikasi kegiatan swakelola dan/atau non swakelola;0.010
+277;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Mengevaluasi analisis klasifikasi/update klasifikasi kegiatan swakelola dan/atau non swakelola;0.020
+278;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi analisis klasifikasi/update klasifikasi kegiatan swakelola dan/atau non swakelola;0.010
+279;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis langkah langkah rencana/update pengendalian perikatan;0.010
+280;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Mengevaluasi analisis langkah langkah rencana/update pengendalian perikatan;0.020
+281;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi langkah langkah rencana/update pengendalian perikatan;0.010
+282;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis efisiensi pembayaran;0.010
+283;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;evaluasi analisis efisiensi pembayaran/belanja;0.020
+284;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi analisis efisiensi pembayaran/belanja;0.010
+285;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis efektivitas pembayaran/belanja;0.010
+286;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;evaluasi analisis efektivitas pembayaran/belanja;0.020
+287;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi analisis efektivitas pembayaran/ belanja;0.010
+288;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis transparansi pembayaran/belanja;0.010
+289;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;evaluasi analisis transparansi pembayaran/belanja;0.020
+290;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun rekomendasi analisis transparansi pembayaran/ belanja;0.010
+291;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;Menyusun analisis keterbukaan pembayaran/belanja;0.010
+292;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;evaluasi analisis keterbukaan pembayaran/belanja;0.020
+293;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;nyusun rekomendasi analisis keterbukaan pembayaran/belanja;0.010
+294;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;nyusun analisis bersaing/kompetitif pembayaran/belanja;0.010
+295;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;evaluasi analisis bersaing/kompetitif pembayaran/belanja;0.020
+296;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Perikatan dan Penyelesaian Tagihan;nyusun rekomendasi analisis bersaing/kompetitif pembayaran/belanja;0.010
+297;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;menguji kebenaran Surat Permintan Pembayaran atau dokumen lain yang dipersamakan dengan Surat Permintan Pembayaran beserta dokumen pendukung;0.010
+298;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;menolak dan mengembalikan Surat Permintan Pembayaran, apabila tidak memenuhi persyaratan untuk dibayarkan;0.010
+299;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;membebankan tagihan pada mata anggaran yang telah disediakan;0.010
+300;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;menerbitkan Surat Perintah Membayar atau dokumen lain yang dipersamakan dengan Surat Perintah Membayar;0.010
+301;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;menyimpan dan menjaga keutuhan seluruh dokumen hak tagih;0.010
+302;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;melaporkan pelaksanaan pengujian dan perintah pembayaran kepada Kuasa Pengguna Anggaran;0.020
+303;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;melaksanakan tugas dan wewenang lainnya yang berkaitan dengan pelaksanaan pengujian;0.010
+304;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun analisis penolakan Surat Permintaan Pembayaran;0.020
+305;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;evaluasi analisis penolakan Surat Permintaan Pembayaran;0.020
+306;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun rekomendasi analisis penolakan Surat Permintaan Pembayaran;0.020
+307;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun analisis kesalahan Surat Perintah Membayar;0.010
+308;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Mengevaluasi analisis kesalahan Surat Perintah Membayar;0.020
+309;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun rekomendasi analisis kesalahan Surat Perintah Membayar;0.020
+310;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun analisis retur Surat Perintah Pencairan Dana;0.010
+311;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Mengevaluasi analisis retur Surat Perintah Pencairan Dana;0.020
+312;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun rekomendasi analisis retur Surat Perintah Pencairan Dana;0.020
+313;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun analisis revolving uang persediaan;0.010
+314;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Mengevaluasi analisis revolving uang persediaan;0.020
+315;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Pelaksanaan Perintah Pembayaran;Menyusun rekomendasi analisis revolving uang persediaan;0.020
+316;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Mengolah data-data transaksi keuangan;0.010
+317;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menganalisis data-data transaksi keuangan;0.020
+318;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi analisis data-data transaksi keuangan;0.030
+319;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Melaksanakan rekonsiliasi laporan keuangan;0.020
+320;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menganalisis berita acara rekonsiliasi;0.040
+321;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi analisis berita acara rekonsiliasi;0.060
+322;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Mengolah data/dokumen pendukung laporan keuangan;0.020
+323;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menganalisis data/dokumen pendukung laporan keuangan;0.040
+324;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi atas analisis dokumen pendukung laporan keuangan;0.060
+325;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun Laporan keuangan;0.020
+326;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menganalisis laporan keuangan;0.040
+327;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi laporan keuangan;0.060
+328;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Melaksanakan monitoring dan evaluasi penyusunan laporan keuangan;0.020
+329;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Melaksanakan analisis monev penyusunan laporan keuangan;0.040
+330;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi monev penyusunan laporan keuangan;0.060
+331;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun ringkasan temuan dan rencana tindak lanjut atas temuan pada laporan keuangan;0.020
+332;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;analisis permasalahan temuan hasil pemeriksaan pada laporan keuangan dan rencana tindak lanjutnya;0.040
+333;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi dan tindak lanjut atas analisis temuan hasil pemeriksaan pada laporan keuangan;0.030
+334;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Melaksanakan penatausahaan dokumen tingkat lanjutan;0.020
+335;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menganalisis penatausahaan dokumen;0.020
+336;Analis Pengelolaan Keuangan APBN;Analis Pengelolaan Keuangan APBN;Analisis Laporan Keuangan Instansi;Menyusun rekomendasi penatausahaan dokumen;0.030
+337;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Manajemen Layanan TI;Melakukan pemenuhan permintaan dan layanan teknologi informasi;0.150
+338;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan pengumpulan informasi mengenai data instansi;0.550
+339;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan pengadministrasian kegiatan tata kelola data;0.110
+340;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan pencatatan permasalahan pengelolaan data;0.110
+341;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perawatan arsitektur teknologi data;0.055
+342;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perawatan arsitektur integrasi data;0.055
+343;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perawatan data model;0.055
+344;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perawatan business intelligence;0.055
+345;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perawatan taksonomi data di suatu instansi;0.275
+346;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;perawatan arsitektur data;0.275
+347;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Mengembangkan data model;0.110
+348;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan perancangan data model sederhana;0.110
+349;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;uji coba rancangan layanan akses data;0.110
+350;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;perancangan visualisasi informasi sederhana;0.220
+351;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan uji coba rancangan visualisasi informasi;0.110
+352;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;Melakukan penyiapan data uji coba rancangan database;0.055
+353;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;uji coba rancangan layanan integrasi data;0.110
+354;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;uji coba prosedur validasi kebutuhan informasi;0.110
+355;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;instalasi/updating DBMS;0.055
+356;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;penggandaan data;0.001
+357;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;pemantauan (monitoring ) kinerja database;0.010
+358;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;pengarsipan, pencarian kembali (retrieve ), atau penghapusan data;0.060
+359;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;implementasi teknologi data;0.110
+360;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;support pemecahan masalah teknologi data;0.028
+361;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;implementasi data warehouse;0.760
+362;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;pemantauan (monitoring ) autentifikasi atau perilaku akses pengguna;0.128
+363;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;registrasi permasalahan kualitas data;0.225
+364;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Pengelolaan data;pemantauan (monitoring ) implementasi prosedur pengelolaan kualitas data;0.225
+365;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Audit TI;pengumpulan informasi dasar untuk kebutuhan audit TI;0.380
+366;Pranata Komputer;Tata Kelola dan Tata Laksana Teknologi Informasi;Audit TI;pengumpulan dokumen untuk kebutuhan audit TI;0.730
+367;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;Analisis kebutuhan penggua sistem jaringan komputer lokal;0.600
+368;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;Analisis kondisi sistem jaringan komputer lokal yang sedang berjalan;0.340
+369;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;rancangan logis sistem jaringan komputer lokal;0.220
+370;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;rancangan fisik sistem jaringan komputer lokal;0.540
+371;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;rancangan logis sistem pengamanan jaringan komputer lokal;0.165
+372;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;rancangan uji coba sistem jaringan lokal;0.110
+373;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;uji coba sistem jaringan komputer lokal;0.060
+374;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;pemantauan jaringan;0.020
+375;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;deteksi dan atau perbaikan terhadap permasalahan yang terjadi pada sistem jaringan lokal;0.011
+376;Pranata Komputer;Infrastruktur TI;SIstem jaringan komputer;Menyusun pedoman operasional sistem jaringan komputer dan keamanan jaringan;1.686
+377;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pemeriksaan kesesuaian antara perangkat TI End User dengan spesifikasi teknis;0.225
+378;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pencatatan infrastruktur Ti;0.209
+379;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pengujian perangkat TI End User;0.225
+380;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pemasangan kabel untuk infrastruktur TI;0.059
+381;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;Menyusun rencana pemeliharaan perangkat TI End User;0.100
+382;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pemeliharaan perangkat TI End User;0.116
+383;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;pemasangan perangkat fisik TI;0.165
+384;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;Pemantauan (monitoring ) kinerja infrastruktur TI;0.055
+385;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;deteksi dan atau perbaikan terhadap permasalahan perangkat TI End User;0.049
+386;Pranata Komputer;Infrastruktur TI;Manajemen infrastruktur TI;instalasi/upgrade sistem operasi komputer/perangkat lunak pada infrastruktur TI;0.042
+387;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;Menyusun petunjuk operasional program aplikasi;0.110
+388;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;Menyusun dokumentasi pengembangan sistem informasi;0.030
+389;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;analisis kebutuhan program aplikasi;0.030
+390;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;Membuat program aplikasi;0.550
+391;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;Mengembangkan dan atau meremajakan program aplikasi;0.275
+392;Pranata Komputer;Sistem Informasi dan Multimedia;Sistem informasi;Melakukan uji coba program aplikasi;0.165
+393;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Merekam data dengan pemindaian;0.002
+394;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Merekam data tanpa validasi;0.000
+395;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Validasi hasil perekaman data;0.000
+396;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Merekam data dengan validasi;0.001
+397;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Membuat query sederhana;0.088
+398;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Mengkonversi data;0.002
+399;Pranata Komputer;Sistem Informasi dan Multimedia;Pengolahan Data;Mengkompilasi data pengolahan;0.044
+400;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;Merekam data spasial;0.001
+401;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;membuat peta tematik sederhana;0.020
+402;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;pengolahan data atribut dan spasial sederhana;0.040
+403;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;editing data spasial;0.020
+404;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;verifikasi data spasial;0.113
+405;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;desain grafis;0.020
+406;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;editing objek multimedia sederhana dengan piranti lunak;0.255
+407;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;Membuat objek multimedia sederhana dengan piranti lunak;0.690
+408;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;Membuat prototype sederhana pada program multimedia;0.220
+409;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;Membuat program multimedia sederhana;0.440
+410;Pranata Komputer;Sistem Informasi dan Multimedia;Area TI Spesial/Khusus;uji coba program multimedia interaktif;0.020
+411;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan identifikasi/reviu kebutuhan dan penetapan barang/jasa;0.060
+412;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun spesifikasi teknis dan Kerangka Acuan Kerja (KAK) pada pekerjaan dengan output barang jadi/layanan jasa Lainnya yang sederhana/pekerjaan konsultan perseorangan;0.050
+413;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun spesifikasi teknis dan Kerangka Acuan Kerja (KAK) pada pekerjaan yang memiliki pedoman/standar/tata kelola yang baku, dengan output hasil pekerjaan konstruksi/layanan/sistem;0.180
+414;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun spesifikasi teknis dan Kerangka Acuan Kerja (KAK) pada pekerjaan yang mempunyai risiko tinggi/memerlukan teknologi tinggi/menggunakan peralatan khusus;0.210
+415;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun Harga Perkiraan Sendiri (HPS) pada pekerjaan;0.100
+416;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun Harga Perkiraan Sendiri (HPS) pada pekerjaan yang memiliki pedoman/standar/tata kelola yang baku;0.220
+417;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun Harga Perkiraan Sendiri (HPS) pada pekerjaan yang mempunyai risiko tinggi/memerlukan teknologi tinggi/menggunakan peralatan khusus;0.330
+418;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan perumusan pemaketan dan cara pengadaan sesuai strategi pengadaan;0.160
+419;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan perumusan strategi pengadaan yang sesuai tujuan organisasi dan/atau tujuan Pengadaan Barang/Jasa Pemerintah;0.180
+420;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan perumusan organisasi Pengadaan Barang/Jasa;0.120
+421;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan analisis belanja untuk pelaksanaan konsolidasi pengadaan;0.200
+422;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan analisis pasar untuk pelaksanaan konsolidasi pengadaan;0.200
+423;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan konsolidasi pada tahap perencanaan pengadaan;0.200
+424;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Mereviu dokumen perencanaan pengadaan;0.080
+425;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan konsolidasi untuk paket pengadaan barang/jasa sejenis;0.120
+426;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Mengklarifikasi usulan barang/jasa untuk masuk katalog elektronik;0.100
+427;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menganalisis hasil klarifikasi usulan barang/jasa;0.240
+428;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melakukan studi kebutuhan, supply chain & logistic management, spesifikasi teknis, syarat penyedia, dan proses bisnis penyedia;0.900
+429;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Mengidentifikasi Norma, Standar, Peraturan, dan Manual (NSPM) pada tahap perencanaan pengadaan;0.040
+430;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun konsep rekomendasi/saran untuk pembinaan/pendampingan Pengadaan Barang/Jasa Pemerintah pada tahap perencanaan pengadaan;0.120
+431;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melaksanakan pembinaan/pendampingan Pengadaan Barang/Jasa Pemerintah pada tahap perencanaan pengadaan;0.180
+432;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Mengidentifikasi permasalahan penggunaan sistem informasi/aplikasi pada tahap perencanaan pengadaan;0.060
+433;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Melaksanakan pendampingan/bimtek/konsultasi penggunaan sistem informasi/aplikasi pada tahap perencanaan pengadaan;0.120
+434;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menganalisis temuan hasil pemeriksaaan pada tahap perencanaan pengadaan;0.050
+435;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Perencanaan Pengadaan Barang/Jasa Pemerintah;Menyusun rekomendasi/rencana tindak lanjut terhadap hasil pemeriksaan pada tahap perencanaan pengadaan;0.100
+436;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;reviu dokumen persiapan pada pekerjaan yang dilakukan dengan metode pemilihan Pengadaan Langsung/Tender Cepat/e-purchasing;0.040
+437;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;reviu dokumen persiapan pada pekerjaan yang dilakukan dengan metode pemilihan Tender/Seleksi/Penunjukan Langsung;0.080
+438;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penyusunan dan penjelasan dokumen pemilihan pada pekerjaan yang dilakukan dengan metode pemilihan Pengadaan Langsung/Tender Cepat;0.080
+439;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penyusunan dan penjelasan dokumen pemilihan pada pekerjaan yang dilakukan dengan metode pemilihan Tender/Seleksi/Penunjukan Langsung;0.120
+440;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penyusunan dan penjelasan dokumen pemilihan pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.210
+441;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;evaluasi penawaran dengan metode evaluasi harga terendah sistem gugur;0.080
+442;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;evaluasi penawaran dengan metode evaluasi harga terendah ambang batas, sistem nilai, penilaian biaya selama umur ekonomis, kualitas, kualitas dan biaya, pagu anggaran, atau biaya terendah;0.120
+443;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;evaluasi penawaran pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.210
+444;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penilaian kualifikasi pada Pengadaan Langsung;0.080
+445;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penilaian kualifikasi pada Tender/Seleksi/Penunjukan Langsung;0.120
+446;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;penilaian kualifikasi pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.210
+447;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Melakukan pengadaan barang/jasa secara e-purchasing dan pembelian melalui toko daring (online );0.030
+448;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Melakukan pengelolaan sanggah pada pekerjaan dengan metode pemilihan Tender/Seleksi/Penunjukan Langsung;0.040
+449;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;pengelolaan sanggah pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.090
+450;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;pengelolaan sanggah banding pada pekerjaan dengan metode pemilihan Tender/Seleksi/Penunjukan Langsung;0.080
+451;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;pengelolaan sanggah banding pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.150
+452;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Melakukan penyusunan daftar penyedia barang/jasa Daftar penyedia barang/jasa;0.060
+453;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;negosiasi dengan mengacu pada Harga Perkiraan Sendiri (HPS) dan standar harga/biaya;0.040
+454;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;negosiasi pada pekerjaan dengan metode pemilihan Tender/Seleksi/Penunjukan Langsung;0.080
+455;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;negosiasi pada Tender/Seleksi Internasional, pengadaan badan usaha pelaksana Kerjasama Pemerintah dengan Badan Usaha (KPBU), atau Pekerjaan Terintegrasi;0.150
+456;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Mereviu dokumen persiapan pengadaan;0.040
+457;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;usulkan perubahan spesifikasi teknis/KAK, HPS, dan/atau rancangan kontrak;0.080
+458;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;konsolidasi untuk paket pengadaan barang/jasa sejenis;0.090
+459;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;identifikasi permasalahan penggunaan sistem informasi/aplikasi pada tahap pemilihan penyedia;0.060
+460;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;pendampingan/bimtek/konsultasi penggunaan sistem informasi/aplikasi pada tahap pemilihan penyedia;0.120
+461;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;analisis temuan hasil pemeriksaaan pada tahap pemilihan penyedia barang/jasa;0.050
+462;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Menyusun rekomendasi/rencana tindak lanjut terhadap hasil pemeriksaan pada tahap pemilihan penyedia barang/jasa;0.100
+463;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pemilihan Penyedia Barang/Jasa Pemerintah;Menyusun laporan tahunan Pengadaan Barang/Jasa;0.030
+464;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Melakukan perumusan kontrak Pengadaan Barang/Jasa Pemerintah dalam bentuk Surat Perintah Kerja (SPK);0.040
+465;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;perumusan kontrak Pengadaan Barang/Jasa Pemerintah dalam bentuk surat perjanjian;0.080
+466;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;perumusan kontrak Pengadaan Barang/Jasa Pemerintah dalam bentuk surat perjanjian untuk kontrak Pekerjaan Terintegrasi, kontrak payung, kontrak pengadaan barang/jasa internasional,;0.090
+467;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Mengorganisasikan Tim Pengelola Kontrak Pengadaan Barang/Jasa Pemerintah;0.240
+468;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;pengendalian pelaksanaan kontrak pada pekerjaan dengan output barang jadi/layanan jasa lainnya yang sederhana/pekerjaan konsultan perseorangan;0.050
+469;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;pengendalian pelaksanaan kontrak pada pekerjaan yang memiliki pedoman/standar/tata kelola yang baku, dengan output hasil pekerjaan konstruksi/layanan/sistem;0.100
+470;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;pengendalian pelaksanaan kontrak pada pekerjaan yang mempunyai risiko tinggi/memerlukan teknologi tinggi/menggunakan peralatan khusus, dengan output hasil pekerjaan konstruksi/layanan/sistem;0.150
+471;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;serah terima hasil pengadaan pada pekerjaan dengan output barang jadi/layanan jasa lainnya yang sederhana/pekerjaan konsultan perseorangan;0.030
+472;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;serah terima hasil pengadaan pada pekerjaan yang memiliki pedoman/standar/tata kelola yang baku, dengan output hasil pekerjaan konstruksi/layanan/sistem;0.060
+473;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;serah terima hasil pengadaan pada pekerjaan yang mempunyai risiko tinggi/memerlukan teknologi tinggi/menggunakan peralatan khusus, dengan output hasil pekerjaan konstruksi/layanan/sistem;0.090
+474;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Menyusun instrumen evaluasi kinerja penyedia Pengadaan Barang/Jasa Pemerintah;0.030
+475;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;evaluasi kinerja penyedia Pengadaan Barang/Jasa Pemerintah;0.060
+476;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Mengembangkan sistem evaluasi kinerja penyedia Pengadaan Barang/Jasa Pemerintah;0.090
+477;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;identifikasi Norma, Standar, Peraturan, dan Manual (NSPM) pada tahap pengelolaan kontrak pengadaan barang/jasa;0.040
+478;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Menyusun konsep rekomendasi/saran untuk pembinaan/pendampingan Pengadaan Barang/Jasa Pemerintah pada tahap pengelolaan kontrak pengadaan barang/jasa;0.100
+479;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;pembinaaan/pendampingan Pengadaan Barang/Jasa Pemerintah pada tahap pengelolaan kontrak pengadaan barang/jasa;0.180
+480;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;identifikasi permasalahan penggunaan sistem informasi/aplikasi pada tahap pengelolaan kontrak pengadaan barang/jasa;0.060
+481;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;pendampingan/bimtek/konsultasi penggunaan sistem informasi/aplikasi pada tahap pengelolaan kontrak pengadaan barang/jasa;0.120
+482;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;identifikasi permasalahan dan menyiapkan konsep rekomendasi/saran untuk pelaksanaan mediasi penyelesaian sengketa kontrak;0.200
+483;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;mediasi penyelesaian sengketa kontrak;0.300
+484;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;analisis temuan hasil pemeriksaaan pada tahap pengelolaan kontrak pengadaan barang/jasa;0.050
+485;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Kontrak Pengadaan;Menyusun rekomendasi/rencana tindak lanjut terhadap hasil pemeriksaan pada tahap pengelolaan kontrak pengadaan barang/jasa;0.100
+486;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;penyusunan rencana dan persiapan pengadaan secara swakelola pada pekerjaan yang pelaksanaannya mengacu pada standar/pedoman/ketentuan yang baku;0.040
+487;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;penyusunan rencana dan persiapan pengadaan secara swakelola pada pekerjaan yang pelaksanaannya mengacu pada standar/pedoman yang spesifik pada bidang tertentu;0.080
+488;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;penyusunan rencana dan persiapan pengadaan secara swakelola pada pekerjaan yang mengacu pada kaidah keilmuan bidang tertentu;0.090
+489;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;pengelolaan pengadaan secara swakelola pada pekerjaan yang pelaksanaannya mengacu pada standar/pedoman/ketentuan yang baku;0.050
+490;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;pengelolaan pengadaan secara swakelola pada pekerjaan yang pelaksanaannya mengacu pada standar/pedoman yang spesifik pada bidang tertentu;0.100
+491;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;pengelolaan/pengadaan secara swakelola pada pekerjaan yang mengacu pada kaidah keilmuan bidang tertentu;0.120
+492;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;evaluasi efektivitas penggunaan sumber daya pada Pengadaan Barang/Jasa Pemerintah secara swakelola.;0.060
+493;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;evaluasi efektivitas pencapaian sasaran/tujuan Pengadaan Barang/Jasa Pemerintah secara swakelola;0.060
+494;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;evaluasi kinerja terhadap instansi pemerintah/organisasi masyarakat/kelompok masyarakat pelaksana swakelola;0.060
+495;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;identifikasi Norma, Standar, Peraturan, dan Manual (NSPM) pada Pengadaan Barang/Jasa Pemerintah secara swakelola;0.040
+496;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;Menyusun konsep rekomendasi/saran untuk pembinaan/pendampingan Pengadaan Barang/Jasa Pemerintah secara swakelola;0.100
+497;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;pembinaan/pendampingan Pengadaan Barang/Jasa Pemerintah secara swakelola;0.180
+498;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;analisis temuan hasil pemeriksaaan pada Pengadaan Barang/Jasa Pemerintah secara swakelola;0.050
+499;Pengelolaan Pengadaan Barang/jasa;Pengadaan Barang/Jasa;Pengelolaan Pengadaan Barang/Jasa Pemerintah secara Swakelola;Menyusun rekomendasi/rencana tindak lanjut terhadap hasil pemeriksaan pada Pengadaan Barang/Jasa Pemerintah secara swakelola;0.100
+500;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun konsep Rencana Kegiatan Tahunan bidang perencanaan strategis;0.900
+501;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun konsep Revisi Rencana Kegiatan Tahunan bidang perencanaan strategis;0.700
+502;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Konsep Rancangan Teknokratik Renstra;0.998
+503;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun Konsep Rancangan Teknokratik Renstra;0.694
+504;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Konsep Renstra BPK;1.224
+505;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun Konsep Renstra BPK;0.639
+506;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Renstra Satker Eselon I dan II (di unit perencanaan, evaluasi, dan pengembangan pemeriksaan keuangan negara dan unit perencanaan strategis pemeriksaan);0.770
+507;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun Konsep Renstra Satker Eselon I dan II (di unit perencanaan, evaluasi, dan pengembangan pemeriksaan keuangan neg;0.405
+508;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;pendampingan dalam rangka fasilitasi penyusunan Renstra Satker Eselon I dan II;0.482
+509;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Konsep Rencana Implementasi Renstra;0.859
+510;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun konsep Rencana Implementasi Renstra;0.428
+511;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Konsep Business Case Fokus Pemeriksaan;1.133
+512;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun konsep Business Case Fokus Pemeriksaan;0.436
+513;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;analisis dalam rangka penyusunan Business Case Inisiatif Strategi;1.039
+514;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;pendampingan penyusunan Business Case Inisiatif Strategis dengan satke;0.306
+515;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;pendampingan penyusunan Kerangka Acuan Kerja (KAK) Fokus Pemeriksaan dengan satker;1.018
+516;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;melaksanakan kegiatan Sentra Koordinasi Pengelolaan Fokus Pemeriksaan;0.836
+517;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;melaksanakan kegiatan Sentra Koordinasi Pengelolaan Inisiatif Strategis;0.720
+518;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;Pemantauan Pelaksanaan Fokus Pemeriksaan;0.733
+519;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;Pemantauan Pelaksanaan Inisiatif Strategis;0.696
+520;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun Konsep Manajemen Perubahan;0.811
+521;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;melaksanakan tugas-tugas pelaksanaan Manajemen Perubahan;0.243
+522;Pemeriksa;Perumusan Rencana Strategis Pemeriksaan;Perumusan Rencana Strategis Pemeriksaan;menyusun perbaikan dan revisi dokumen (Renstra/Rencana Implementasi Renstra/Business Case Fokus Pemeriksaan/Business Case Inisiatif Strategis/Kerangka Acuan Kerja Fokus Pemeriksaan);1.177
+523;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);administrasi dalam rangka penyusunan Tema Pemeriksaan;0.100
+524;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengumpulkan data dalam rangka penyusunan Tema Pemeriksaan;0.180
+525;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);menyusun Tema Pemeriksaan;0.200
+526;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengusulkan Tema Pemeriksaan;0.300
+527;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);me-review Tema Pemeriksaan;0.400
+528;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);melaksanakan administrasi dalam rangka penyusunan Proposal Pemeriksaan;0.100
+529;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengumpulkan data dalam rangka penyusunan Proposal Pemeriksaan;0.160
+530;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);menyusun Proposal Pemeriksaan;0.190
+531;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengusulkan Proposal Pemeriksaan;0.300
+532;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);me-review Proposal Pemeriksaan;0.400
+533;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);melaksanakan administrasi dalam rangka penyusunan RKP;0.100
+534;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengumpulkan data dalam rangka penyusunan RKP;0.100
+535;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);menyusun usulan RKP;0.200
+536;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengusulkan RKP;0.450
+537;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);me-review RKP;0.400
+538;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);melaksanakan administrasi dalam rangka penyusunan Revisi RKP;0.100
+539;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengumpulkan data dalam rangka penyusunan Revisi RKP;0.050
+540;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);menyusun usulan Revisi RKP;0.200
+541;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengusulkan Revisi RKP;0.360
+542;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);me-review Revisi RKP;0.400
+543;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);mengusulkan Strategi Pemeriksaan;0.336
+544;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan rencana kegiatan pemeriksaan (RKP);me-review Strategi Pemeriksaan;0.400
+545;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;melaksanakan tugas-tugas dalam Pemeriksaan Pendahuluan/Interim;0.010
+546;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;memimpin pelaksanaan Pemeriksaan Pendahuluan/Interim;0.020
+547;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;melakukan supervisi Pemeriksaan Pendahuluan/Interim;0.030
+548;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;mengarahkan Pemeriksaan Pendahuluan/Interim;0.100
+549;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;melakukan review atas LHP terdahulu;0.160
+550;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;review atas hasil review dari Pemeriksa Ahli Pertama terhadap LHP terdahulu;0.220
+551;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;komunikasi dengan Tim Pemeriksaan terdahulu;0.200
+552;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;menyusun PKP untuk pelaksanaan tugas-tugas Pemeriksaan Terinci;0.170
+553;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;mengesahkan PKP Pemeriksa Ahli Pertama untuk pelaksanaan tugas-tugas Pemeriksaan Terinci;0.160
+554;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;melaksanakan tugas-tugas dalam pelaksanaan Pemeriksaan Terinci;0.010
+555;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;memimpin pelaksanaan Pemeriksaan Terinci;0.020
+556;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;mengendalikan teknis pelaksanaan Pemeriksaan Terinci;0.030
+557;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;mengendalikan mutu pelaksanaan Pemeriksaan Terinci;0.100
+558;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;menyusun KKP untuk pelaksanaan tugas-tugas dalam Pemeriksaan Terinci;0.210
+559;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;me-review KKP Pemeriksa Ahli Pertama dalam Pemeriksaan Terinci;0.360
+560;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;me-review KKP Pemeriksa Ahli Pertama dalam Pemeriksaan Terinci yang telah di-review oleh Pemeriksa Ahli Muda;0.450
+561;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;melaksanakan administrasi dalam penyusunan LHP;0.180
+562;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;menyiapkan bahan dan data untuk penyusunan LHP;0.140
+563;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;menyajikan kelogisan substansi, kaidah bahasa, dan kebenaran matematis dalam konsep LHP;0.520
+564;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;menganalisis dan me-review konsep LHP;0.390
+565;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;me-review konsep LHP dari segi unsur temuan dan kaidah bahasa pelaporan;0.450
+566;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;me-review kesesuaian konsep LHP dengan Standar Pemeriksa Keuangan Negara (SPKN;0.320
+567;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Pemeriksaan;me-review dan menyetujui LHP;0.200
+568;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Evaluasi Pemeriksaan;membuat penilaian Pemeriksa Ahli Pertama atas pelaksanaan pemeriksaan;0.160
+569;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Evaluasi Pemeriksaan;menilai kinerja Pemeriksa Ahli Muda;0.240
+570;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Evaluasi Pemeriksaan;melakukan review silang;0.300
+571;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Evaluasi Pemeriksaan;menilai kinerja Pemeriksa Ahli Madya;0.320
+572;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Evaluasi Pemeriksaan;melakukan review silang (Antar-Pemeriksa Ahli Utama;0.480
+573;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan bahan perumusan pendapat BPK;menyiapkan bahan pendukung Perumusan Pendapat BPK yang diperlukan berdasarkan hasil pemeriksaan;0.120
+574;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan bahan perumusan pendapat BPK;mengompilasi dan menyusun Bahan Perumusan Pendapat BPK pada lingkup tugasny;0.360
+575;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, pemeriksaan dengan tujuan tertentu, dan pemeriksaan investigatif;Penyusunan bahan perumusan pendapat BPK;me-review Bahan Perumusan Pendapat BPK pada lingkup tugasnya;0.400
+576;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun konsep P2 Pendahuluan;0.160
+577;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep P2 Pendahuluan dari Pemeriksa Ahli Muda;0.300
+578;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review dan menyetujui P2 Pendahuluan dari Pemeriksa Ahli Madya;0.400
+579;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;mengarahkan pengumpulan data dan informasi;0.400
+580;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;melaksanakan administrasi penyusunan P2 AKN atau P2 Perwakilan;0.100
+581;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun konsep P2 AKN atau P2 Perwakilan;0.400
+582;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep P2 AKN atau P2 Perwakilan dari Pemeriksa Ahli Muda;0.360
+583;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review dan menyetujui P2 AKN atau P2 Perwakilan dari Pemeriksa Ahli Madya;0.400
+584;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun PKP untuk pelaksanaan tugas-tugas Pemeriksaan Pendahuluan;0.170
+585;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;mengesahkan PKP Pemeriksa Ahli Pertama untuk tugastugas Pemeriksaan Pendahulua;0.160
+586;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun KKP untuk pelaksanaan tugas-tugas dalam Pemeriksaan Pendahuluan;0.210
+587;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review KKP Pemeriksa Ahli Pertama dalam Pemeriksaan Pendahuluan;0.360
+588;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review KKP Pemeriksa Ahli Pertama dalam Pemeriksaan Pendahuluan yang telah di-review oleh Pemeriksa Ahli Muda;0.450
+589;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun konsep Laporan Pemeriksaan Pendahuluan;0.560
+590;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep Laporan Pemeriksaan Pendahuluan dari Pemeriksa Ahli Muda;0.450
+591;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review dan menyetujui Laporan Pemeriksaan Pendahuluan dari Pemeriksa Ahli Madya;0.640
+592;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;melakukan pembahasan atas Hasil Pengawasan Intern;0.120
+593;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review hasil pembahasan atas Hasil Pengawasan Intern;0.100
+594;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyiapkan bahan penyusunan IHPS;0.210
+595;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyiapkan konsep bahan penyusunan IHPS;0.420
+596;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep bahan penyusunan IHPS dari Pemeriksa Ahli Muda;0.360
+597;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep bahan penyusunan IHPS dari Pemeriksa Ahli Madya;0.480
+598;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun konsep LHP sesuai unsur-unsur temuan seperti kondisi, kriteria, sebab dan akibat;0.400
+599;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyiapkan usulan konsep Rekomendasi BPK;0.140
+600;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyiapkan konsep Surat Kelua;0.140
+601;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review usulan konsep Rekomendasi BPK dari Pemeriksa Ahli Muda;0.360
+602;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;melakukan pembahasan atas usulan konsep Rekomendasi BPK;0.300
+603;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;membuat Surat Keluar;0.240
+604;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review usulan konsep Rekomendasi BPK;0.320
+605;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun konsep Pelaporan Informasi Rahasia;0.390
+606;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review konsep Pelaporan Informasi Rahasia;0.240
+607;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;melaksanakan evaluasi laporan hasil pelaksanaan Pemeriksaan KAP;0.220
+608;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;menyusun laporan evaluasi atas hasil pelaksanaan Pemeriksaan KAP;0.450
+609;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;me-review laporan evaluasi atas hasil pelaksanaan Pemeriksaan KAP;0.680
+610;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemeriksaan;melaporkan indikasi Tindak Pidana Korupsi;0.320
+611;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);elaksanakan administrasi dalam pemantauan TLHP;0.180
+612;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);menyiapkan bahan pemantauan TLHP;0.120
+613;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);melaksanakan pemantauan TLHP;0.160
+614;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);melaksanakan penelaahan jawaban TLHP dari entitas yang diperiksa;0.320
+615;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);"menyusun konsep laporan penelaahan jawaban TLHP dari entitas
+yang diperiksa";0.360
+616;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Tindak Lanjut Hasil Pemeriksaan (TLHP);me-review dan menyetujui laporan penelaahan jawaban TLHP dari entitas yang diperiksa;0.600
+617;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;menyiapkan bahan pemantauan proses penyelesaian Ganti Kerugian Negara/Daerah;0.210
+618;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;melaksanakan pemantauan proses penyelesaian Ganti Kerugian Negara/Daerah;0.200
+619;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;memimpin pemantauan proses penyelesaian Ganti Kerugian Negara/Daerah;0.400
+620;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;menyusun konsep Laporan Pemantauan Ganti Kerugian Negara/Daerah;0.260
+621;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;me-review konsep Laporan Pemantauan Ganti Kerugian Negara/Daerah;0.450
+622;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Pemantauan Kerugian Negara/Daera;me-review dan menyetujui Laporan Pemantauan Ganti Kerugian Negara/Daerah;0.600
+623;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Penyusunan bahan penjelasan BPK;menyiapkan kajian hasil pemeriksaan yang mengandung unsur tindak pidana korupsi dan/atau kerugian negara;0.120
+624;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Penyusunan bahan penjelasan BPK;mengompilasi hasil kajian dan menyusun Bahan Penjelasan kepada Pemerintah, Lembaga Perwakilan, dan Aparat Penegak Hukum tentang hasil pemeriksaan pada lingkup tugasnya;0.360
+625;Pemeriksa;Pemeriksaan keuangan, pemeriksaan kinerja, dan pemeriksaan dengan tujuan tertentu;Penyusunan bahan penjelasan BPK;me-review Bahan Penjelasan kepada Pemerintah, Lembaga Perwakilan, dan Aparat Penegak Hukum tentang hasil pemeriksaan dari Pemeriksa Ahli Madya pada lingkup tugasnya;0.400
+626;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun usulan pembentukan TPPI;0.020
+627;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review usulan pembentukan TPPI;0.030
+628;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui pembentukan TPPI;0.043
+629;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memperoleh informasi awal dari Pemberi Informasi;0.020
+630;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menghimpun informasi awal dari berbagai sumber, yaitu: LHP, APH, DPR, media sosial, pengaduan masyarakat, pemberitaan, dl;0.020
+631;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun informasi awal dari berbagai sumber, yaitu: LHP, APH, DPR, media sosial, pengaduan masyarakat, pemberitaan, dll;0.002
+632;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review informasi awal dari berbagai sumber, yaitu: LHP, APH, DPR, media sosial, pengaduan masyarakat, pemberitaan, dll;0.030
+633;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mendokumentasikan dan mengadministrasikan informasi awa;0.016
+634;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan pembahasan informasi awal;0.016
+635;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep Laporan Pembahasan Informasi Awa;0.030
+636;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep Laporan Pembahasan Informasi Awal dari Pemeriksa Ahli Muda;0.045
+637;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui Laporan Pembahasan Informasi Awal dari Pemeriksa Ahli Madya;0.086
+638;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;meminta data pendukung kepada Pemberi Informasi;0.032
+639;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memverifikasi data pendukung dari Pemberi Informasi;0.016
+640;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan analisis dan penelahaan atas informasi awal berdasarkan bukti yang diterima;0.048
+641;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memimpin proses analisis dan penelaahan atas informasi awal;0.060
+642;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengendalikan teknis proses analisis dan penelaahan atas informasi awal;0.090
+643;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengendalikan mutu proses analisis dan penelaahan atas informasi awal;0.259
+644;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengumpulkan petunjuk tambahan untuk melengkapi analisis awal;0.016
+645;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melaksanakan tugas-tugas dalam pelaksanaan Pemeriksaan Pendahuluan (jika diperlukan);0.010
+646;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memimpin pelaksanaan Pemeriksaan Pendahuluan (jika diperlukan);0.020
+647;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengendalikan teknis pelaksanaan Pemeriksaan Pendahuluan (jika diperlukan;0.030
+648;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengendalikan mutu pelaksanaan Pemeriksaan Pendahuluan (jika diperlukan);0.100
+649;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan untuk penyusunan simpulan atas hasil analisis dan penelaahan informasi awal;0.016
+650;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep simpulan atas hasil analisis dan penelahaan informasi awal (predikasi 4W + 1H atau 5W + 1H);0.030
+651;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep simpulan atas hasil analisis dan penelaahan informasi awal dari Pemeriksa Ahli Muda;0.045
+652;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui simpulan atas hasil analisis dan penelaahan informasi awal dari Pemeriksa Ahli Madya;0.086
+653;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan diskusi dengan Instansi berwenang (APH) dalam hal hasil penelaahan dapat memenuhi unsur 5W + 1 H;0.030
+654;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memberikan persetujuan untuk menyerahkan Laporan Penelahaan Informasi Awal kepada APH jika hasil predikasi dapat memenuhi unsur 5W + 1H;0.045
+655;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memberikan persetujuan untuk dilakukannya Pemeriksaan Pendahuluan/Pemeriksaan Investigatif;0.086
+656;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun usulan Tim Pemeriksa;0.030
+657;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan pengembangan hipotesis dari predikasi yang ada;0.086
+658;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun hasil pengembangan hipotesis dari predikasi yang ada;0.086
+659;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review hasil pengembangan hipotesis dari predikasi yang ada dari Pemeriksa Ahli Muda;0.015
+660;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui hasil pengembangan hipotesis dari predikasi yang ada dari Pemeriksa Ahli Madya;0.012
+661;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review usulan Tim Pemeriksa dari Pemeriksa Ahli Muda;0.015
+662;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui usulan Tim Pemeriksa dari Pemeriksa Ahli Madya;0.030
+663;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan komunikasi dengan pihak eksternal terkait dengan perencanaan pemeriksaan bersama APH dalam rangka join investigation seperti transportasi, akomodasi, jadwal kerja,dll (jika diperlukan);0.086
+664;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengarahkan koordinasi dengan pihak eksternal terkait dengan perencanaan pemeriksaan bersama APH dalam rangka join investigation seperti transportasi, akomodasi, jam kerja, dll (jika diperlukan).;0.012
+665;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan penyusunan P2 Investigatif;0.015
+666;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep P2 Investigatif;0.010
+667;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep P2 Investigatif dari Pemeriksa Ahli Muda;0.040
+668;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui P2 Investigatif dari Pemeriksa Ahli Madya;0.060
+669;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan survei dan komunikasi dengan Ahli/Konsultan yang akan digunakan;0.086
+670;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun Kerangka Acuan Kerja (KAK) Penggunaan Ahli/Konsultan;0.030
+671;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review KAK Penggunaan Ahli/Konsultan;0.030
+672;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui KAK Penggunaan Ahli/Konsultan;0.086
+673;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan yang akan digunakan oleh Ahli/Konsultan;0.016
+674;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun materi/bahan yang akan digunakan oleh Ahli/Konsultan;0.020
+675;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review materi/bahan yang akan digunakan oleh Ahli/Konsultan dari Pemeriksa Ahli Muda;0.030
+676;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui materi/bahan yang akan digunakan Ahli/Konsultan dari Pemeriksa Ahli Madya;0.086
+677;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengikuti pembahasan dengan Ahli/Konsultan;0.016
+678;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;memimpin proses pembahasan dengan Ahli/Konsultan;0.020
+679;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengendalikan proses pembahasan dengan Ahli/Konsultan;0.030
+680;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengarahkan proses pembahasan dengan Ahli/Konsultan;0.086
+681;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mendokumentasikan pelaksanaan pembahasan dengan Ahli/Konsultan;0.016
+682;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun Laporan Hasil Pembahasan dengan Ahli/Konsultan;0.020
+683;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan diskusi dengan APH atas pendapat Ahli/Konsultan;0.016
+684;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun Laporan Hasil Diskusi dengan APH atas Pendapat Ahli/Konsultan;0.020
+685;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep Simpulan atas Hipotesa Awal;0.040
+686;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep Simpulan atas Hipotesa Awal dari Pemeriksa Ahli Muda;0.030
+687;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui Simpulan atas Hipotesa Awal dari Pemeriksa Ahli Madya;0.086
+688;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan penyusunan Prosedur Pemeriksaan Investigatif Tambahan/Alternatif;0.016
+689;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep Prosedur Pemeriksaan Investigatif Tambahan/Alternati;0.020
+690;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep Prosedur Pemeriksaan Investigatif Tambahan/Alternatif dari Pemeriksa Ahli Muda;0.030
+691;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui Prosedur Pemeriksaan Investigatif Tambahan dari Pemeriksa Ahli Madya;0.086
+692;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan data dan bahan untuk pemaparan dengan Pihak Internal BPK;0.016
+693;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun bahan pemaparan dengan Pihak Internal BPK;0.020
+694;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan pemaparan dengan Pihak Internal BPK;0.030
+695;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan data dan bahan untuk pemaparan dengan Instansi yang Berwenang;0.016
+696;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun bahan pemaparan dengan Instansi yang Berwenang;0.020
+697;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan pemaparan dengan Instansi yang Berwenang;0.030
+698;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyusun konsep LHP Investigatif berdasarkan unsur pelaporan LHP Investigatif yaitu simpulan, informasi umum, serta uraian hasil pemeriksaan dan lampiran;0.120
+699;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan konsep surat keluar;0.020
+700;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review konsep surat keluar;0.030
+701;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review dan menyetujui surat keluar;0.086
+702;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melaksanakan administrasi dalam rangka pendampingan kepada APH;0.016
+703;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan bahan pemaparan LHP Investigatif kepada APH;0.020
+704;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan pemaparan LHP Investigatif kepada APH;0.030
+705;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan komunikasi dengan APH untuk menginventarisir salinan dokumen bukti Pemeriksaan Investigatif yang diperlukan APH;0.020
+706;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyiapkan salinan dokumen bukti Pemeriksaan Investigatif yang diperlukan oleh APH;0.030
+707;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;mengusulkan penyampaian dokumen bukti Pemeriksaan Investigatif;0.086
+708;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyetujui penyampaian dokumen bukti Pemeriksaan Investigatif;0.010
+709;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyampaikan dokumen bukti Pemeriksaan Investigatif kepada APH;0.010
+710;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melaksanakan administrasi dalam pemantauan penanganan penyampaian LHP Investigatif;0.024
+711;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;melakukan koordinasi dengan APH mengenai penanganan LHP Investigatif terkait tahap penyidikan;0.020
+712;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;membuat laporan atas hasil pemantauan penanganan LHP Investigatif oleh APH;0.020
+713;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;me-review laporan atas hasil pemantauan penanganan LHP investigatif oleh APH;0.060
+714;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif;menyetujui laporan atas hasil pemantauan penanganan LHP Investigatif oleh APH;0.086
+715;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);mengadministrasikan dan mendokumentasikan permintaan PKN;0.080
+716;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun usulan pembentukan TPPI;0.020
+717;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review usulan pembentukan TPPI;0.015
+718;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui pembentukan TPPI;0.043
+719;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan permintaan pemaparan kasus dari APH dan bukti pendukung;0.054
+720;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan telaahan untuk menilai kecukupan bukti terhadap unsur pidana;0.016
+721;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep simpulan hasil telaahan untuk menilai kecukupan bukti terhadap unsur pidana;0.030
+722;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep simpulan hasil telaahan untuk menilai kecukupan bukti terhadap unsur pidana dari Pemeriksa Ahli Muda;0.023
+723;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui simpulan hasil telaahan untuk menilai kecukupan bukti terhadap unsur pidana dari Pemeriksa Ahli Madya;0.065
+724;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);membuat daftar permintaan bukti tambahan dan mengecek bukti yang ada;0.008
+725;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menelaah dan meminta bukti tambahan kepada APH, apabila belum diperoleh kejelasan;0.020
+726;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review hasil telaahan dari Pemeriksa Ahli Muda atas permintaan bukti tambahan kepada APH;0.023
+727;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyampaikan simpulan hasil telaahan untuk menilai kecukupan bukti terhadap unsur pidana kepada Ketua BPK;0.065
+728;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan telaahan untuk menyimpulkan ada atau tidaknya indikasi kerugian negara;0.048
+729;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep simpulan hasil telaahan ada atau tidaknya indikasi kerugian negara;0.020
+730;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep simpulan hasil telaahan ada atau tidaknya indikasi kerugian negara dari Pemeriksa Ahli Muda;0.030
+731;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui simpulan hasil telaahan ada atau tidaknya indikasi kerugian negara dari Pemeriksa Ahli Madya;0.065
+732;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyampaikan simpulan hasil telaahan ada atau tidaknya indikasi kerugian negara kepada Ketua BPK;0.032
+733;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun usulan Tim Pemeriksa;0.015
+734;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review usulan Tim Pemeriksa dari Pemeriksa Ahli Muda;0.030
+735;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui usulan Tim dari Pemeriksa Pemeriksa Ahli Madya;0.086
+736;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan bahan penyusunan P2 PKN;0.010
+737;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep P2 PKN;0.040
+738;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep P2 PKN dari Pemeriksa Ahli Muda;0.060
+739;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui P2 PKN dari Pemeriksa Ahli Madya;0.086
+740;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan survei dan komunikasi dengan Ahli/Konsultan yang akan digunakan;0.030
+741;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);mengusulkan kebutuhan Ahli/Konsultan kepada APH;0.030
+742;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review usulan kebutuhan Ahli/Konsultan kepada APH;0.030
+743;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui usulan kebutuhan Ahli/Konsultan kepada APH;0.086
+744;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melaksanakan komunikasi dengan APH;0.030
+745;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan bahan yang akan digunakan oleh Ahli/Konsultan;0.016
+746;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun materi/bahan yang akan digunakan oleh Ahli/Konsultan;0.020
+747;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review materi/bahan yang akan digunakan oleh Ahli/Konsultan dari Pemeriksa Ahli Muda;0.086
+748;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan pembahasan dengan Ahli/Konsultan;0.016
+749;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);memimpin proses pembahasan dengan Ahli/Konsultan;0.020
+750;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);mengendalikan proses pembahasan dengan Ahli/Konsultan;0.030
+751;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);mengarahkan proses pembahasan dengan Ahli/Konsultan;0.086
+752;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);mendokumentasikan pelaksanaan pembahasan dengan Ahli/Konsultan;0.016
+753;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun Laporan Hasil Pembahasan dengan Ahli/Konsultan;0.020
+754;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan diskusi dengan APH atas pendapat Ahli/Konsultan;0.016
+755;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun Laporan Hasil Diskusi dengan APH atas Pendapat Ahli/Konsultan;0.020
+756;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep Simpulan PKN;0.030
+757;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep Simpulan PKN dari Pemeriksa Ahli Muda;0.030
+758;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui Simpulan PKN dari Pemeriksa Ahli Madya;0.130
+759;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan bahan penyusunan Prosedur Pemeriksaan PKN Tambahan/Alternatif;0.016
+760;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep Prosedur Pemeriksaan PKN Tambahan/Alternatif;0.020
+761;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep Prosedur Pemeriksaan PKN Tambahan/Alternatif dari Pemeriksa Ahli Muda;0.030
+762;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui Prosedur Pemeriksaan PKN Tambahan/Alternatif dari Pemeriksa Ahli Madya;0.086
+763;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan data dan bahan untuk pemaparan dengan Pihak Internal BPK;0.016
+764;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun bahan pemaparan dengan Pihak Internal BPK;0.020
+765;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan pemaparan dengan Pihak Internal BPK;0.030
+766;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan data dan bahan untuk pemaparan dengan Instansi yang Berwenang;0.016
+767;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun bahan pemaparan dengan Instansi yang Berwenang;0.020
+768;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan pemaparan dengan Instansi yang Berwenang;0.030
+769;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyusun konsep LHP PKN sesuai unsur-unsur temuan;0.120
+770;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyiapkan konsep surat keluar;0.020
+771;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review konsep surat keluar;0.030
+772;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review dan menyetujui surat keluar;0.864
+773;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melaksanakan administrasi dalam pemantauan penanganan penyampaian LHP PKN;0.024
+774;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);melakukan koordinasi dengan APH mengenai penanganan LHP PKN terkait dengan tahapan persidangan dan putusan Pengadilan atas nilai kerugian negara;0.020
+775;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);membuat laporan atas hasil pemantauan penanganan LHP PKN oleh APH;0.020
+776;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);me-review laporan atas hasil pemantauan penanganan PKN oleh APH;0.060
+777;Pemeriksa;Pemeriksaan Investigatif;Pemeriksaan Investigatif dalam rangka Penghitungan Kerugian Negara (PKN);menyetujui laporan atas hasil pemantauan penanganan LHP PKN oleh APH;0.086
+778;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;memberikan keterangan sebagai Ahli/Saksi Fakta kepada Penyidik (di BAP);0.320
+779;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;melakukan komunikasi dengan Jaksa Penuntut Umum dalam rangka pemberian keterangan Ahli/Saksi Fakta;0.080
+780;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;menyiapkan data dan dokumen administratif yang dibutuhkan dalam rangka pemberian keterangan Ahli/Saksi Fakta;0.320
+781;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;mengikuti pelaksanaan mootcourt /peradilan semu sebagai Ahli/Saksi Fakta;0.080
+782;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;mengikuti pelaksanaan mootcourt /peradilan semu. (mootcourt diikuti minimal oleh 5 orang sebagai Hakim, Jaksa Penuntut Umum, Pengacara, Terdakwa, dan Saksi);0.080
+783;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;melakukan komunikasi dengan Jaksa Penuntut Umum;0.080
+784;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;memberikan keterangan sebagai Ahli/Saksi Fakta di Pengadilan Tipidkor/Pengadilan Negeri;0.400
+785;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;melakukan pendampingan Ahli/Saksi Fakta dalam memberikan keterangan di Pengadilan Tipidkor/Pengadilan Negeri;0.120
+786;Pemeriksa;Pemeriksaan Investigatif;Pemberian keterangan ahli sebagai ahli/saksi fakta;menyusun Laporan Pelaksanaan Pemberian Keterangan Ahli/Saksi Fakta;0.240
+787;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;0.900
+788;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep Revisi Rencana Kegiatan Tahunan bidang evaluasi dan pelaporan pemeriksaan;0.700
+789;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menuangkan bahan evaluasi dalam konsep hasil evaluasi hasil pemeriksaan;0.017
+790;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi hasil evaluasi hasil pemeriksaan;0.066
+791;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep laporan evaluasi hasil pemeriksaan;0.086
+792;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep program penyusunan Ikhtisar Hasil Pemeriksaan Semesteran (IHPS);0.077
+793;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep laporan inventarisasi bahan IHPS dan memantau kelengkapan bahan IHPS;0.049
+794;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;memvalidasi dan mengevaluasi hasil pemeriksaan;0.022
+795;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengklasifikasikan hasil pemeriksaan berdasar jenis pemeriksaan dan tema/fokus pemeriksaan;0.022
+796;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun outline IHPS dengan memperhatikan tema dan fokus pemeriksaan serta kebijakan pemeriksaan BPK;0.027
+797;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi dan memvalidasi hasil pemeriksaan dengan kompleksitas rendah (Di bawah 10 data/ LHP);0.026
+798;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi dan memvalidasi hasil pemeriksaan dengan kompleksitas rendah (Antara 11 - 50/ LHP);0.052
+799;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi dan memvalidasi hasil pemeriksaan dengan kompleksitas rendah (Antara 51 - 100/ LHP);0.086
+800;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi dan memvalidasi hasil pemeriksaan dengan kompleksitas rendah (Diatas 100/ LHP);0.095
+801;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengumpulkan, mengompilasi dan memvalidasi data pemantauan TLRHP;0.115
+802;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengumpulkan, mengompilasi dan memvalidasi data pemantauan penyelesaian ganti kerugian negara/daerah;0.067
+803;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengunduh salinan digital LHP dari SMP;0.001
+804;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;Memastikan satker telah melakukan pengecekan sesuai matriks pengecekan salinan digital LHP;0.006
+805;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengompilasi dan memvalidasi salinan digital LHP;0.067
+806;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun daftar LHP sesuai outline IHPS;0.003
+807;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menautkan (link) salinan digital LHP dengan daftar LHP;0.004
+808;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengidentifikasi temuan signifikan per tema dengan kompleksitas rendah (sampai dengan 10 data/ LHP);0.052
+809;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep awal IHPS dengan kompleksitas rendah (sampai dengan 10 data/LHP);0.046
+810;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengidentifikasi temuan signifikan per tema dengan kompleksitas sedang (dari 11 sampai dengan 50 data/LHP;0.120
+811;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep awal IHPS dengan kompleksitas sedang (dari 11 sampai dengan 50 data/LHP);0.048
+812;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengidentifikasi temuan signifikan per tema dengan kompleksitas tinggi (dari 51 sampai dengan 100 data/LHP);0.018
+813;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep awal IHPS dengan kompleksitas tinggi (Antara 51 – 100 data/ LHP);0.052
+814;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengidentifikasi temuan signifikan per tema dengan kompleksitas sangat tinggi (Di atas 100 data/LHP);0.217
+815;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyusun konsep awal IHPS dengan kompleksitas sangat tinggi (Di atas 100 data/ LHP);0.062
+816;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;menyiapkan bahan Forum Eselon I dan Sidang BPK terkait konsep awal IHPS;0.031
+817;Pemeriksa;Evaluasi dan Pelaporan Pemeriksaan;Evaluasi dan Pelaporan Pemeriksaan;mengumpulkan dan menyusun rekapitulasi masukan konsep final IHPS beserta tindak lanjutnya;0.039
+818;Pemeriksa;Penelitian dan Pengembangan Pemeriksaan;Penelitian dan Pengembangan Pemeriksaan;menyusun Rencana Kegiatan Tahunan Penelitian, Pengkajian dan Pengembangan Perangkat Lunak Pemeriksaan;0.900
+819;Pemeriksa;Penelitian dan Pengembangan Pemeriksaan;Penelitian dan Pengembangan Pemeriksaan;merencanakan penyusunan kajian hasil penelitian bidang pemeriksaan;0.236
+820;Pemeriksa;Penelitian dan Pengembangan Pemeriksaan;Penelitian dan Pengembangan Pemeriksaan;merencanakan pengembangan dan pemutakhiran perangkat lunak bidang pemeriksaan;0.232
+821;Pemeriksa;Penelitian dan Pengembangan Pemeriksaan;Penelitian dan Pengembangan Pemeriksaan;merencanakan diseminasi perangkat lunak;0.261
+822;Pemeriksa;Penguatan Aspek Hukum dalam Pemeriksaan;Penguatan Aspek Hukum dalam Pemeriksaan;menyusun Rencana Kegiatan Tahunan Penguatan Aspek Hukum dalam Pemeriksaan;0.900
+823;Pemeriksa;Penguatan Aspek Hukum dalam Pemeriksaan;Penguatan Aspek Hukum dalam Pemeriksaan;menyusun Program Penguatan Aspek Hukum Pemeriksaa;0.971
+824;Pemeriksa;Penguatan Aspek Hukum dalam Pemeriksaan;Penguatan Aspek Hukum dalam Pemeriksaan;melaksanakan Legal Risk Assesment atas Pemeriksaan BPK;1.213
+825;Pemeriksa;Penguatan Aspek Hukum dalam Pemeriksaan;Penguatan Aspek Hukum dalam Pemeriksaan;menyusun Laporan Hasil Konsultasi Hukum/Pendapat Hukum;2.270
+826;Pemeriksa;Pemeriksaan dan Review Teknologi Informasi;Pemeriksaan dan Review Teknologi Informasi;mengumpulkan Data dan Informasi Aset Teknologi Informasi (TI) terkait objek pemeriksaan;0.182
+827;Pemeriksa;Pemeriksaan dan Review Teknologi Informasi;Pemeriksaan dan Review Teknologi Informasi;melakukan penilaian risiko untuk menentukan ruang lingkup pemeriksaan TI;0.129
+828;Pemeriksa;Pemeriksaan dan Review Teknologi Informasi;Pemeriksaan dan Review Teknologi Informasi;menyusun kriteria pemeriksaan TI;0.242
+829;Pemeriksa;Pemeriksaan dan Review Teknologi Informasi;Pemeriksaan dan Review Teknologi Informasi;menyusun Ruang Lingkup (scoping) Pemeriksaan TI;0.236
+830;Pemeriksa;Pengawasan/ Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;menyusun Rencana Kegiatan Tahunan Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;0.900
+831;Pemeriksa;Pengawasan/ Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;melaksanakan penerimaan informasi awal;0.289
+832;Pemeriksa;Pengawasan/ Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;melaksanakan konsultasi melalui nota dinas atau sure;0.543
+833;Pemeriksa;Pengawasan/ Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;mempersiapkan pemeriksaan atas kualitas Laporan Hasil Pemeriksaan dalam rangka pemberian penghargaan;1.838
+834;Pemeriksa;Pengawasan/ Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;Pengawasan/Penjaminan Mutu Seluruh Pelaksanaan Pemeriksaan;memonitoring pengawasan;0.234
+835;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Peraturan Perundang-Undangan;Mengklasifikasi Peraturan Perundang-undangan terkait isu atau permasalahan hukum tertentu;0.234
+836;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Peraturan Perundang-Undangan;Mengklasifikasi data dan informasi sekunder terkait isu atau permasalahan hukum tertentu;0.247
+837;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Peraturan Perundang-Undangan;Menganalisis dan mengevaluasi pasal-pasal dari hasil klasifikasi Peraturan Perundang-undangan, dan data dan informasi sekunder;0.450
+838;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Peraturan Perundang-Undangan;Melakukan pembobotan nilai hasil analisis seluruh pasal dari satu peraturan perundang-undangan secara keseluruhan terhadap rekomendasi hasil analisis;0.413
+839;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Hukum Tidak Tertulis;Mengklasifikasi bahan-bahan dan data hukum adat dan konvensi;0.260
+840;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Hukum Tidak Tertulis;Menganalisis dan mengevaluasi hukum adat dan konvensi;1.056
+841;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Hukum Tidak Tertulis;Melakukan layanan konsultasi terhadap permasalahan hukum adat dan konvensi;0.792
+842;Analis Hukum;Analisis dan Evaluasi Peraturan Perundang-Undangan dan Hukum Tidak Tertulis;Analisis dan Evaluasi Hukum Tidak Tertulis;Melakukan mediasi permasalahan hukum adat dan konvensi;0.842
+843;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis dan Evaluasi Kebutuhan Peraturan Perundang-undangan;Mengumpulkan dan Mengklasifikasi bahan/data terkait isu aktual hukum atau permasalahan hukum di masyarakat;0.260
+844;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis dan Evaluasi Kebutuhan Peraturan Perundang-undangan;Menganalisis dan mengevaluasi bahan/data terkait isu aktual hukum atau permasalahan hukum di masyarakat;0.504
+845;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis dan Evaluasi Kebutuhan Peraturan Perundang-undangan;Menganalisis dan mengevaluasi kebutuhan peraturan perundang-undangan untuk penyelesaian isu aktual hukum atau permasalahan hukum di masyarakat;0.528
+846;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis dan Evaluasi Kebutuhan Peraturan Perundang-undangan;Merumuskan rekomendasi kebutuhan peraturan perundang-undangan untuk penyelesaian isu aktual hukum atau permasalahan hukum di masyarakat;1.238
+847;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Pembentukan Naskah Akademik, Penjelasan, Keterangan Untuk Pembentukan Peraturan Perundang-undangan;Mengumpulkan dan Mengklasifikasi bahan dan data untuk pembentukan Naskah Akademik, Penjelasan, Keterangan untuk pembentukan peraturan perundang-undangan;0.325
+848;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Pembentukan Naskah Akademik, Penjelasan, Keterangan Untuk Pembentukan Peraturan Perundang-undangan;Menganalisis dan mengevaluasi permasalahan hukum untuk pembentukan Naskah Akademik, Penjelasan, Keterangan untuk pembentukan peraturan perundang-undangan;0.696
+849;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Pembentukan Naskah Akademik, Penjelasan, Keterangan Untuk Pembentukan Peraturan Perundang-undangan;Menganalisis dan mengevaluasi kebutuhan kebijakan/pengaturan untuk penyelesaian permasalahan hukum di masyarakat;0.648
+850;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Pembentukan Naskah Akademik, Penjelasan, Keterangan Untuk Pembentukan Peraturan Perundang-undangan;Menganalisis dan mengevaluasi dampak penerapan kebijakan/pengaturan untuk penyelesaian permasalahan hukum di masyarakat;1.188
+851;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Kebutuhan Hukum Untuk Pembangunan Hukum Nasional;Mengklasifikasi isu aktual hukum atau permasalahan hukum di masyarakat;0.299
+852;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Kebutuhan Hukum Untuk Pembangunan Hukum Nasional;Menganalisis dan mengevaluasi isu aktual hukum atau permasalahan hukum di masyarakat;0.576
+853;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Kebutuhan Hukum Untuk Pembangunan Hukum Nasional;Menganalisis dan mengevaluasi kebutuhan hukum di masyarakat;0.528
+854;Analis Hukum;Analisis dan Evaluasi Pembentukan Peraturan Perundang-Undangan;Analisis Kebutuhan Hukum Untuk Pembangunan Hukum Nasional;Merumuskan rekomendasi hasil analisis dan evaluasi isu aktual dan kebutuhan hukum masyarakat sebagai bahan dasar penyusunan kebijakan;0.990
+855;Analis Hukum;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Mengklasifikasi bahan dan data terkait permasalahan atau kasus hukum yang terkait dengan tugas dan fungsi Instansi Pemerintah;0.260
+856;Analis Hukum;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Menganalisis atau menelaah permasalahan hukum yang terkait dengan tugas dan fungsi Instansi Pemerinta;0.528
+857;Analis Hukum;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Merumuskan dan memberikan pendapat hukum dan pertimbangan hukum atas permasalahan hukum yang terkait dengan tugas dan fungsi Instansi Pemerintah;0.550
+858;Analis Hukum;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis Permasalahan Hukum yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Melakukan layanan konsultasi hukum kepada terkait tugas dan fungsi Instansi Pemerintah kepada pihak pemangku kepentingan;0.413
+859;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis terhadap pengawasan pelaksanaan peraturan perundang-undangan yang terkait dengan tugas dan fungsi Instansi Pemerintah;Mengidentifikasi permasalahan hukum yang berpotensi sengketa hukum;0.182
+860;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis terhadap pengawasan pelaksanaan peraturan perundang-undangan yang terkait dengan tugas dan fungsi Instansi Pemerintah;Mengklasifikasi bahan dan data terkait permasalahan hukum yang berpotensi sengketa hukum;0.456
+861;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis terhadap pengawasan pelaksanaan peraturan perundang-undangan yang terkait dengan tugas dan fungsi Instansi Pemerintah;Menganalisis dan mengevaluasi terkait permasalahan hukum yang berpotensi sengketa hukum;0.182
+862;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis terhadap pengawasan pelaksanaan peraturan perundang-undangan yang terkait dengan tugas dan fungsi Instansi Pemerintah;Menyusun kerangka Somasi;0.312
+863;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis penanganan atas pengaduan atau somasi dari masyarakat atau lembaga yang terkait dengan tugas dan fungsi Instansi Pemerintah;Mengidentifikasi somasi atau pengaduan yang masuk;0.182
+864;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis penanganan atas pengaduan atau somasi dari masyarakat atau lembaga yang terkait dengan tugas dan fungsi Instansi Pemerintah;Mengklasifikasi bahan dan data terkait somasi atau pengaduan yang masuk;0.195
+865;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis penanganan atas pengaduan atau somasi dari masyarakat atau lembaga yang terkait dengan tugas dan fungsi Instansi Pemerintah;Menganalisis dan mengevaluasi terkait somasi atau pengaduan yang masuk;0.360
+866;Analis Hukum;Analisis terhadap Pengawasan Pelaksanaan Peraturan Perundang-undangan yang terkait dengan Tugas dan Fungsi Instansi Pemerintah;Analisis penanganan atas pengaduan atau somasi dari masyarakat atau lembaga yang terkait dengan tugas dan fungsi Instansi Pemerintah;Menyusun kerangka jawaban somasi atau materi tanggapan atas pengaduan atau permohonan;0.195
+867;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi perjanjian Kerja sama / kontrak kerja sama / kesepakatan bersama / nota kesepahaman;Mengklasifikasi bahan dan data untuk penyusunan konsep perjanjian;0.240
+868;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi perjanjian Kerja sama / kontrak kerja sama / kesepakatan bersama / nota kesepahaman;Menganalisis dan mengevaluasi konsep perjanjian kerja sama/kesepakatan bersama/nota kesepahaman;0.240
+869;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi perjanjian Kerja sama / kontrak kerja sama / kesepakatan bersama / nota kesepahaman;Menganalisis dan mengevaluasi pelaksanaan perjanjian kerja sama/kesepakatan bersama/nota kesepahaman;0.330
+870;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi Perjanjian Internasional;Mengklasifikasi perjanjian internasional yang telah dan belum diratifikasi;0.247
+871;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi Perjanjian Internasional;Mengklasifikasi bahan dan data untuk penyusunan konsep Perjanjian Internasional atau evaluasi pelaksanaan perjanjian internasional;0.247
+872;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi Perjanjian Internasional;Menelaah perjanjian internasional yang akan diratifikasi/aksesi;0.480
+873;Analis Hukum;Analisis dan Evaluasi Dokumen Perjanjian dan Pelaksanaan Perjanjian In;Analisis dan Evaluasi Perjanjian Internasional;Menganalisis dan mengevaluasi pelaksanaan perjanjian internasional yang telah ditandatangani atau diratifikasi;0.624
+874;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Menganalisis dan mengevaluasi Kebijakan Pelayanan Hukum dan Perizinan yang menjadi kewenangan Instansi Pemerintah;Mengklasifikasi bahan atau data terkait permohonan perizinan dan pelayanan hukum;0.169
+875;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Menganalisis dan mengevaluasi Kebijakan Pelayanan Hukum dan Perizinan yang menjadi kewenangan Instansi Pemerintah;Menganalisis dan mengevaluasi permohonan perizinan dan pelayanan hukum;0.096
+876;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Menganalisis dan mengevaluasi Kebijakan Pelayanan Hukum dan Perizinan yang menjadi kewenangan Instansi Pemerintah;Merumuskan pertimbangan hukum atas permohonan perizinan dan pelayanan hukum;0.248
+877;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Menganalisis dan mengevaluasi Kebijakan Pelayanan Hukum dan Perizinan yang menjadi kewenangan Instansi Pemerintah;Melakukan pemantauan atau evaluasi terhadap perizinan dan pelayanan hukum yang telah diberikan;0.083
+878;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis Konteks dan Isi Informasi Hukum;Mengklasifikasi dokumentasi dan informasi hukum berdasarkan pembidangan hukum atau pembagian urusan pemerintahan;0.065
+879;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis Konteks dan Isi Informasi Hukum;Mereviu laporan hasil klasifikasi dokumen atau informasi hukum;0.090
+880;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis Konteks dan Isi Informasi Hukum;Menyusun dan menyempurnakan abstrak hukum;0.034
+881;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis Konteks dan Isi Informasi Hukum;Menganalisis status dokumen hukum;0.090
+882;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis dan Evaluasi Penyelenggaraan Bantuan Hukum yang dilaksanakan oleh Organisasi Bantuan Hukum;Mengklasifikasi bahan atau data terkait dengan verifikasi dan akreditasi Organisasi Bantuan Hukum;0.025
+883;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis dan Evaluasi Penyelenggaraan Bantuan Hukum yang dilaksanakan oleh Organisasi Bantuan Hukum;Menganalisis atau mereviu jejaring bantuan hukum;0.030
+884;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis dan Evaluasi Penyelenggaraan Bantuan Hukum yang dilaksanakan oleh Organisasi Bantuan Hukum;Menganalisis atau mereviu data dan informasi bantuan hukum dalam rangka verifikasi dokumen;0.005
+885;Analis Hukum;Analisis dan Evaluasi Pelayanan Hukum, Perizinan dan Informasi Hukum;Analisis dan Evaluasi Penyelenggaraan Bantuan Hukum yang dilaksanakan oleh Organisasi Bantuan Hukum;Menganalisis atau mereviu instrumen dan aplikasi pengelolaan bantuan hukum;0.020
+886;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi dalam perkara perdata, tata usaha negara, dan uji materiil peraturan perundang-undangan;mengidentifikasi gugatan;0.110
+887;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi dalam perkara perdata, tata usaha negara, dan uji materiil peraturan perundang-undangan;Mengklasifikasi bahan dan data perkara hukum;0.165
+888;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi dalam perkara perdata, tata usaha negara, dan uji materiil peraturan perundang-undangan;Menganalisis dan mengevaluasi perkara hukum;0.320
+889;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi dalam perkara perdata, tata usaha negara, dan uji materiil peraturan perundang-undangan;Menyusun kelengkapan administrasi persidangan;0.154
+890;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi diluar persidangan (nonlitigasi);Menyusun kelengkapan administrasi pendampingan;0.132
+891;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi diluar persidangan (nonlitigasi);Menelaah kelengkapan administrasi pendampingan;0.120
+892;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi diluar persidangan (nonlitigasi);Menyempurnakan administrasi pendampingan;0.270
+893;Analis Hukum;Advokasi Hukum;Melaksanakan Advokasi Hukum Secara adjudikas;Mengidentifikasi permohonan;0.143
+894;Analis Hukum;Advokasi Hukum;Melaksanakan Advokasi Hukum Secara adjudikas;Mengklasifikasi bahan dan data perkara hukum;0.143
+895;Analis Hukum;Advokasi Hukum;Melaksanakan Advokasi Hukum Secara adjudikas;Menganalisis dan mengevaluasi perkara hukum;0.360
+896;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi hukum di forum alternatif penyelesaian sengketa;mengidentifikasi permohonan;0.143
+897;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi hukum di forum alternatif penyelesaian sengketa;Mengklasifikasi bahan dan data perkara hukum;0.264
+898;Analis Hukum;Advokasi Hukum;Melaksanakan advokasi hukum di forum alternatif penyelesaian sengketa;Menganalisis dan mengevaluasi perkara hukum;0.187
+899;Analis Barang milik negara;Pengelolaan BMN/D;Perencanaan Kebutuhan BMN/D untuk pengadaan;identifikasi dan mengumpulkan data/dokumen BMN/D untuk penyusunan rencana kebutuhan BMN/D pengadaan berupa tanah dan/atau bangunan;0.044
+900;Analis Barang milik negara;Pengelolaan BMN/D;Perencanaan Kebutuhan BMN/D untuk pengadaan;identifikasi dan mengumpulkan data/dokumen BMN/D untuk penyusunan rencana kebutuhan BMN/D pengadaan berupa selain tanah dan/atau bangunan;0.044
+901;Analis Barang milik negara;Pengelolaan BMN/D;Perencanaan Kebutuhan BMN/D untuk pemeliharaan;identifikasi, mengumpulkan, dan memutakhirkan data/dokumen;0.044
+902;Analis Barang milik negara;Pengelolaan BMN/D;Perencanaan Kebutuhan BMN/D untuk pemeliharaan;Menyusun surat usulan rencana kebutuhan BMN/D pengadaan dan pemeliharaan beserta dokumen kelengkapannnya;0.006
+903;Analis Barang milik negara;Pengelolaan BMN/D;Penggunaan BMN/D;Mengidentifikasi dan mengumpulkan data/dokumen usulan penggunaan BMN/D;0.022
+904;Analis Barang milik negara;Pengelolaan BMN/D;Pemanfaatan BMN/D;Mengidentifikasi dan mengumpulkan data dokumen usulan sewa/pinjam pakai BMN/D;0.006
+905;Analis Barang milik negara;Pengelolaan BMN/D;Pemanfaatan BMN/D;Menyusun surat usulan sewa/pinjam pakai BMN/D beserta kelengkapannya;0.044
+906;Analis Barang milik negara;Pengelolaan BMN/D;Pemindahtanganan dan Pemusnahan BMN/D;Mengidentifikasi dan mengumpulkan data/dokumen usulan pemindahtanganan BMN/D berupa tanah dan/atau bangunan atau selain tanah dan/atau bangunan kurang dari 500 (lima ratus) unit;0.110
+907;Analis Barang milik negara;Pengelolaan BMN/D;Penghapusan BMN/D;Mengidentifikasi dan mengumpulkan data/dokumen usulan penghapusan BMN/D;0.022
+908;Analis Barang milik negara;Pengelolaan BMN/D;Penghapusan BMN/D;menyusun laporan pelaksanaan penghapusan BMN/D;0.012
+909;Analis Barang milik negara;Pengelolaan BMN/D;Pengamanan dan pemeliharaan BMN/D;Menyusun rekomendasi pengamanan fisik dan pemeliharaan BMN/D;0.001
+910;Analis Barang milik negara;Pengelolaan BMN/D;Pengamanan dan pemeliharaan BMN/D;Melaksanakan pengamanan administrasi BMN/D;0.022
+911;Analis Barang milik negara;Pengelolaan BMN/D;Pengamanan dan pemeliharaan BMN/D;Melaksanakan pengamanan hukum BMN/D;0.022
+912;Analis Barang milik negara;Pengelolaan BMN/D;Pembukuan BMN/D;Membukukan data transaksi BMN/D berupa aset tetap dan aset lainnya;0.001
+913;Analis Barang milik negara;Pengelolaan BMN/D;Pelaporan BMN/D;Menyusun Laporan Barang Kuasa Pengguna Semesteran/Tahunan;0.065
+914;Analis Barang milik negara;Pengelolaan BMN/D;Rekonsiliasi BMN/D;Melakukan rekonsiliasi internal tingkat Unit Akuntansi Kuasa Pengguna Barang;0.012
+915;Analis Barang milik negara;Pengelolaan BMN/D;Pelaporan persediaan;Melakukan opname fisik barang persediaan;0.048
+916;Analis Barang milik negara;Pengelolaan BMN/D;Pelaporan persediaan;Menyusun laporan persediaan;0.022
+917;Analis Barang milik negara;Pengelolaan BMN/D;Inventarisasi BMN/D;Melakukan persiapan pelaksanaan inventarisasi pada unit kerjanya;0.044
+918;Analis Barang milik negara;Pengelolaan BMN/D;Pengawasan dan pengendalian BMN/D;Melakukan pemantauan dan penertiban BMN/D;0.022
+919;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Perencanaan;Mengumpulkan data untuk perencanaan pelayanan informas;0.008
+920;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Perencanaan;Mengumpulkan data untuk perencanaan pengembangan pelayanan informas;0.008
+921;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Perencanaan;Mengumpulkan data untuk perencanaan hubungan eksterna;0.008
+922;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Perencanaan;Mengumpulkan data untuk perencanaan hubungan internal;0.008
+923;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelayanan Informasi dan Kehumasan;Mengumpulkan data dan informasi untuk pelayanan informasi;0.010
+924;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelayanan Informasi dan Kehumasan;Mengumpulkan konten media;0.004
+925;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelayanan Informasi dan Kehumasan;Mengumpulkan isu publik;0.040
+926;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelayanan Informasi dan Kehumasan;Mengolah konten media;0.040
+927;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelaksanaan Hubungan Eksternal dan Internal;Mengumpulkan data dan informasi untuk pelaksanaan hubungan eksternal;0.006
+928;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelaksanaan Hubungan Eksternal dan Internal;Mengumpulkan data dan informasi untuk pelayanan hubungan internal;0.004
+929;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelaksanaan Hubungan Eksternal dan Internal;Mengolah data dan informasi dalam rangka pelaksanaan hubungan eksternal;0.020
+930;analis humas (pranata humas);PELAYANAN INFORMASI DAN KEHUMASAN;Pelaksanaan Hubungan Eksternal dan Internal;Mengolah data dan informasi hubungan internal;0.015
+931;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pengumpulan;Menyiapkan bahan/instrumen pelaksanaan pengumpulan data dan informasi bidang hukum sesuai dengan sasaran/responden;1.000
+932;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pengumpulan;"mengumpulkan data dan informasi bidang hukum dari unit kerja dan sumber lain;";1.000
+933;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pengumpulan;"Merekapitulasi data dan informasi bidang hukum sesuai dengan jenis data sebagai bahan informasi;";1.000
+934;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;Pengolahan di bidang data dan informasi.;"Mengolah data dan informasi bidang hukum sesuai dengan klasifikasinya sebagai bahan analisis;";1.000
+935;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;Pengolahan di bidang data dan informasi.;"Memverifikasi dan mengorfirmasi data dan informasi bidang hukum untuk keakuratan data;";1.000
+936;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;Pengolahan di bidang data dan informasi.;"Melaporkan hasil pelaksanaan tugas kepada atasan sebahan bahan pertanggungjawaban; dan";1.000
+937;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;Pengolahan di bidang data dan informasi.;Melaksanakan tugas kedinasan lain yang yang diberikan oleh atasan;1.000
+938;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pendokumentasian/penginputan;"Menginput data dan informasi bidang hukum sesuai dengan format pengolahan data;";1.000
+939;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pendokumentasian/penginputan;"Menyajikan data dan informasi bidang hukum sesuai dengan ketentuan dan perintah atasan;";1.000
+940;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pendokumentasian/penginputan;"Menyimpan data dan informasi bidang hukum sesuai dengan prosedur agar mudah digunakan/ditemukan;";1.000
+941;Pengolah data dan informasi hukum;Pengelolaan data dan informasi hukum;pendokumentasian/penginputan;"Melayani permintaan data di bidang hukum sesuai dengan ketentuan;";1.000
+942;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Membuat usulan daftar rencana kegiatan;Membuat rencana kegiatan yang akan dilaksanakan termasuk metode pelaksanaannya;1.000
+943;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Membuat usulan daftar rencana kegiatan;Melakukan penghitungan perkiraan biaya yang dibutuhkan untuk melaksanakan kegiatan tersebut;1.000
+944;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Membuat usulan daftar rencana kegiatan;Menyampaikannya kepada Kepala Subbagian Umum dan TI untuk direviu;1.000
+945;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Memberikan pelayanan yang bersifat umum;memelihara dan mengoperasikan genset;1.000
+946;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Memberikan pelayanan yang bersifat umum;mengurus tagihan;1.000
+947;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Memberikan pelayanan yang bersifat umum;mengatur jadwal pelayanan pramubakti;1.000
+948;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Melaksanakan pemeliharaan gedung dan rumah dinas;memberikan penugasan kepada pramubakti;1.000
+949;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Melaksanakan pemeliharaan gedung dan rumah dinas;memberikan penugasan kepada pramubakti;1.000
+950;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Melaksanakan pemeliharaan gedung dan rumah dinas;melaksanakan perbaikan kecil dilingkungan rumah dinas dan gedung kantor;1.000
+951;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Melaksanakan pemeliharaan gedung dan rumah dinas;memantau pekerjaan yang dilakukan oleh pihak rekanan;1.000
+952;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Koordinasi dengan pihak lain;koordinasi dengan pihak-pihak terkait (teknisi, pengemudi, dan lain-lain) untuk melaksanakan kegiatan pemeliharaan kendaraan dinas sesuai standar, sistem, dan prosedur yang berlaku sehingga kendaraan dinas;1.000
+953;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Koordinasi dengan pihak lain;koordinasi dengan pihak-pihak terkait (petugas keamanan, polisi, dan lain-lain) untuk melaksanakan kegiatan pengamanan gedung dan rumah dinas;1.000
+954;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;penyiapan prasarana sarana untuk berbagai acara;menginventaris prasarana sarana;1.000
+955;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;penyiapan prasarana sarana untuk berbagai acara;"menyiapkan prasarana sarana sesuai kebutuhan;";1.000
+956;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;penyiapan prasarana sarana untuk berbagai acara;berkoordinasi dengan petugas kebersihan dan keamanan untuk mendukung pelaksanaan kegiatan;1.000
+957;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;penyiapan prasarana sarana untuk berbagai acara;mengecek prasarana sarana;1.000
+958;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;penyiapan prasarana sarana untuk berbagai acara;Menyiapkan bahan pembuatan Laporan Kegiatan Mingguan;1.000
+959;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Pengembangan kompetensi;pengembangan kompetensi;1.000
+960;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Pengembangan kompetensi;Menyusun usulan SKP dan mendiskusikannya dengan Kepala Subbagian Umum dan TI;1.000
+961;Pemelihara Sarana dan Prasarana;Pelayanan sarana prasarana;Pengembangan kompetensi;Melaksanakan pemanfaatan layanan TI dalam pelaksanaan tugas dan fungsi;1.000
+962;Pranata Kearsipan;Pelayanan sarana prasarana;usulan daftar rencana kegiatan;membuat rencana kegiatan;1.000
+963;Pranata Kearsipan;Pelayanan sarana prasarana;usulan daftar rencana kegiatan;melakukan penghitungan perkiraan biaya;1.000
+964;Pranata Kearsipan;Pelayanan sarana prasarana;usulan daftar rencana kegiatan;menyampaikannya kepada Kepala Subbagian Umum dan TI;1.000
+965;Pranata Kearsipan;Pelayanan sarana prasarana;layanan penciptaan arsip;Memberikan pelayananan penggunaan arsip aktif;1.000
+966;Pranata Kearsipan;Pelayanan sarana prasarana;layanan penciptaan arsip;penataan arsip inaktif;1.000
+967;Pranata Kearsipan;Pelayanan sarana prasarana;Melaksanakan pemeliharaan ruangan penyimpanan arsip;"Mengidentifikasi kebutuhan sarana dan prasana untuk ruangan penyimpanan arsip;";1.000
+968;Pranata Kearsipan;Pelayanan sarana prasarana;Melaksanakan pemeliharaan ruangan penyimpanan arsip;Menyusun jadwal pemeliharaan ruangan penyimpanan arsip;1.000
+969;Pranata Kearsipan;Pelayanan sarana prasarana;Menatausahakan dan dan menyimpan arsip aktif sesuai standar;Berkoordinasi dengan pihak-pihak terkait pelaksanaan pemeliharaan ruangan penyimpanan arsip.;1.000
+970;Pranata Kearsipan;Pelayanan sarana prasarana;Menatausahakan dan dan menyimpan arsip aktif sesuai standar;Menyiapkan bahan pembuatan Laporan Kegiatan Mingguan;1.000
+971;Pranata Kearsipan;Pelayanan sarana prasarana;Menatausahakan dan dan menyimpan arsip aktif sesuai standar;Melaksanakan pengembangan kompetensi;1.000
+972;Pranata Kearsipan;Pelayanan sarana prasarana;Menatausahakan dan dan menyimpan arsip aktif sesuai standar;Menyusun usulan SKP;1.000
+973;Pranata Kearsipan;Pelayanan sarana prasarana;Menatausahakan dan dan menyimpan arsip aktif sesuai standar;Melaksanakan pemanfaatan layanan TI dalam pelaksanaan tugas dan fungsi;1.000
+974;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Analisis Profil ASN;Menyusun instrumen kebutuhan pengembangan kompetensi;0.540
+975;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Analisis Profil ASN;uji validitas instrumen kebutuhan pengembangan kompetensi;1.210
+976;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Analisis Profil ASN;menyusun bahan profil kompetensi ASN;0.430
+977;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Analisis Profil ASN;Menyusun kebutuhan pengembangan kompetensi unit kerja;0.500
+978;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Kajian pemetaan kompetensi;menyusun peta sebaran kompetensi pegawai ASN pada instansi;0.500
+979;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Kajian pemetaan kompetensi;menyusun peta jalan pengembangan kompetensi;2.080
+980;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Inventarisasi jenis dan jalur pengembangan kompetensi;menyusun jenis dan jalur pengembangan kompetensi;0.450
+981;Analis Pengembangan Kompetensi;Pemetaan Kompetensi;Inventarisasi jenis dan jalur pengembangan kompetensi;memetakan kualifikasi pengembangan kompetensi;0.500
+982;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Desain pengembangan kompetensi;Mengidentifikasi lembaga penyelenggara pengembangan kompetensi;0.530
+983;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Desain pengembangan kompetensi;MErancang jenis dan jalur pengembangan kompetensi;1.170
+984;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Verifikasi rencana pengembangan kompetensi;verifikasi lembaga penyelenggara pengembangan kompetensi;1.490
+985;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Pengembangan program pengembangan kompetensi;Menyusun rencana implementasi program pengembangan kompetensi;0.970
+986;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Asistensi, konsultasi dan advokasi program pengembangan kompetensi;Melakukan asiastensi pengembangan kompetensi instansi;1.170
+987;Analis Pengembangan Kompetensi;Pengembangan kompetensi;Asistensi, konsultasi dan advokasi program pengembangan kompetensi;Melakukan layanan perkonsultasian pengembangan kompetensi;0.360
+988;Analis Pengembangan Kompetensi;Pemantauan dan evaluasi pengembangan kompetensi;Pemantauan program pengembangan kompetensi;Pemantauan pengembangan kompetensi pada tingkat unit kerja jabatan pimpinan tinggi pratama dalam 1 organisasi;0.340
+989;Analis Pengembangan Kompetensi;Pemantauan dan evaluasi pengembangan kompetensi;Evaluasi dan analisis tingkat pencapaian pengembangan kompetensi;Menyusun instrumen pelaksanaan proses pengembangan kompetensi instansi;1.210
+990;Pengolah data dan informasi;Pengelolaan data dan informasi;pengumpulan;Menyiapkan bahan/instrumen pelaksanaan pengumpulan data dan informasi sesuai dengan sasaran/responden;1.000
+991;Pengolah data dan informasi;Pengelolaan data dan informasi;pengumpulan;"mengumpulkan data dan informasi dari unit kerja dan sumber lain;";1.000
+992;Pengolah data dan informasi;Pengelolaan data dan informasi;pengumpulan;"Merekapitulasi data dan informasi sesuai dengan jenis data sebagai bahan informasi;";1.000
+993;Pengolah data dan informasi;Pengelolaan data dan informasi;Pengolahan di bidang data dan informasi.;"Mengolah data dan informasi sesuai dengan klasifikasinya sebagai bahan analisis;";1.000
+994;Pengolah data dan informasi;Pengelolaan data dan informasi;Pengolahan di bidang data dan informasi.;"Memverifikasi dan mengorfirmasi data dan informasi untuk keakuratan data;";1.000
+995;Pengolah data dan informasi;Pengelolaan data dan informasi;Pengolahan di bidang data dan informasi.;"Melaporkan hasil pelaksanaan tugas kepada atasan sebahan bahan pertanggungjawaban; dan";1.000
+996;Pengolah data dan informasi;Pengelolaan data dan informasi;Pengolahan di bidang data dan informasi.;Melaksanakan tugas kedinasan lain yang yang diberikan oleh atasan;1.000
+997;Pengolah data dan informasi;Pengelolaan data dan informasi;pendokumentasian/ penginputan;"Menginput data dan informasi sesuai dengan format pengolahan data;";1.000
+998;Pengolah data dan informasi;Pengelolaan data dan informasi;pendokumentasian/ penginputan;"Menyajikan data dan informasi sesuai dengan ketentuan dan perintah atasan;";1.000
+999;Pengolah data dan informasi;Pengelolaan data dan informasi;pendokumentasian/ penginputan;"Menyimpan data dan informasi sesuai dengan prosedur agar mudah digunakan/ditemukan;";1.000
+1000;Pengolah data dan informasi;Pengelolaan data dan informasi;pendokumentasian/ penginputan;"Melayani permintaan data di sesuai dengan ketentuan;";1.000
+1001;Analis Kepegawaian;manajemen PNS;manajemen PNS;Menyiapkan bahan pembahasan rencana usul formasi;0.010
+1002;Analis Kepegawaian;manajemen PNS;Formasi;Memeriksa usul formasi;0.003
+1003;Analis Kepegawaian;manajemen PNS;Formasi;Menyiapkan surat/surat jawaban permasalahan usul formasi;0.002
+1004;Analis Kepegawaian;Pengadaan;Formasi;Menyiapkan bahan rapat persiapan pengadaan pegawa;0.010
+1005;Analis Kepegawaian;Pengadaan;Formasi;Menyiapkan naskah pengumuman penerimaan pegawai;0.010
+1006;Analis Kepegawaian;Pengadaan;Formasi;Memeriksa kelengkapan berkas lamaran;0.005
+1007;Analis Kepegawaian;Pengadaan;Formasi;Menyiapkan surat panggilan/penolakan untuk mengikuti ujian saringan;0.002
+1008;Analis Kepegawaian;Pengadaan;Ujian saringan;Mengawasi pelaksanaan ujian saringan;0.008
+1009;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan pengumuman hasil ujian saringan;0.009
+1010;Analis Kepegawaian;Pengadaan;Ujian saringan;Menerima dan memeriksa kelengkapan berkas peserta yang lulus ujian;0.005
+1011;Analis Kepegawaian;Pengadaan;Ujian saringan;Membuat surat pemberitahuan permintaan kelengkapan berkas pengangkatan pegawai/usul yang tidak lengkap;0.006
+1012;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan usul permintaan Nomor Identitas Pegawai (NIP);0.006
+1013;Analis Kepegawaian;Pengadaan;Ujian saringan;Memeriksa berkas nota usul permintaan NIP;0.005
+1014;Analis Kepegawaian;Pengadaan;Ujian saringan;Mengendalikan formasi (kualifikasi pendidikan dan jabatan);0.020
+1015;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan naskah surat keputusan pengangkatan;0.005
+1016;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat perintah melaksanakan tugas;0.001
+1017;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat pemberitahuan mengikuti latihan prajabatan;0.001
+1018;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat permintaan pengujian kesehatan;0.002
+1019;Analis Kepegawaian;Pengadaan;Ujian saringan;Memeriksa usul persetujuan teknis pengangkatan PNS bagi CPNS yang menjalani masa percobaan lebih dari 2 tahun;0.005
+1020;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat pemberitahuan tentang bahan tidak lengkap (BTL)/tidak memenuhi syarat (TMS);0.018
+1021;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat permohonan menjadi saksi/rohaniwan;0.002
+1022;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan Karpeg dan Karis/Karsu;0.006
+1023;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat keputusan penetapan Karpeg dan Karis/Karsu;0.002
+1024;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat berita acara penyerahan Karpeg dan Karis/Karsu;0.002
+1025;Analis Kepegawaian;Pengadaan;Ujian saringan;Menyiapkan surat jawaban permasalahan Karpeg dan Karis/Karsu;0.002
+1026;Analis Kepegawaian;Mutasi;Pangkat;Menyiapkan bahan berkas usulan kenaikan pangkat;0.006
+1027;Analis Kepegawaian;Mutasi;Pangkat;Menyiapkan usul persetujuan/pertimbangan teknis kenaikan pangkat PNS;0.006
+1028;Analis Kepegawaian;Mutasi;Pangkat;Memeriksa berkas usul kenaikan pangkat PNS;0.006
+1029;Analis Kepegawaian;Mutasi;Pangkat;Menyiapkan surat pengantar pengembalian usul yang dinyatakan bahan tidak lengkap (BTL)/tidak memenuhi syarat (TMS);0.018
+1030;Analis Kepegawaian;Mutasi;Pangkat;Mengendalikan listing persetujuan teknis kenaikan pangkat PNS;0.002
+1031;Analis Kepegawaian;Mutasi;Pangkat;Menyiapkan naskah keputusan kenaikan pangkat;0.002
+1032;Analis Kepegawaian;Mutasi;Pangkat;Menyiapkan surat pengantar pertimbangan teknis kenaikan pangkat PNS;0.002
+1033;Analis Kepegawaian;Mutasi;Jabatan;Menyusun daftar jabatan (jabatan struktural dan fungsional) yang lowong;0.020
+1034;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan data pegawai yang memenuhi syarat administrasi untuk diangkat dalam jabatan (jabatan struktural dan fungsional);0.018
+1035;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan bahan-bahan untuk sidang Baperjakat;0.003
+1036;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan surat permohonan menjadi saksi/rohaniwan;0.002
+1037;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan SPMT/SPMJ/SPP/SPMMJ;0.006
+1038;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan bahan penilaian dan penetapan angka kredit jabatan fungsional;0.020
+1039;Analis Kepegawaian;Mutasi;Jabatan;Menyiapkan naskah pemberitahuan/peringatan kepada pejabat fungsional;0.006
+1040;Analis Kepegawaian;Mutasi;Perpindahan PNS;Memeriksa permohonan perpindahan pegawai;0.006
+1041;Analis Kepegawaian;Mutasi;Perpindahan PNS;Menyiapkan usul perpindahan pegawai;0.002
+1042;Analis Kepegawaian;Mutasi;Perpindahan PNS;Memeriksa naskah keputusan perpindahan pegawai;0.002
+1043;Analis Kepegawaian;Mutasi Lain-lain;Mutasi Keluarga;Mengesahkan/mencatat mutasi keluarga;0.002
+1044;Analis Kepegawaian;Mutasi Lain-lain;Mutasi Keluarga;Pengelolaan data mutasi keluarga;0.006
+1045;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Mengumpulkan dan memeriksa data kepegawaian;0.025
+1046;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyusun DUK;0.018
+1047;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyempurnakan DUK atas keberatan;0.002
+1048;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyiapkan usul peninjauan masa kerja;0.006
+1049;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Memeriksa usul peninjauan masa kerja;0.005
+1050;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Memeriksa dan menandatangani nota usul peninjauan masa kerja;0.006
+1051;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyiapkan Surat Keputusan peninjauan masa kerja;0.002
+1052;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Mengelola DP3;0.005
+1053;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyiapkan bahan untuk penetapan status dan kedudukan hukum;0.001
+1054;Analis Kepegawaian;Mutasi Lain-lain;Daftar Urut Kepangkatan (DUK);Menyiapkan surat pengantar penetapan status dan kedudukan hukum;0.002
+1055;Analis Kepegawaian;Mutasi Lain-lain;Diklat;Menyiapkan surat penawaran/pemberitahuan pelaksanaan diklat;0.002
+1056;Analis Kepegawaian;Mutasi Lain-lain;Diklat;Menyiapkan data peserta diklat;0.005
+1057;Analis Kepegawaian;Mutasi Lain-lain;Diklat;Menyiapkan surat panggilan mengikuti diklat;0.002
+1058;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penggajian;Menyusun daftar pegawai yang akan memperoleh Kenaikan Gaji Berkala (KGB);0.025
+1059;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penggajian;Menyiapkan surat keputusan penundaan Kenaikan Gaji Berkala (KGB);0.005
+1060;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penggajian;Menyiapkan surat keputusan penyesuaian gaji pokok;0.002
+1061;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Tunjangan;Menyiapkan surat usulan untuk memperoleh tunjangan;0.012
+1062;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Tunjangan;Menyiapkan surat keputusan pemberian tunjangan;0.012
+1063;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Upaya Kesejahteraan;Mendata PNS yang belum memiliki Kartu Pegawai/ Taspen/Askes;0.001
+1064;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Upaya Kesejahteraan;Menyiapkan surat pemberitahuan pelaksanaan cuti;0.002
+1065;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Mendata pegawai yang akan menerima penghargaan/tanda jasa;0.001
+1066;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Menyusun daftar pegawai yang akan menerima penghargaan/tanda jasa;0.025
+1067;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Menyiapkan bahan-bahan sidang Baperjakat/TPP;0.020
+1068;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Menyiapkan laporan hasil sidang Baperjakat/TPP;0.003
+1069;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Menyiapkan usul pemberian penghargaan/tanda jasa;0.005
+1070;Analis Kepegawaian;Gaji, Tunjangan dan Kesejahteraan;Penghargaan;Menyiapkan Surat Keputusan pemberian penghargaan/tanda jasa;0.002
+1071;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Memeriksa dan meneliti keabsahan dokumen kepegawaian;0.005
+1072;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Penyandian data mutasi kepegawaian ke dalam formulir/coding;0.001
+1073;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Entry data kepegawaian ke dalam media komputer;0.002
+1074;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Scanning dokumen kepegawaian ke dalam media komputer;0.001
+1075;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Mencatat dokumen ke dalam buku pengendalian;0.001
+1076;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Menyusun, memelihara dan merasionalisasikan tata naskah;0.006
+1077;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Mengelola dokumen ke dalam Tata Naskah;0.001
+1078;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Mencocokan daftar nominatif dengan Takah (Tata Naskah);0.002
+1079;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Dokumen Kepegawaian;Menyiapkan surat pemberitahuan tentang takah tidak berkembang;0.002
+1080;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Informasi Data Kepegawaian;Menerbitkan daftar informasi kepegawaian secara periodik;0.025
+1081;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Informasi Data Kepegawaian;Menyajikan informasi data kepegawaian;0.002
+1082;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Informasi Data Kepegawaian;Memelihara keakuratan, kelengkapan dan kekinian informasi kepegawaian;0.005
+1083;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Informasi Data Kepegawaian;Menganalisis keabsahan data mutasi kepegawaian;0.002
+1084;Analis Kepegawaian;Tata Usaha Kepegawaian;Pengelolaan Informasi Data Kepegawaian;Menyiapkan surat pemberitahuan permasalahan data kepegawaian;0.003
+1085;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Disiplin;Mengelola daftar hadir;0.003
+1086;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Disiplin;Menyiapkan konsep surat panggilan/peringatan;0.003
+1087;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Disiplin;Memeriksa surat-surat pengaduan;0.003
+1088;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Disiplin;Menyiapkan referensi peraturan yang berkaitan dengan surat pengaduan;0.020
+1089;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Pengendalian Kepegawaian;Menerima dan memeriksa surat-surat pengaduan;0.005
+1090;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Pengendalian Kepegawaian;Memeriksa dan meneliti berkas bermasalah;0.005
+1091;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Pengendalian Kepegawaian;Menyiapkan surat jawaban permasalahan kepegawaian;0.003
+1092;Analis Kepegawaian;Disiplin dan Pengendalian Kepegawaian;Pengendalian Kepegawaian;Menyiapkan naskah surat pencabutan keputusan pejabat pembina kepegawaian;0.003
+1093;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Mendata PNS yang akan mencapai batas usia pensiun (BUP);0.001
+1094;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Menyiapkan Data Perorangan Calon Penerima Pensiun (DPCP);0.018
+1095;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Menyiapkan kelengkapan usul pensiun/Kenaikan Pangkat Pengabdian (KPP);0.002
+1096;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Memeriksa usul pensiun/KPP janda dudanya;0.005
+1097;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Menyiapkan surat pemberitahuan bahan tidak lengkap (BTL)/TMS;0.003
+1098;Analis Kepegawaian;Pemberhentian;Pemberhentian PNS dengan hak pensiun dan pensiun janda/dudanya;Menyiapkan konsep surat/menandatangani keputusan pensiun/KPP dan pensiun janda dudanya;0.005
+1099;Analis Kepegawaian;Pemberhentian;Pensiun Pejabat Negara dan janda dudanya;Menyiapkan usul pensiun pejabat Negara dan janda dudanya;0.002
+1100;Analis Kepegawaian;Pemberhentian;Pensiun Pejabat Negara dan janda dudanya;Menyiapkan konsep surat keputusan pensiun Pejabat Negara dan janda / dudanya;0.005
+1101;Analis Kepegawaian;Pemberhentian;Pemberhentian lainnya;Menyiapkan data pegawai yang berhenti sebelum BUP;0.002
+1102;Analis Kepegawaian;Pemberhentian;Pemberhentian lainnya;Memeriksa berkas usul pemberhentian pegawai;0.005
+1103;Analis Kepegawaian;Pemberhentian;Pemberhentian lainnya;Membuat telaahan usul pemberhentian/pensiun pegawai;0.006
+1104;Analis Kepegawaian;Pemberhentian;Pengelolaan takah pensiun;Mencatat dan memelihara data pensiun baru;0.002
+1105;Analis Kepegawaian;Pemberhentian;Pengelolaan takah pensiun;Mencatat dan memelihara perubahan data mutasi pensiun;0.002
+1106;Analis Sistem Informasi;Sistem Informasi;perancangan system;Mendefinisikan tujuan sistem;1.000
+1107;Analis Sistem Informasi;Sistem Informasi;perancangan system;Membangun sebuah model konseptual;1.000
+1108;Analis Sistem Informasi;Sistem Informasi;perancangan system;Menerapkan kendala-kendala organisasi;1.000
+1109;Analis Sistem Informasi;Sistem Informasi;perancangan system;Mendefinisikan aktifitas pemrosesan data;1.000
+1110;Analis Sistem Informasi;Sistem Informasi;perancangan system;Menyiapkan proposal sistem desain;1.000
+1111;Analis Sistem Informasi;Sistem Informasi;kekurangan serta solusi terhadap system;Mengumpulkan informasi dari user;1.000
+1112;Analis Sistem Informasi;Sistem Informasi;kekurangan serta solusi terhadap system;Mencatat informasi dari user;1.000
+1113;Analis Sistem Informasi;Sistem Informasi;kekurangan serta solusi terhadap system;Membuat solusi penyelesaian dari kekurangan atau kelemahan;1.000
+1114;Analis Sistem Informasi;Sistem Informasi;kekurangan serta solusi terhadap system;Mendokumentasikan informasi dan solusi dari kekurangan atau kelemahan;1.000
+1115;Analis Sistem Informasi;Kedinasan;Melaksanakan tugas kedinasan lain sesuai dengan perintah atasan;Membaca disposisi atasan;1.000
+1116;Analis Sistem Informasi;Kedinasan;Melaksanakan tugas kedinasan lain sesuai dengan perintah atasan;Menyiapkan tata laksana dan administrasi penugasan;1.000
+1117;Analis Sistem Informasi;Kedinasan;Melaksanakan tugas kedinasan lain sesuai dengan perintah atasan;Melaksanakan tugas kedinasan;1.000
+1118;Analis Sistem Informasi;Kedinasan;Melaksanakan tugas kedinasan lain sesuai dengan perintah atasan;Membuat laporan pelaksanaan tugas;1.000
+1119;Analis Protokol;Analis Protokol;Analis Protokol;Mengumpulkan data dan informasi protokol;1.000
+1120;Analis Protokol;Analis Protokol;Analis Protokol;Mengumpulkan dan mempelajari peraturan;1.000
+1121;Analis Protokol;Analis Protokol;Analis Protokol;Memeriksa dan mengklasifikasikan bahan dan data;1.000
+1122;Analis Protokol;Analis Protokol;Analis Protokol;Mengkaji dan menelaah bahan dan data;1.000
+1123;Analis Protokol;Analis Protokol;Analis Protokol;analisis dan evaluasi;1.000
+1124;Analis Protokol;Analis Protokol;Analis Protokol;Membuat laporan hasil analisis;1.000
+1125;Analis Protokol;Analis Protokol;Analis Protokol;Memberikan layanan data dan informasi;1.000
+1126;Analis Protokol;Analis Protokol;Analis Protokol;Memberikan saran dan pertimbangan kepada Pimpinan;1.000
+1127;Analis Protokol;Analis Protokol;Analis Protokol;Menyusun laporan hasil kegiatan sesuai dengan prosedur;1.000
+1128;Analis Protokol;Analis Protokol;Analis Protokol;Melaksanakan tugas kedinasan lain sesuai perintah pimpinan;1.000
+1129;Pengadministrasian Umum;Manajemen Dokumen;mengelola dokumen;pengarsipan dokumen;1.000
+1130;Pengadministrasian Umum;Manajemen Dokumen;mengelola dokumen;penyimpanan;1.000
+1131;Pengadministrasian Umum;Manajemen Dokumen;mengelola dokumen;pemulihan dokumen-dokumen;1.000
+1132;Pengadministrasian Umum;Penjadwalan;Penjadwalan;membuat jadwal pertemuan;1.000
+1133;Pengadministrasian Umum;Penjadwalan;Penjadwalan;mengatur acara;1.000
+1134;Pengadministrasian Umum;Penjadwalan;Penjadwalan;mengelola kalender pejabat;1.000
+1135;Pengadministrasian Umum;Komunikasi;Komunikasi;Komunikasi dengan eksternal;1.000
+1136;Pengadministrasian Umum;Komunikasi;Komunikasi;meneruskan pesan kepada staf yang tepat;1.000
+1137;Pengadministrasian Umum;Penerimaan Tamu;Penerimaan Tamu;Menerima tamu dari luar;1.000
+1138;Pengadministrasian Umum;Bantuan untuk Manajemen;Bantuan untuk Manajemen;penyusunan laporan;1.000
+1139;Pengadministrasian Umum;Bantuan untuk Manajemen;Bantuan untuk Manajemen;analisis data;1.000
+1140;Pengadministrasian Umum;Bantuan untuk Manajemen;Bantuan untuk Manajemen;persiapan rapat;1.000
+1141;Pengelola kehumasan;kehumasan;kehumasan;evaluasi sikap dan opini publik;1.000
+1142;Pengelola kehumasan;kehumasan;kehumasan;Mengidentifikasi serta menyesuaikan kebijakan-kebijakan organisasi dengan kepentingan publik;1.000
+1143;Pengelola kehumasan;kehumasan;kehumasan;Merencanakan serta melaksanakan program-program/kegiatan-kegiatan kehumasan;1.000
+1144;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Pangkat pegawai;Mempelajari tugas dan petunjuk kerja yang diberikan atasan;1.000
+1145;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Pangkat pegawai;Menghimpun, memeriksa kelengkapan bahan dan usulan;1.000
+1146;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Pangkat pegawai;scan berkas pegawai;1.000
+1147;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Pangkat pegawai;inventarisir data kepegawaian;1.000
+1148;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Pangkat pegawai;Mengumpulkan dan melengkapi berkas pegawai untuk Kenaikan Pangkat;1.000
+1149;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Gaji Berkala pegawai;Mengumpulkan dan melengkapi berkas pegawai untuk Kenaikan Gaji;1.000
+1150;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Gaji Berkala pegawai;inventarisir data kepegawaian yang akan melaksanakan Kenaikan Gaji Berkala pegawai;1.000
+1151;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Gaji Berkala pegawai;scan berkas pegawai;1.000
+1152;Pengelola Kepegawaian;Kepegawaian;usulan Kenaikan Gaji Berkala pegawai;Membuat bahan usulan Kenaikan Gaji Berkala;1.000
+1153;Pengelola Kepegawaian;Kepegawaian;Cuti pegawai;Menerima pengajuan Cuti dari pegawai;1.000
+1154;Pengelola Kepegawaian;Kepegawaian;Cuti pegawai;Berkoordinasi dengan atasan pegawai yang akan melaksanakan Cuti;1.000
+1155;Pengelola Kepegawaian;Kepegawaian;Cuti pegawai;Membuat bahan usulan Cuti pegawai;1.000
+1156;Pengelola Keuangan;Penyiapan program kerja;penyiapan bahan;Menyiapkan bahan program kerja, bahan dan alat pengelolaan Keuangan;1.000
+1157;Pengelola Keuangan;Penyiapan program kerja;penyiapan bahan;Mengadakan rapat dalam rangka program kerja, bahan dan alat pengelolaan Keuangan;1.000
+1158;Pengelola Keuangan;Penyiapan program kerja;penyiapan bahan;Menyusun program kerja, bahan dan alat pengelolaan Keuangan;1.000
+1159;Pengelola Keuangan;Penyiapan program kerja;penyiapan bahan;Mendokumentasikan hasil program kerja, bahan dan alat pengelolaan Keuangan;1.000
+1160;Pengelola Keuangan;Penyiapan program kerja;Memantau pengelolaan Keuangan;Menyiapkan Keuangan;1.000
+1161;Pengelola Keuangan;Penyiapan program kerja;Memantau pengelolaan Keuangan;Mengadakan rapat;1.000
+1162;Pengelola Keuangan;Penyiapan program kerja;Memantau pengelolaan Keuangan;Mengelola Keuangan;1.000
+1163;Pengelola Keuangan;Penyiapan program kerja;Memantau pengelolaan Keuangan;Mendokumentasikan hasil pengelolaan Keuangan;1.000
+1164;Pengelola Keuangan;Penyiapan program kerja;Mengendalikan program kerja;Menyiapkan bahan program kerja;1.000
+1165;Pengelola Keuangan;Penyiapan program kerja;Mengendalikan program kerja;Mengadakan rapat dalam rangka program kerja;1.000
+1166;Pengelola Keuangan;Penyiapan program kerja;Mengendalikan program kerja;Mengendalikan program kerja;1.000
+1167;Pengelola Keuangan;Penyiapan program kerja;Mengendalikan program kerja;Mendokumentasikan hasil program kerj;1.000
+1168;Pengelola Keuangan;Penyiapan program kerja;Mengkoordinasikan dengan unit-unit terkait;Menyiapkan bahan unit-unit terkait;1.000
+1169;Pengelola Keuangan;Penyiapan program kerja;Mengkoordinasikan dengan unit-unit terkait;Mengadakan rapat dalam rangka unit-unit terkait;1.000
+1170;Pengelola Keuangan;Penyiapan program kerja;Mengkoordinasikan dengan unit-unit terkait;Mengkoordinasikan unit-unit terkait;1.000
+1171;Pengelola Keuangan;Penyiapan program kerja;Mengkoordinasikan dengan unit-unit terkait;Mendokumentasikan hasil unit-unit terkait;1.000
