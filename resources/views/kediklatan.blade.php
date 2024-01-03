@@ -108,7 +108,7 @@
                             <label class="control-label">Pilih Jenis Diklat</label>
                             <select id="kategori" class="form-control custom-select">
                                 <option value="Pemeriksaan Keuangan">Pemeriksaan Keuangan</option>
-                                <option value="Programmer">Programmer</option>
+                                <option value="Programmer">Prograsmmer</option>
                             </select>
                         </div>
                         <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
