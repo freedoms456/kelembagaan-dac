@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DiklatController;
 use App\Http\Controllers\SertifikasiController;
 use Illuminate\Support\Facades\Route;
 
@@ -39,3 +40,6 @@ Route::get('/sertifikasi/getSertifikasiBasedOnName', [SertifikasiController::cla
 Route::get('/sertifikasi/getSertifikasiByJenis', [SertifikasiController::class, 'getSertifikasiByJenis']);
 Route::post('/sertifikasi/getlist/get-datatable', [SertifikasiController::class, 'getTableList'])->name('sertifikasi.list');
 Route::post('/sertifikasi/getlist/get-datatable2', [SertifikasiController::class, 'getTableMilikList'])->name('sertifikasiMilik.list');
+
+Route::get('/kediklatan/getPieJabatan', [DiklatController::class, 'getDiklatJabatan']);
+Route::post('/kediklatan/getlist/get-datatable', [DiklatController::class, 'getTableList'])->name('kediklatan.list');

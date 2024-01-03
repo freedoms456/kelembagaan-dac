@@ -104,7 +104,7 @@ class SertifikasiController extends Controller
                 SELECT sertifikasis.id, sertifikasis.nama, sertifikasis.bidang, COUNT(pegawais.id) as total
                 FROM sertifikasis
                 LEFT JOIN mengikuti_sertifikasis ON sertifikasis.id = mengikuti_sertifikasis.id_sertifikasi AND sertifikasis.bidang = :bidang
-                LEFT JOIN pegawais ON mengikuti_sertifikas is.id_pegawai = pegawais.id
+                LEFT JOIN pegawais ON mengikuti_sertifikasis.id_pegawai = pegawais.id
                 GROUP BY sertifikasis.id, sertifikasis.nama, sertifikasis.bidang
                 ORDER BY total DESC
                  ";

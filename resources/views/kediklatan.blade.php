@@ -34,7 +34,7 @@
                     <div class="card-body">
                       <div class="d-flex p-10 no-block">
                         <div class="align-slef-center">
-                          <h2 class="m-b-0">234</h2>
+                          <h2 class="m-b-0"><?= $jumlahDiklat;?></h2>
                           <h6 class="text-muted m-b-0">Jumlah Diklat</h6>
                         </div>
                         <div class="align-self-center display-6 ml-auto">
@@ -55,7 +55,7 @@
                     <div class="card-body">
                       <div class="d-flex p-10 no-block">
                         <div class="align-slef-center">
-                          <h2 class="m-b-0">10</h2>
+                          <h2 class="m-b-0"><?= $jumlahJenisDiklat;?></h2>
                           <h6 class="text-muted m-b-0">Jenis Diklat</h6>
                         </div>
                         <div class="align-self-center display-6 ml-auto">
@@ -77,7 +77,7 @@
                     <div class="card-body">
                       <div class="d-flex p-10 no-block">
                         <div class="align-slef-center">
-                          <h2 class="m-b-0">4470</h2>
+                          <h2 class="m-b-0"><?= $totalJP;?></h2>
                           <h6 class="text-muted m-b-0">Total JP</h6>
                         </div>
                         <div class="align-self-center display-6 ml-auto">
@@ -106,55 +106,41 @@
                     <div class="row">
                         <div class="col-md-4  col-sm-12 ">
                             <label class="control-label">Pilih Jenis Diklat</label>
-                            <select class="form-control custom-select">
-                                <option value="">Pemeriksaan LKPD</option>
+                            <select id="kategori" class="form-control custom-select">
+                                <option value="Pemeriksaan Keuangan">Pemeriksaan Keuangan</option>
+                                <option value="Programmer">Programmer</option>
                             </select>
                         </div>
                         <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
-                            <button type="submit" class="btn btn-success ">
+                            <button type="submit" id="cari" class="btn btn-success ">
                             Cari
                             </button>
                         </div>
                     </div>
                     <hr>
                     <div class="row">
-                    <div class="col-md-3">
-                        <canvas id="pie-jabatan" width="400" height="400"></canvas>
+                    <div class="col-md-5">
+                        <canvas id="pie-jabatan" width="600" height="600"></canvas>
                     </div>
 
-                    <div class="col-md-3">
-                        <canvas id="line-tren" width="400" height="400"></canvas>
-                    </div>
-                    <div class="col-md-6">
-                        <table class="table table-bordered yajra-datatable mt-3">
+
+                    <div class="col-md-7">
+                        <input type="hidden" id="urlDataTable" value="{{ route('kediklatan.list') }}">
+                        <table id="myTable" class="table table-bordered yajra-datatable  mt-3">
                             <thead>
                                 <tr>
+                                    <th style="width:50px">No</th>
                                     <th>Nama Diklat</th>
-                                    <th>JP</th>
-                                    <th>Jumlah Peserta </th>
+                                    <th style="width:50px">JP</th>
+                                    <th style="width:50px">Jumlah Peserta </th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr role="row">
-                                    <td class="">Perhitungan Aset</td>
-                                    <td>30</td>
-                                    <td>50</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">Arus Kas</td>
-                                    <td>30</td>
-                                    <td>60</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">Pemanfaatan BIDICS dalam pemeriksaan Keuangan</td>
-                                    <td>40</td>
-                                    <td>65</td>
-                                </tr>
 
-
-                            </tbody>
                         </table>
                         {{-- <canvas id="pie-satker" width="400" height="400"></canvas> --}}
+                    </div>
+                    <div class="col-md-6">
+                        <canvas id="line-tren" width="400" height="400"></canvas>
                     </div>
                     </div>
                 </div>
@@ -171,37 +157,29 @@
 @endsection
 @section('custom-script')
 <script>
-     var table = $('.yajra-datatable').DataTable({});
-    var pieData = {
-        labels: ['Banten', 'Jogja', 'Kalsel', 'Kaltara', 'Kepri','Maluku','NTB'],
-        datasets: [{
-            label: 'Jumlah',
+     var pieJabatan = null;
+     var table = null;
+     $(function() {
 
-            data: [20, 35, 40, 15, 25,20] // Replace with your data values
-        }]
-    };
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+            }
+        })
 
-    // Options for the horizontal bar chart
-    var pieOptions = {
-        indexAxis: 'y',
-        scales: {
-            xAxes: [{
-                ticks: {
-                    beginAtZero: true // Start the x-axis at zero
-                }
-            }]
-        }
-    };
 
-    // Get the canvas element
-    // var ctx = document.getElementById('pie-satker').getContext('2d');
+        $("#cari").click(function (e) {
+            updateChart();
+            getDataTable();
+        });
 
-    // Create the horizontal bar chart
-    // var pieSatker = new Chart(ctx, {
-    //     type: 'pie',
-    //     data: pieData,
-    //     options: pieOptions
-    // });
+        });
+
+
+
+
+    var table = $('.yajra-datatable').DataTable({});
+
 
     var lineData = {
         labels: ['2021','2022','2023'],
@@ -233,24 +211,101 @@
         options: lineOptions
     });
 
+    function updateChart() {
+            var kategori = document.getElementById('kategori').value;
+            // var selectedYear = document.getElementById('year').value;
 
-    var pieData2 = {
-        labels: ['Pemeriksa Ahli Muda', 'Pemeriksa Ahli Madya', 'Pemeriksa Ahli pertama'],
-        datasets: [{
-            label: 'Jumlah',
+            // Make an Ajax request to get the data for the selected month and year
 
-            data: [20, 15, 65] // Replace with your data values
-        }]
-    };
+             $.ajax({
+                method: 'GET',
+                url: '/kediklatan/getPieJabatan',
+                data: {
+                    kategori: kategori
+                },
+                success: function (data) {
+                    let labels = data.map(item => item.jabatan);
+                    let values = data.map(item => item.total);
 
-    // Get the canvas element
-    var ctx = document.getElementById('pie-jabatan').getContext('2d');
 
-    // Create the horizontal bar chart
-    var pieSatker = new Chart(ctx, {
-        type: 'pie',
-        data: pieData2,
-        options: pieOptions
-    });
+                       let pieData2 = {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Total',
+                            data: values,
+                            axis: 'y',
+                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
+                    };
+
+
+
+                    // Get the canvas element
+                    var ctx = document.getElementById('pie-jabatan').getContext('2d');
+
+                    if (pieJabatan !== null) {
+                        pieJabatan.destroy();
+                    }
+                    // Create the horizontal bar chart
+                    pieJabatan = new Chart(ctx, {
+                        type: 'bar',
+                        data: pieData2,
+                        options: {
+                            indexAxis: 'y',
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+
+                    });
+
+
+                }
+            });
+
+
+
+     }
+
+     function getDataTable(){
+            if (table !== null) {
+                table.destroy(); // Destroy the DataTable instance if it exists
+            }
+            table = $('#myTable').DataTable({
+            processing: true,
+            serverSide: true,
+            responsive: true,
+            ajax: {
+                url : $('#urlDataTable').val(),
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                data : function(d) {
+                    d.kategori = document.getElementById('kategori').value
+                },
+
+
+
+            },
+            columns: [
+                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'name', name: 'name'},
+                {data: 'jp', name: 'jp'},
+                {data: 'total', name: 'total'},
+
+            ]
+            });
+            // TABLE 2
+
+
+        }
+
+
+
 </script>
 @endsection

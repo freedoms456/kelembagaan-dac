@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Diklat;
 use App\Models\Sertifikasi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -18,7 +19,14 @@ class DashboardController extends Controller
         return view('sertifikasi');
     }
     public function kediklatan(){
-        return view('kediklatan');
+        $data = [
+          'jumlahDiklat' => Diklat::distinct('id')->count('id'),
+          'jumlahJenisDiklat' => Diklat::distinct('kategori')->count('kategori'),
+          'totalJP' =>  Diklat::sum('jp')
+
+        ];
+        // dd($data);
+        return view('kediklatan',$data);
     }
     public function kompetensiSatker(){
         return view('kompetensiSatker');
