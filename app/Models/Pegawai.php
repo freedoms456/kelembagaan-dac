@@ -14,4 +14,14 @@ class Pegawai extends Model
     {
         return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
     }
+    public function Diklat()
+    {
+        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+    }
+    public function Kegiatan()
+    {
+        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+    }
+
+
 }

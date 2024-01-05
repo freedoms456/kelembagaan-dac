@@ -4,8 +4,8 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
-                <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i
-                            class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a>
+                <li> <a class="waves-effect waves-dark" href="/perhitunganSAW" aria-expanded="false"><i
+                            class="fa fa-tachometer"></i><span class="hide-menu">Perhitungan SAW</span></a>
                 </li>
                 <li> <a class="waves-effect waves-dark" href="/sertifikasi" aria-expanded="false"><i
                             class="fa fa-user-circle-o"></i><span class="hide-menu">Sertifikasi Pegawai</span></a>

@@ -18,4 +18,8 @@ class Sertifikasi extends Model
     {
         return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
     }
+    public function SertifikasiKategori()
+    {
+        return $this->hasMany(SertifikasiKategori::class,'id_sertifikasi');
+    }
 }

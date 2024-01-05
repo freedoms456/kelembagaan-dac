@@ -108,7 +108,7 @@
                             <label class="control-label">Pilih Jenis Diklat</label>
                             <select id="kategori" class="form-control custom-select">
                                 <option value="Pemeriksaan Keuangan">Pemeriksaan Keuangan</option>
-                                <option value="Programmer">Prograsmmer</option>
+                                <option value="Programmer">Programmer</option>
                             </select>
                         </div>
                         <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
@@ -139,9 +139,9 @@
                         </table>
                         {{-- <canvas id="pie-satker" width="400" height="400"></canvas> --}}
                     </div>
-                    <div class="col-md-6">
+                    {{-- <div class="col-md-6">
                         <canvas id="line-tren" width="400" height="400"></canvas>
-                    </div>
+                    </div> --}}
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DiklatController;
+use App\Http\Controllers\SAWController;
 use App\Http\Controllers\SertifikasiController;
 use Illuminate\Support\Facades\Route;
 
@@ -43,3 +44,7 @@ Route::post('/sertifikasi/getlist/get-datatable2', [SertifikasiController::class
 
 Route::get('/kediklatan/getPieJabatan', [DiklatController::class, 'getDiklatJabatan']);
 Route::post('/kediklatan/getlist/get-datatable', [DiklatController::class, 'getTableList'])->name('kediklatan.list');
+
+Route::get('/perhitunganSAW', [SAWController::class, 'index']);
+Route::post('/perhitunganSAW/calculate', [SAWController::class, 'calculateSAW']);
+Route::post('/perhitunganSAWS/get-datatable', [SAWController::class, 'getTableList'])->name('saw.list');
