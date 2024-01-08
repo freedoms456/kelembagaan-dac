@@ -27,196 +27,210 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4  col-sm-12 ">
-                            <label class="control-label">Pilih Jabatan</label>
-                            <select class="form-control custom-select">
-                                <option value="">Pilih Jabatan</option>
-                                <option value="">Pemeriksa</option>
-                                <option value="">Pranata Komputer</option>
-                                <option value="">Analis Keuangan</option>
-                                <option value="">Pemelihara sarana dan prasarana</option>
+                            <label class="control-label">Jabatan</label>
+                            <select id="jabatan" class="form-control custom-select">
+                                <option value="all">Semua Jabatan</option>
+                                {{-- <option value="all">Semua Perwakilan</option> --}}
+                                @foreach($jabatan as $data)
+                                <option value="{{$data->jabatan}}">{{$data->jabatan}}</option>
+                                @endforeach
                             </select>
                         </div>
+                        <div class="col-md-4  col-sm-12 ">
+                            <label class="control-label">Bidang</label>
+                            <select id="kategori" class="form-control custom-select">
+                                {{-- <option value="">Pilih Bidang</option> --}}
+                                @foreach($kategori as $kategoris)
+                                <option value="{{$kategoris->id }}_{{$kategoris->name}}">{{$kategoris->name}}</option>
+                                @endforeach
+                                </select>
+                        </div>
+
                         <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
-                            <button type="submit" class="btn btn-success ">
+                            <button id="cari" type="submit" class="btn btn-success ">
                             Cari
                             </button>
                         </div>
                     </div>
 
                     <div class="row">
-                        <h5 class="mt-5"> Rata Rata Kompetensi Pemeriksa</h5>
-                        <table class="table table-bordered yajra-datatable mt-3">
+                        <h5 class="mt-5"> Rata Rata Kompetensi</h5>
+                        <table id="myTable" class="table table-bordered yajra-datatable mt-3">
                             <thead>
                                 <tr>
+                                    <th>No</th>
                                     <th>Nama Satker</th>
                                     <th>Diklat</th>
                                     <th>Sertifikasi</th>
                                     <th>Kinerja</th>
                                     <th>SKP</th>
+                                    <th>Total</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr role="row">
-                                    <td class="">BPK Perwakilan Provinsi DKI Jakarta</td>
-                                    <td>94.2</td>
-                                    <td>50.4</td>
-                                    <td>80.4</td>
-                                    <td>79.4</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">BPK Perwakilan Provinsi Kalimantan Timur</td>
-                                    <td>84.2</td>
-                                    <td>60.4</td>
-                                    <td>70.4</td>
-                                    <td>69.4</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">BPK Perwakilan Provinsi Nusa Tenggara Barat</td>
-                                    <td>74.2</td>
-                                    <td>60.3</td>
-                                    <td>40.22</td>
-                                    <td>75.4</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">BPK Perwakilan Provinsi Kalimantan Utara</td>
-                                    <td>84.2</td>
-                                    <td>54.4</td>
-                                    <td>85.4</td>
-                                    <td>26.4</td>
-                                </tr>
-                                <tr role="row">
-                                    <td class="">BPK Perwakilan Provinsi Kepulauan Riau</td>
-                                    <td>54.2</td>
-                                    <td>60</td>
-                                    <td>30.3</td>
-                                    <td>49.2</td>
-                                </tr>
-
-
                             </tbody>
                         </table>
                     </div>
                     <div class="row">
-                        <h5 class="mt-5"> Clustering</h5>
-                        <canvas id="myChart" width="800" height="400"></canvas>
+
+                        <h5 class="mt-5"><strong> Clustering </strong></h5>
+                        <br>
+                        <div id="information">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <strong>Centroid 1:</strong> <span id="centroid1"></span>
+                            </div>
+                            <div class="col-md-2">
+                                <strong>Centroid 2:</strong> <span id="centroid2"></span>
+                            </div>
+                            <div class="col-md-2">
+                            <strong>Iteration Count:</strong> <span id="iterationCount"></span>
+                            </div>
+                        </div>
+
+
+
+                        </div>
+                        <canvas id="histogramChart" width="800" height="400"></canvas>
                     </div>
             </div>
         </div>
         <!-- Column -->
     </div>
-    {{-- <div class="row">
-        <!-- Start Notification -->
-        <div class="col-lg-8 col-md-12">
-            <div class="card card-body mailbox">
-                <h5 class="card-title">Data Kompetensi Pegawai</h5>
-                <div class="message-center" style="height: 420px !important;">
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Luanch Admin</h6> <span class="mail-desc">Just see the my new admin!</span>
-                            <span class="time">9:30 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-success btn-circle"><i class="fa fa-calendar-check-o"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Event today</h6> <span class="mail-desc">Just a reminder that you have
-                                event</span> <span class="time">9:10 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Settings</h6> <span class="mail-desc">You can customize this template as you
-                                want</span> <span class="time">9:08 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
-                                class="time">9:02 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Customize Themes</h6> <span class="mail-desc">You can customize this template as you
-                                want</span> <span class="time">9:08 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
-                                class="time">9:02 AM</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <!-- End Notification -->
-        <!-- Start Feeds -->
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Feeds</h5>
-                    <ul class="feeds">
-                        <li>
-                            <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
-                            tasks. <span class="text-muted">Just Now</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-success"><i class="fa fa-server"></i></div> Server #1
-                            overloaded.<span class="text-muted">2 Hours ago</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-warning"><i class="fa fa-shopping-cart"></i></div> New
-                            order received.<span class="text-muted">31 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
-                            registered.<span class="text-muted">30 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> New Version
-                            just arrived. <span class="text-muted">27 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
-                            tasks. <span class="text-muted">Just Now</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
-                            registered.<span class="text-muted">30 May</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- End Feeds -->
-    </div> --}}
-    <!-- ============================================================== -->
-    <!-- End Notification And Feeds -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- End Page Content -->
-    <!-- ============================================================== -->
 </div>
 
 @endsection
 @section('custom-script')
 <script type="text/javascript">
- var table = $('.yajra-datatable').DataTable({});
    // Data scatter plot untuk masing-masing kategori
-   const dataRendah = [];
+     var table = null;
+     var table2 = null;
+    var histogramChart = null;
+     $(function() {
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+            }
+        })
+
+
+        $("#cari").click(function (e) {
+
+            // getDataTable();
+            getDataTable();
+            calculateKmeans();
+        });
+
+
+    });
+
+    function getDataTable(){
+        if (table !== null) {
+            table.destroy(); // Destroy the DataTable instance if it exists
+         }
+        table = $('#myTable').DataTable({
+        processing: true,
+        serverSide: true,
+        responsive: true,
+                ajax: {
+                    url : "/perhitunganSAWS/get-datatablePerwakilan",
+                    method: "POST",
+                    headers: {
+                        "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data : function(d) {
+                        d.jabatan = document.getElementById('jabatan').value,
+                        d.kategori = document.getElementById('kategori').value
+                    },
+                },
+                columns: [
+                    {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                    {data: 'satuan_kerja', name: 'satuan_kerja'},
+                    {data: 'avg_diklat', name: 'avg_diklat'},
+                    {data: 'avg_sertifikasi', name: 'avg_sertifikasi'},
+                    {data: 'avg_kinerja', name: 'avg_kinerja'},
+                    {data: 'avg_skp', name: 'avg_skp'},
+                    {data: 'avg_totals', name: 'avg_totals'}
+
+                ]
+                });
+    }
+
+    function calculateKmeans(){
+            // console.log("test");
+            $.ajax({
+                url: '/perhitunganKmeans/calculate', // URL to your Laravel route
+                method: 'POST',
+                data : {
+                    kategori : document.getElementById('kategori').value,
+                    jabatan : document.getElementById('jabatan').value
+                },
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                success: function(data) {
+                    const scores = data.average_totals;
+                    const kmeansResults = data.kmeans_result;
+                    document.getElementById('centroid1').innerText = data.centroids.centroid_1.toFixed(2);
+                    document.getElementById('centroid2').innerText = data.centroids.centroid_2.toFixed(2);
+                    document.getElementById('iterationCount').innerText = data.iteration_count;
+
+                    if (histogramChart !== null) {
+                        histogramChart.destroy();
+                    }
+
+                    // Sort scores
+                    const sortedScores = Object.entries(scores).sort((a, b) => a[1] - b[1]);
+                    const sortedNames = sortedScores.map(([name]) => name);
+                    const sortedValues = sortedScores.map(([_, value]) => value);
+                    const colors = sortedNames.map(name => kmeansResults[name] === 0 ? 'rgba(54, 162, 235, 0.5)' : 'rgba(54, 162, 35, 0.5)');
+
+                    // Create the histogram chart
+                    const ctx = document.getElementById('histogramChart').getContext('2d');
+                    histogramChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: sortedNames,
+                            datasets: [{
+                                label: 'Average Score',
+                                data: sortedValues,
+                                backgroundColor: colors,
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true
+                                    }
+                                }]
+                            },
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Histogram of Average Scores by Region'
+                            }
+                        }
+                    });
+                    // getDataTable();
+                },
+                error: function(xhr, status, error) {
+                    // Handle errors
+                    console.error(xhr.responseText);
+                }
+            });
+
+
+    }
+
+
+
+//    END
+        const dataRendah = [];
         const dataSedang = [];
         const dataTinggi = [];
 

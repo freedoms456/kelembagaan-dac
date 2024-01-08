@@ -58,6 +58,10 @@
                                     <tr>
                                         <th>No</th>
                                         <th>Nama Pegawai</th>
+                                        <th>Poin Diklat</th>
+                                        <th>Poin Sertifikasi</th>
+                                        <th>Poin Kinerja</th>
+                                        <th>Poin SKP</th>
                                         <th>Poin Kompetensi</th>
                                     </tr>
                                 </thead>
@@ -122,6 +126,7 @@ var pieSatker = null;
                     "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
                 },
                 success: function(response) {
+                    console.log(response);
                     getDataTable();
                 },
                 error: function(xhr, status, error) {
@@ -155,6 +160,10 @@ var pieSatker = null;
                     columns: [
                         {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                         {data: 'pegawai.name', name: 'pegawai.name'},
+                        {data: 'diklat', name: 'diklat'},
+                        {data: 'sertifikasi', name: 'sertifikasi'},
+                        {data: 'kinerja', name: 'kinerja'},
+                        {data: 'skp', name: 'skp'},
                         {data: 'total', name: 'total'}
 
                     ]

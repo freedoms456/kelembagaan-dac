@@ -47,4 +47,6 @@ Route::post('/kediklatan/getlist/get-datatable', [DiklatController::class, 'getT
 
 Route::get('/perhitunganSAW', [SAWController::class, 'index']);
 Route::post('/perhitunganSAW/calculate', [SAWController::class, 'calculateSAW']);
+Route::post('/perhitunganKmeans/calculate', [SAWController::class, 'Kmeans']);
 Route::post('/perhitunganSAWS/get-datatable', [SAWController::class, 'getTableList'])->name('saw.list');
+Route::post('/perhitunganSAWS/get-datatablePerwakilan', [SAWController::class, 'getTableListPerwakilan'])->name('sawPerwakilan.list');

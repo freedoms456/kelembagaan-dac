@@ -4,12 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\SAW;
 use App\Models\Diklat;
+use GuzzleHttp\Client;
 use App\Models\Kategori;
 use Illuminate\Http\Request;
+use Phpml\Clustering\KMeans;
 use App\Models\MengikutiDiklat;
 use App\Models\MengikutiKegiatan;
 use Illuminate\Support\Facades\DB;
 use App\Models\MengikutiSertifikasi;
+use Phpml\Clustering\KMeansPlusPlus;
 use Yajra\DataTables\Facades\DataTables;
 
 
@@ -55,14 +58,14 @@ class SAWController extends Controller
         $dataKegiatan = MengikutiKegiatan::join('pegawais', 'mengikuti_kegiatans.id_pegawai', '=', 'pegawais.id')
         ->join('kegiatans', 'mengikuti_kegiatans.id_kegiatan', '=', 'kegiatans.id')
         ->select('pegawais.id', DB::raw('SUM(kegiatans.bobot)  / COUNT(DISTINCT mengikuti_kegiatans.tahun) as poin_kinerja'))
-        ->where('kegiatans.unsur', "Komunikasi") // Assuming 'id' is an integer value, no quotes around the value
+        ->where('kegiatans.unsur', $unsur) // Assuming 'id' is an integer value, no quotes around the value
         ->groupBy('pegawais.id')
         ->get()->toArray();
 
         $dataSKP = MengikutiKegiatan::join('pegawais', 'mengikuti_kegiatans.id_pegawai', '=', 'pegawais.id')
         ->join('kegiatans', 'mengikuti_kegiatans.id_kegiatan', '=', 'kegiatans.id')
         ->select('pegawais.id', DB::raw('AVG(mengikuti_kegiatans.nilai_skp) as poin_skp'))
-        ->where('kegiatans.unsur', "Komunikasi") // Assuming 'id' is an integer value, no quotes around the value
+        ->where('kegiatans.unsur', $unsur) // Assuming 'id' is an integer value, no quotes around the value
         ->groupBy('pegawais.id')
         ->get()->toArray();
 
@@ -123,56 +126,56 @@ class SAWController extends Controller
         $normalizedData[] = $normalizedItem;
     }
 
-    //// NON AHP
-    // $criteria = [
-    //     'poin_diklat' => 25,
-    //     'poin_skp' => 25,
-    //     'poin_kinerja' => 30,
-    //     'poin_sertifikasi' => 20,
+    // NON AHP
+    $criteria = [
+        'poin_diklat' => 25,
+        'poin_skp' => 25,
+        'poin_kinerja' => 30,
+        'poin_sertifikasi' => 20,
+    ];
+
+    // // AHP
+    // $comparisonMatrix = [
+    //     [1, 1/5, 3, 5],   // Comparison of poin_diklat with other criteria
+    //     [5, 1, 3, 7],     // Comparison of poin_sertifikasi with other criteria
+    //     [1/3, 1/3, 1, 2], // Comparison of poin_kinerja with other criteria
+    //     [1/5, 1/7, 1/2, 1], // Comparison of poin_skp with other criteria
     // ];
 
-    // AHP
-    $comparisonMatrix = [
-        [1, 1/5, 3, 5],   // Comparison of poin_diklat with other criteria
-        [5, 1, 3, 7],     // Comparison of poin_sertifikasi with other criteria
-        [1/3, 1/3, 1, 2], // Comparison of poin_kinerja with other criteria
-        [1/5, 1/7, 1/2, 1], // Comparison of poin_skp with other criteria
-    ];
+    // // Get the number of criteria
+    // $numCriteria = count($comparisonMatrix);
 
-    // Get the number of criteria
-    $numCriteria = count($comparisonMatrix);
+    // // Step 1: Normalize the matrix
+    // $normalizedMatrix = [];
+    // for ($i = 0; $i < $numCriteria; $i++) {
+    //     for ($j = 0; $j < $numCriteria; $j++) {
+    //         $normalizedMatrix[$i][$j] = $comparisonMatrix[$i][$j] / array_sum($comparisonMatrix[$j]);
+    //     }
+    // }
 
-    // Step 1: Normalize the matrix
-    $normalizedMatrix = [];
-    for ($i = 0; $i < $numCriteria; $i++) {
-        for ($j = 0; $j < $numCriteria; $j++) {
-            $normalizedMatrix[$i][$j] = $comparisonMatrix[$i][$j] / array_sum($comparisonMatrix[$j]);
-        }
-    }
+    // // Step 2: Calculate the weight vector
+    // $weightVector = [];
+    // for ($i = 0; $i < $numCriteria; $i++) {
+    //     $sum = 0;
+    //     for ($j = 0; $j < $numCriteria; $j++) {
+    //         $sum += $normalizedMatrix[$i][$j];
+    //     }
+    //     $weightVector[$i] = $sum / $numCriteria;
+    // }
 
-    // Step 2: Calculate the weight vector
-    $weightVector = [];
-    for ($i = 0; $i < $numCriteria; $i++) {
-        $sum = 0;
-        for ($j = 0; $j < $numCriteria; $j++) {
-            $sum += $normalizedMatrix[$i][$j];
-        }
-        $weightVector[$i] = $sum / $numCriteria;
-    }
-
-    // Step 3: Normalize the weight vector to sum up to 1
-    $totalWeights = array_sum($weightVector);
-    $normalizedWeights = array_map(function ($weight) use ($totalWeights) {
-        return $weight / $totalWeights;
-    }, $weightVector);
-    // Apply criteria weights to determine the final criteria
-    $criteria = [
-        'poin_diklat' => $normalizedWeights[0]*100,
-        'poin_sertifikasi' => $normalizedWeights[1]*100,
-        'poin_kinerja' => $normalizedWeights[2]*100,
-        'poin_skp' => $normalizedWeights[3]*100,
-    ];
-    // END AHP
+    // // Step 3: Normalize the weight vector to sum up to 1
+    // $totalWeights = array_sum($weightVector);
+    // $normalizedWeights = array_map(function ($weight) use ($totalWeights) {
+    //     return $weight / $totalWeights;
+    // }, $weightVector);
+    // // Apply criteria weights to determine the final criteria
+    // $criteria = [
+    //     'poin_diklat' => $normalizedWeights[0]*100,
+    //     'poin_sertifikasi' => $normalizedWeights[1]*100,
+    //     'poin_kinerja' => $normalizedWeights[2]*100,
+    //     'poin_skp' => $normalizedWeights[3]*100,
+    // ];
+    // // END AHP
     // SAW CALCULATE
     foreach ($normalizedData as $item) {
         $scoreDiklat = $item['poin_diklat'] * $criteria['poin_diklat'];
@@ -216,15 +219,50 @@ class SAWController extends Controller
 
     public static function getTableList(Request $request){
         $kategoris =  $request->input('kategori');
+        $perwakilan =  $request->input('perwakilan');
+        $jabatan =  $request->input('jabatan');
+
         list($kategori, $unsur) = explode('_', $kategoris);
 
+        if($perwakilan){
+            // Untuk Filter Pencarian di Kompetensi
+            if($perwakilan == "all"){
+                if($jabatan == "all"){
+                    $data = SAW::with('Pegawai')->where('id_kategori',$kategori)->get();
+               } else {
+                   $data = SAW::with('Pegawai')
+                   ->where('id_kategori', $kategori)
+                   ->whereHas('Pegawai', function ($query) use ($jabatan) {
+                       $query->where('jabatan', $jabatan);
+                   })
+                   ->get();
+               }
+            }
+            else {
 
-               $data = SAW::with('Pegawai')->where('id_kategori',$kategori)->get();
-
+                if($jabatan == "all"){
+                    $data = SAW::with('Pegawai')
+                    ->where('id_kategori', $kategori)
+                    ->whereHas('Pegawai', function ($query) use ($perwakilan) {
+                        $query->where('satuan_kerja', $perwakilan);
+                    })
+                    ->get();
+                 } else {
+                    $data = SAW::with('Pegawai')
+                    ->where('id_kategori', $kategori)
+                    ->whereHas('Pegawai', function ($query) use ($perwakilan,$jabatan) {
+                        $query->where('satuan_kerja', $perwakilan)->where('jabatan',$jabatan);
+                    });
+                 }
+            }
+        } else {
+            // Untuk Menu Perhitungan SAW
+            $data = SAW::with('Pegawai')->where('id_kategori',$kategori)->get();
+        }
 
             return DataTables::of($data)->addIndexColumn()->addColumn('action', function ($row)
             {
-                $actionBtn = "" ;
+                $actionBtn = '<a href="/kompetensi-pegawaiDetail/'.$row->pegawai->id.'"><span class="label label-success">view</span></a>' ;
                 return $actionBtn;
 
             })->rawColumns(['action'])->make(true);
@@ -233,4 +271,116 @@ class SAWController extends Controller
 
 
     }
+
+    public static function getTableListPerwakilan(Request $request){
+        $kategoris =  $request->input('kategori');
+        list($kategori, $unsur) = explode('_', $kategoris);
+        $jabatan =  $request->input('jabatan');
+
+        if($jabatan == "all"){
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        } else {
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->where('pegawais.jabatan', $jabatan)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        }
+
+
+        return DataTables::of($data)->addIndexColumn()->addColumn('action', function ($row)
+        {
+            $actionBtn = "";
+            return $actionBtn;
+
+        })->rawColumns(['action'])->make(true);
+    }
+
+    public static function Kmeans(Request $request){
+        $kategoris =  $request->input('kategori');
+        list($kategori, $unsur) = explode('_', $kategoris);
+
+        $jabatan =  $request->input('jabatan');
+
+        $client = new Client();
+        $pythonEndpoint = 'http://localhost:5000/process_data'; // Replace with your Python API endpoint
+        // return $jabatan;
+        // Assuming you have your dataset in the $data variable
+        if($jabatan == "all"){
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        } else {
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->where('pegawais.jabatan', $jabatan)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        }
+        // dd($data)
+        $datas = [];
+        foreach ($data as $row) {
+            $satuan_kerja = $row->satuan_kerja;
+            $avg_totals = $row->avg_totals;
+
+            if (!isset($datas[$satuan_kerja])) {
+                $datas[$satuan_kerja] = [];
+            }
+
+            $datas[$satuan_kerja][] = $avg_totals;
+        }
+        // dd($datas);
+
+        try {
+            $response = $client->post($pythonEndpoint, [
+                'json' => $datas,
+            ]);
+
+            $pythonResult = json_decode($response->getBody()->getContents(), true);
+
+            return $pythonResult;
+        } catch (\Exception $e) {
+
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+        // $k = 2; // Number of clusters
+
+        // $kmeans = new KMeans($k);
+        // $clusters = $kmeans->cluster($datas);
+
+
+
+         }
 }
