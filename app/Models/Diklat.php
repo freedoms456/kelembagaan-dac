@@ -9,13 +9,13 @@ class Diklat extends Model
 {
     use HasFactory;
 
-    public function MengikutiSertifikasi()
+    public function MengikutiDiklat()
     {
-        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+        return $this->hasMany(MengikutiDiklat::class,'id_diklat');
     }
 
     public function DiklatKategori()
     {
-        return $this->hasMany(SertifikasiKategori::class,'id_sertifikasi');
+        return $this->hasMany(DiklatKategori::class,'id_diklat');
     }
 }

@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use stdClass;
 use App\Models\SAW;
 use App\Models\Diklat;
+use App\Models\DiklatKategori;
 use GuzzleHttp\Client;
+use App\Models\Pegawai;
 use App\Models\Kategori;
 use Illuminate\Http\Request;
 use Phpml\Clustering\KMeans;
@@ -38,13 +41,52 @@ class SAWController extends Controller
     // $data = Kategori::all();
     // return $unsur;
     // Call Data
+    $allDiklatData = Diklat::all();
+    // dd($allDiklatData);
+    $results = [];
+    foreach ($allDiklatData as $diklat) {
+        $similarity = cosineSimilarity($unsur, $diklat->detail);
+
+        // Store the Diklat ID and its similarity
+        if ($similarity != 0) {
+            $results[] = [
+                'id_diklat' => $diklat->id,
+                'similarity' => $similarity,
+            ];
+        }
+    }
+
+    usort($results, function ($a, $b) {
+        return $b['similarity'] <=> $a['similarity'];
+    });
+
     $dataDiklat = MengikutiDiklat::join('pegawais', 'mengikuti_diklats.id_pegawai', '=', 'pegawais.id')
-        ->join('diklats', 'mengikuti_diklats.id_diklat', '=', 'diklats.id')
-        ->join('diklat_kategoris', 'diklats.id', '=', 'diklat_kategoris.id_diklat')
-        ->select('pegawais.id', DB::raw('SUM(diklats.jp) as poin_diklat'))
-        ->where('diklat_kategoris.id_kategori', $kategori) // Assuming 'id' is an integer value, no quotes around the value
-        ->groupBy('pegawais.id')
-        ->get()->toArray();
+    ->join('diklats', 'mengikuti_diklats.id_diklat', '=', 'diklats.id')
+    ->join('diklat_kategoris', 'diklats.id', '=', 'diklat_kategoris.id_diklat')
+    ->select('pegawais.id', DB::raw('SUM(diklats.jp) as poin_diklat'))
+    ->groupBy('pegawais.id');
+
+    // Get the array of 'id_diklat' values from your previous similarity results
+    $idDiklatValues = array_column($results, 'id_diklat');
+
+    // Add a condition to the query to filter based on the 'id_diklat' values obtained from the previous similarity results
+    if (!empty($idDiklatValues)) {
+        $dataDiklat->whereIn('diklats.id', $idDiklatValues);
+    } else {
+        $dataDiklat->where('diklat_kategoris.id_kategori', $kategori);
+    }
+
+    // Fetch the results
+    $result = $dataDiklat->get()->toArray();
+    // dd($results);
+
+    // $dataDiklat = MengikutiDiklat::join('pegawais', 'mengikuti_diklats.id_pegawai', '=', 'pegawais.id')
+    //     ->join('diklats', 'mengikuti_diklats.id_diklat', '=', 'diklats.id')
+    //     ->join('diklat_kategoris', 'diklats.id', '=', 'diklat_kategoris.id_diklat')
+    //     ->select('pegawais.id', DB::raw('SUM(diklats.jp) as poin_diklat'))
+    //     ->where('diklat_kategoris.id_kategori', $kategori) // Assuming 'id' is an integer value, no quotes around the value
+    //     ->groupBy('pegawais.id')
+    //     ->get()->toArray();
 
     $dataSertifikasi = MengikutiSertifikasi::join('pegawais', 'mengikuti_sertifikasis.id_pegawai', '=', 'pegawais.id')
         ->join('sertifikasis', 'mengikuti_sertifikasis.id_sertifikasi', '=', 'sertifikasis.id')
@@ -71,7 +113,7 @@ class SAWController extends Controller
 
         $mergedData = [];
 
-        $mergedData = collect($dataDiklat)
+        $mergedData = collect($result)
         ->merge($dataSertifikasi)
         ->merge($dataKegiatan)
         ->merge($dataSKP)
@@ -134,12 +176,12 @@ class SAWController extends Controller
         'poin_sertifikasi' => 20,
     ];
 
-    // // AHP
+    // AHP
     // $comparisonMatrix = [
-    //     [1, 1/5, 3, 5],   // Comparison of poin_diklat with other criteria
-    //     [5, 1, 3, 7],     // Comparison of poin_sertifikasi with other criteria
+    //     [1, 1/4, 3, 5],   // Comparison of poin_diklat with other criteria
+    //     [4, 1, 3, 3],     // Comparison of poin_sertifikasi with other criteria
     //     [1/3, 1/3, 1, 2], // Comparison of poin_kinerja with other criteria
-    //     [1/5, 1/7, 1/2, 1], // Comparison of poin_skp with other criteria
+    //     [1/5, 1/3, 1/2, 1], // Comparison of poin_skp with other criteria
     // ];
 
     // // Get the number of criteria
@@ -382,5 +424,151 @@ class SAWController extends Controller
 
 
 
-         }
+    }
+
+    public function getTableListDiklat(Request $request){
+        $datas = $request->input('data');
+        $idPegawai = $request->input('pegawai');
+
+
+        $filteredData = array_filter($datas, function ($item) {
+            return (floatval($item['total']) < floatval($item['avg_total']));
+        });
+
+        $kategoriNames = array_map(function ($item) {
+            return $item['kategori']['name'];
+        }, $filteredData);
+
+        $results = [];
+
+        foreach ($kategoriNames as $data) {
+            $result = $this->rekomendasiDiklat($data);
+
+            foreach (json_decode($result, true) as $res) {
+                $results[] = [
+                    'kategori' => $data,
+                    'diklat_id' => $res['id_diklat'],
+                    'diklat_name' => $res['diklat_name'],
+                    'diklat_jp' => $res['jp'],
+                    'diklat_detail' => $res['detail'],
+                    'similarity' => $res['similarity'],
+                ];
+            }
+        }
+
+        $getDiklatTelahDiikuti = MengikutiDiklat::select('id_diklat')->where('id_pegawai', $idPegawai)->pluck('id_diklat')->toArray();
+        $results = array_filter($results, function ($result) use ($getDiklatTelahDiikuti) {
+            return !in_array($result['diklat_id'], $getDiklatTelahDiikuti);
+        });
+        // dd($results);
+        return DataTables::of($results)
+            ->addIndexColumn()
+            ->addColumn('action', function ($row) {
+                $actionBtn = '';
+                return $actionBtn;
+            })
+            ->rawColumns(['action'])
+            ->make(true);
+    }
+
+    public function getPegawaiData(Request $request){
+        $id = $request->input('pegawai');
+        $pegawai = Pegawai::find($id);
+        $excludeList = ['Ahli', 'Muda','Pertama','/','Terampil','Madya'];
+        $string = $pegawai->jabatan;
+
+        $namaJabatan = $this->excludeAndTrim($string, $excludeList);
+        $kategoriTerkait =  Kategori::where('jabatan', 'like', '%' .  $namaJabatan . '%')->get();
+
+        $aggregatedData = collect(); // Initialize the collection
+        // return $kategoriTerkait;
+        foreach ($kategoriTerkait as $kategori) {
+            $idKategori = $kategori->id;
+
+
+            // Fetch SAW data associated with the current Kategori using the relationship
+            $dataFromSAW = SAW::with(['kategori','pegawai']) // Eager load the kategori relation
+            ->where('id_pegawai', $id)
+            ->where('id_kategori', $idKategori)
+            ->get();
+
+            // Append the fetched data to the aggregated collection
+            $aggregatedData = $aggregatedData->concat($dataFromSAW);
+
+            $averages = SAW::select('id_kategori', DB::raw('AVG(total) as avg_total'))
+            ->groupBy('id_kategori')
+            ->pluck('avg_total', 'id_kategori')
+            ->toArray();
+
+            foreach ($aggregatedData as $data) {
+                $idKategori = $data->kategori->id;
+                $data->avg_total = $averages[$idKategori] ?? 0;
+            }
+
+
+        }
+        return $aggregatedData;
+
+
+
+
+
+
+    }
+
+    function excludeAndTrim($string, $excludeList) {
+        $words = explode(' ', $string);
+        $result = '';
+
+        foreach ($words as $word) {
+            if (!in_array($word, $excludeList)) {
+                $result .= $word . ' ';
+            }
+        }
+
+        // Remove trailing space
+        $result = rtrim($result);
+
+        return $result;
+    }
+
+
+    public static function rekomendasiDiklat($search){
+        // Your diklat data
+        $diklatData = Diklat::all();
+        // Given string
+        $givenString = $search;
+
+        // Function to calculate cosine similarity between two strings
+
+        // Calculate similarity for each diklat
+        foreach ($diklatData as $diklat) {
+
+            $deskripsiDiklat = $diklat->detail." ".$diklat->kategori;
+
+            $similarity = cosineSimilarity($givenString,$deskripsiDiklat ?? '');
+
+            $recommendation = new stdClass();
+            $recommendation->id_diklat = $diklat->id; // Replace with the correct attribute name
+            $recommendation->diklat_name = $diklat->name; // Replace with the correct attribute name
+            $recommendation->jp = $diklat->jp; // Replace with the correct attribute name
+            $recommendation->detail = $diklat->detail; // Replace with the correct attribute name
+            $recommendation->similarity = $similarity;
+            $recommendation->givenString = $givenString;
+
+            $recommendations[] = $recommendation;
+        }
+
+
+        usort($recommendations, function ($a, $b) {
+            return $b->similarity <=> $a->similarity;
+        });
+
+        $topRecommendations = array_slice($recommendations, 0, 2);
+
+        // Get top 2 recommendations
+        return json_encode($topRecommendations, JSON_PRETTY_PRINT);
+    }
+
+
 }

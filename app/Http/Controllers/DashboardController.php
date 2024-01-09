@@ -107,7 +107,14 @@ class DashboardController extends Controller
         return view('kompetensiPegawaiDetail',$data);
     }
     public function rekomendasiDiklat(){
-        return view('rekomendasiDiklat');
+        // dd($jabatan);
+        $data = [
+            // 'kategori' => Kategori::all(),
+            'pegawai' => Pegawai::all()
+
+          ];
+          // dd($data);
+        return view('rekomendasiDiklat',$data);
     }
     public function profilingPemeriksa(){
         return view('profilingPemeriksa');

@@ -12,5 +12,6 @@ class Kategori extends Model
     public function SAW()
 {
     return $this->hasMany(SAW::class, 'id_kategori', 'id');
+    return $this->hasMany(DiklatKategori::class, 'id_kategori', 'id');
 }
 }

@@ -50,3 +50,8 @@ Route::post('/perhitunganSAW/calculate', [SAWController::class, 'calculateSAW'])
 Route::post('/perhitunganKmeans/calculate', [SAWController::class, 'Kmeans']);
 Route::post('/perhitunganSAWS/get-datatable', [SAWController::class, 'getTableList'])->name('saw.list');
 Route::post('/perhitunganSAWS/get-datatablePerwakilan', [SAWController::class, 'getTableListPerwakilan'])->name('sawPerwakilan.list');
+
+
+
+Route::post('/rekomendasidiklat/get-datatable', [SAWController::class, 'getTableListDiklat'])->name('rekomendasiDiklat.list');
+Route::post('/rekomendasidiklat/getPegawai', [SAWController::class, 'getPegawaiData']);

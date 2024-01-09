@@ -32,6 +32,7 @@
     <!-- You can change the theme colors from here -->
     <link href="/dashboard-template/html/css/colors/default.css" id="theme" rel="stylesheet">
 
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.12.1/fh-3.2.4/r-2.3.0/datatables.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
