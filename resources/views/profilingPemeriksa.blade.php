@@ -76,7 +76,9 @@
                                             <option value="General">General</option>
                                             <option value="Akuntansi">Akuntansi</option>
                                             <option value="Teknik Sipil">Teknik Sipil</option>
-                                            <option value="Ketua Tim">PT</option>
+                                            <option value="Ketua Tim">Ketua Tim</option>
+                                            <option value="TI">TI</option>
+                                            <option value="PT">Pengendali Teknis</option>
                                             <option value="Hukum">Hukum</option>
                                         </select>
                                     </div>
@@ -127,16 +129,18 @@ $( document ).ready(function() {
     })
 
     getDataTable();
+
     $("#cari").click(function (e) {
 
     // getDataTable();
-    calculateSAW();
+        calculateSAW();
+        getDataTableSAW();
     });
 
-    var table2 = null;
+
 
 });
-
+var table2 = null;
 function getDataTableSAW(){
                   if (table2 !== null) {
                          table2.destroy(); // Destroy the DataTable instance if it exists
@@ -146,7 +150,7 @@ function getDataTableSAW(){
                     serverSide: true,
                     responsive: true,
                     ajax: {
-                        url : "/perhitunganSAW/get-tableresult",
+                        url : "/pemeriksaSAW/tableresult",
                         method: "POST",
                         headers: {
                             "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
@@ -159,14 +163,8 @@ function getDataTableSAW(){
 
                     },
                     columns: [
-                        {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                         {data: 'pegawai.name', name: 'pegawai.name'},
-                        {data: 'diklat', name: 'diklat'},
-                        {data: 'sertifikasi', name: 'sertifikasi'},
-                        {data: 'kinerja', name: 'kinerja'},
-                        {data: 'skp', name: 'skp'},
-                        {data: 'total', name: 'total'}
-
+                        {data: 'poin_kompentensiPemeriksa', name: 'poin_kompentensiPemeriksa'},
                     ]
                     });
         }
@@ -182,8 +180,8 @@ function calculateSAW(){
                     "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
                 },
                 success: function(response) {
-                    console.log(response);
-                    // getDataTableSAW();
+                    // console.log(response);
+                    getDataTableSAW();
                 },
                 error: function(xhr, status, error) {
                     // Handle errors

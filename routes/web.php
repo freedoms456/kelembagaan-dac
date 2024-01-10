@@ -63,3 +63,7 @@ Route::get('/pemeriksaSAW', [PemeriksaKegiatanController::class, 'index']);
 Route::post('/pemeriksaSAW/calculate', [PemeriksaKegiatanController::class, 'calculateSAWPemeriksa']);
 Route::post('/pemeriksaSAW/tableresult', [PemeriksaKegiatanController::class, 'SAWPemeriksaTable']);
 
+
+
+Route::post('/pemeriksaKegiatan/get-datatableHistori', [PemeriksaKegiatanController::class, 'getTableHistori']);
+
