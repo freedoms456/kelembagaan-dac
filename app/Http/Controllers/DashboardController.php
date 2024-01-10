@@ -7,6 +7,7 @@ use App\Models\Diklat;
 use App\Models\Pegawai;
 use App\Models\Kategori;
 use App\Models\Sertifikasi;
+use App\Models\KinerjaSatker;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\MengikutiSertifikasi;
@@ -142,6 +143,21 @@ class DashboardController extends Controller
 
         return $result;
     }
+
+    public function kinerjaSatker(Request $request){
+
+        $satker = Satker::select('id')->groupBy('satuan_kerja')->get();
+        $data = [
+            'kategori' => Kategori::all(),
+            'satker' => $satker
+
+          ];
+          // dd($data);
+        return view('index',$data);
+
+
+    }
+
 
 
 }
