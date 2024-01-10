@@ -137,8 +137,8 @@ var pieSatker = null;
         }
 
         function getDataTable(){
-            if (table !== null) {
-                table.destroy(); // Destroy the DataTable instance if it exists
+                  if (table !== null) {
+                         table.destroy(); // Destroy the DataTable instance if it exists
                     }
                     table = $('#myTable').DataTable({
                     processing: true,

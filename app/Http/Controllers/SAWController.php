@@ -169,55 +169,51 @@ class SAWController extends Controller
     }
 
     // NON AHP
-    $criteria = [
-        'poin_diklat' => 25,
-        'poin_skp' => 25,
-        'poin_kinerja' => 30,
-        'poin_sertifikasi' => 20,
-    ];
+    // $criteria = [
+    //     'poin_diklat' => 25,
+    //     'poin_skp' => 25,
+    //     'poin_kinerja' => 30,
+    //     'poin_sertifikasi' => 20,
+    // ];
 
     // AHP
-    // $comparisonMatrix = [
-    //     [1, 1/4, 3, 5],   // Comparison of poin_diklat with other criteria
-    //     [4, 1, 3, 3],     // Comparison of poin_sertifikasi with other criteria
-    //     [1/3, 1/3, 1, 2], // Comparison of poin_kinerja with other criteria
-    //     [1/5, 1/3, 1/2, 1], // Comparison of poin_skp with other criteria
-    // ];
+    $comparisonMatrix = [
+        [1, 1/2, 2, 2],    // Comparison of poin_diklat with other criteria
+        [2, 1, 2, 2],      // Comparison of poin_sertifikasi with other criteria
+        [1, 1/2, 1, 2], // Comparison of poin_kinerja with other criteria
+        [1/2, 1/2, 1/2, 1] // Comparison of poin_skp with other criteria
+    ];
 
-    // // Get the number of criteria
-    // $numCriteria = count($comparisonMatrix);
+    $numCriteria = count($comparisonMatrix);
 
-    // // Step 1: Normalize the matrix
-    // $normalizedMatrix = [];
-    // for ($i = 0; $i < $numCriteria; $i++) {
-    //     for ($j = 0; $j < $numCriteria; $j++) {
-    //         $normalizedMatrix[$i][$j] = $comparisonMatrix[$i][$j] / array_sum($comparisonMatrix[$j]);
-    //     }
-    // }
+    // Step 1: Normalize the matrix
+    $normalizedMatrix = [];
+    for ($j = 0; $j < $numCriteria; $j++) {
+        $columnSum = array_sum(array_column($comparisonMatrix, $j));
+        for ($i = 0; $i < $numCriteria; $i++) {
+            $normalizedMatrix[$i][$j] = $comparisonMatrix[$i][$j] / $columnSum;
+        }
+    }
 
-    // // Step 2: Calculate the weight vector
-    // $weightVector = [];
-    // for ($i = 0; $i < $numCriteria; $i++) {
-    //     $sum = 0;
-    //     for ($j = 0; $j < $numCriteria; $j++) {
-    //         $sum += $normalizedMatrix[$i][$j];
-    //     }
-    //     $weightVector[$i] = $sum / $numCriteria;
-    // }
+    // Step 2: Calculate the weight vector
+    $weightVector = [];
+    for ($i = 0; $i < $numCriteria; $i++) {
+        $weightVector[$i] = array_sum($normalizedMatrix[$i]) / $numCriteria;
+    }
 
-    // // Step 3: Normalize the weight vector to sum up to 1
-    // $totalWeights = array_sum($weightVector);
-    // $normalizedWeights = array_map(function ($weight) use ($totalWeights) {
-    //     return $weight / $totalWeights;
-    // }, $weightVector);
-    // // Apply criteria weights to determine the final criteria
-    // $criteria = [
-    //     'poin_diklat' => $normalizedWeights[0]*100,
-    //     'poin_sertifikasi' => $normalizedWeights[1]*100,
-    //     'poin_kinerja' => $normalizedWeights[2]*100,
-    //     'poin_skp' => $normalizedWeights[3]*100,
-    // ];
-    // // END AHP
+    // Step 3: Normalize the weight vector to sum up to 1
+    $totalWeights = array_sum($weightVector);
+    $normalizedWeights = array_map(function ($weight) use ($totalWeights) {
+        return $weight / $totalWeights;
+    }, $weightVector);
+    // Apply criteria weights to determine the final criteria
+    $criteria = [
+        'poin_diklat' => $normalizedWeights[0]*100,
+        'poin_sertifikasi' => $normalizedWeights[1]*100,
+        'poin_kinerja' => $normalizedWeights[2]*100,
+        'poin_skp' => $normalizedWeights[3]*100,
+    ];
+    // END AHP
     // SAW CALCULATE
     foreach ($normalizedData as $item) {
         $scoreDiklat = $item['poin_diklat'] * $criteria['poin_diklat'];
@@ -569,6 +565,7 @@ class SAWController extends Controller
         // Get top 2 recommendations
         return json_encode($topRecommendations, JSON_PRETTY_PRINT);
     }
+
 
 
 }

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DiklatController;
+use App\Http\Controllers\PemeriksaKegiatanController;
 use App\Http\Controllers\SAWController;
 use App\Http\Controllers\SertifikasiController;
 use Illuminate\Support\Facades\Route;
@@ -55,3 +56,10 @@ Route::post('/perhitunganSAWS/get-datatablePerwakilan', [SAWController::class, '
 
 Route::post('/rekomendasidiklat/get-datatable', [SAWController::class, 'getTableListDiklat'])->name('rekomendasiDiklat.list');
 Route::post('/rekomendasidiklat/getPegawai', [SAWController::class, 'getPegawaiData']);
+
+
+
+Route::get('/pemeriksaSAW', [PemeriksaKegiatanController::class, 'index']);
+Route::post('/pemeriksaSAW/calculate', [PemeriksaKegiatanController::class, 'calculateSAWPemeriksa']);
+Route::post('/pemeriksaSAW/tableresult', [PemeriksaKegiatanController::class, 'SAWPemeriksaTable']);
+

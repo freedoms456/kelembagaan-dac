@@ -12,15 +12,19 @@ class Pegawai extends Model
 
     public function Sertifikasi()
     {
-        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+        return $this->hasMany(MengikutiSertifikasi::class,'id_pegawai');
     }
     public function Diklat()
     {
-        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+        return $this->hasMany(MengikutiSertifikasi::class,'id_pegawai');
     }
     public function Kegiatan()
     {
-        return $this->hasMany(MengikutiSertifikasi::class,'id_sertifikasi');
+        return $this->hasMany(MengikutiSertifikasi::class,'id_pegawai');
+    }
+
+    public function PemeriksaKegiatan(){
+        return $this->hasMany(PemeriksaKegiatan::class,'id_pegawai');
     }
 
 
