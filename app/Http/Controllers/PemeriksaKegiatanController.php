@@ -57,17 +57,18 @@ class PemeriksaKegiatanController extends Controller
         // $data = Kategori::all();
         // return $unsur;
         // Call Data
-
+        // return $kategori;
         // $kategori = "Akuntansi";
         $kategoriBidang = KategoriPemeriksaan::where('bidang', $kategori)->pluck('id_kategori');
-
-
+        // return $kategoriBidang;
         $dataSAW = SAW::join('pegawais', 'saws.id_pegawai', '=', 'pegawais.id')
                 ->select('pegawais.id', DB::raw('avg(total) as poin_saw'))
-                ->whereIn('saws.id_kategori', $kategoriBidang)
+                ->orWhereIn('saws.id_kategori', $kategoriBidang)
                 ->groupBy('pegawais.id')
                 ->get()->toArray();
                 // dd($dataSAW);
+
+                // return $dataSAW;
         $dataJurusan = Pegawai::
             select('id','name', DB::raw('COUNT(id) as poin_jurusan'))
             ->where('jurusan_kategori', $kategori) // Assuming 'id' is an integer value, no quotes around the value
@@ -76,8 +77,8 @@ class PemeriksaKegiatanController extends Controller
         // dd($dataJurusan);
             $mergedData = [];
 
-            $mergedData = collect($dataJurusan)
-            ->merge($dataSAW)
+            $mergedData = collect($dataSAW)
+            ->merge($dataJurusan)
             ->groupBy('id')
             ->map(function ($items) {
                 return $items->reduce(function ($result, $item) {
@@ -86,6 +87,7 @@ class PemeriksaKegiatanController extends Controller
             })
             ->values()
             ->all();
+
         // Iterate through the merged data and fill missing 'diklat' or 'sertifikasi'
             $filledData = [];
             foreach ($mergedData as $item) {
@@ -96,6 +98,7 @@ class PemeriksaKegiatanController extends Controller
 
                 ];
             }
+
 
 
 
@@ -170,6 +173,7 @@ class PemeriksaKegiatanController extends Controller
 
         // END AHP
         // SAW CALCULATE
+        // dd($normalizedData);
         foreach ($normalizedData as $item) {
             $scoreDiklat = $item['poin_saw'] * $criteria['poin_saw'];
             $scoreSertifikasi = $item['poin_jurusan'] * $criteria['poin_jurusan'];
@@ -189,9 +193,11 @@ class PemeriksaKegiatanController extends Controller
             return $b['poin_kompentensiPemeriksa'] <=> $a['poin_kompentensiPemeriksa'];
         });
 
-        SAWPemeriksa::where('id_kategori', $kategori)->delete();
+        // dd($weightedScores);
+        // SAWPemeriksa::where('id_kategori', $kategori)->delete();
 
         // Insert new records
+
         SAWPemeriksa::insert($weightedScores);
 
         return $weightedScores;
@@ -201,7 +207,7 @@ class PemeriksaKegiatanController extends Controller
 
     public static function SAWPemeriksaTable(Request $request){
         $kategori =  $request->input('kategori');
-        $kategori = "Akuntansi";
+        // $kategori = "Akuntansi";
         // dd($kategori);
         $jabatanValue = "Kaltara";
 
@@ -224,6 +230,133 @@ class PemeriksaKegiatanController extends Controller
 
 
 
+    }
+
+
+    public static function bentukTim(Request $request){
+        $kategori = "LK";
+        if($kategori == "LK"){
+            $akuntansi = SAWPemeriksa::with('pegawai')->where("id_kategori", "Akuntansi")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'LIKE','%meriksa%');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')->get()->toArray();
+
+            // return $akuntansi;
+            $hukum = SAWPemeriksa::with('pegawai')->where("id_kategori","Hukum")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'LIKE','%meriksa%');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')->get()->toArray();
+
+            $teknikSipil = SAWPemeriksa::with('pegawai')->where("id_kategori","Teknik Sipil")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'LIKE','%meriksa%');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')->get()->toArray();
+
+            $it = SAWPemeriksa::with('pegawai')->where("id_kategori","IT")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'LIKE','%meriksa%');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')->get()->toArray();
+
+            $pt = SAWPemeriksa::with('pegawai')->where("id_kategori","PT")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'LIKE','%meriksa%');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')->get()->toArray();
+
+            $kt = SAWPemeriksa::with('pegawai')
+            ->where("id_kategori", "Ketua Tim")
+            ->whereHas('pegawai', function ($query) {
+                $query->where('jabatan', 'Pemeriksa Ahli Muda');
+            })
+            ->whereHas('pegawai', function ($query) {
+                $query->where('satuan_kerja', 'Kaltara');
+            })
+            ->orderBy('poin_kompentensiPemeriksa', 'DESC')
+            ->get();
+
+          $ktAll = $kt->map(function ($item) {
+            $item->poin_akuntansi = null;
+            $item->poin_hukum = null;
+            $item->poin_it = null;
+
+            return $item;
+        });
+
+        $ktAll = $ktAll->all();
+
+
+
+        $ktAll = mapDataToKt($ktAll, $akuntansi, 'poin_akuntansi');
+        $ktAll = mapDataToKt($ktAll, $hukum, 'poin_hukum');
+        $ktAll = mapDataToKt($ktAll, $it, 'poin_it');
+
+        $allPlayers = array_merge($hukum, $it, $akuntansi, $teknikSipil,$pt);
+        arsort($allPlayers);
+        // Number of teams
+        $assignedPlayers = [];
+
+       // Assuming $allPlayers is an associative array of players with their scores
+// Assuming $kt is an array of players from the 'kt' category
+
+// Assuming $allPlayers is an associative array of players with their scores
+// Assuming $ktAll is an array of players from the 'kt' category
+
+$numTeams = 4; // Change this value as needed
+$maxPlayersPerTeam = 7; // Maximum players per team
+
+// Initialize teams as arrays to hold players and their scores
+$teams = array_fill(0, $numTeams, ['players' => [], 'totalScore' => 0]);
+
+// Sort players by their total scores
+arsort($allPlayers);
+
+// Get the number of players in $ktAll
+$numKtPlayers = count($ktAll);
+
+// Initialize an array to keep track of used players from $kt category
+$usedKtPlayers = [];
+
+// Distribute players to teams while balancing count and total scores (with a max of 7 players per team)
+foreach ($allPlayers as $player => $totalScore) {
+    // Find the team with the lowest total score
+    $minTeamIndex = array_search(min(array_column($teams, 'totalScore')), array_column($teams, 'totalScore'));
+
+    // If the team hasn't reached the maximum player count, add the player
+    if (count($teams[$minTeamIndex]['players']) < $maxPlayersPerTeam) {
+        // If the team is empty and $ktAll has players left, assign the first player from the $kt category
+        if (empty($teams[$minTeamIndex]['players']) && count($usedKtPlayers) < $numKtPlayers) {
+            $ktPlayer = $ktAll[count($usedKtPlayers)];
+            $teams[$minTeamIndex]['players'][$ktPlayer['id']] = $ktPlayer; // Assuming 'id' is the unique identifier for players
+            $usedKtPlayers[] = $ktPlayer;
+            $teams[$minTeamIndex]['totalScore'] += array_sum($ktPlayer['scores']); // Assuming 'scores' contains player scores
+        } else {
+            // Otherwise, assign players from the sorted list
+            $teams[$minTeamIndex]['players'][$player] = $totalScore;
+            $teams[$minTeamIndex]['totalScore'] += array_sum($totalScore);
+        }
+    }
+}
+        dd("test");
+        }
     }
 
 }
