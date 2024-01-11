@@ -195,7 +195,7 @@ class PemeriksaKegiatanController extends Controller
         });
 
         // dd($weightedScores);
-        // SAWPemeriksa::where('id_kategori', $kategori)->delete();
+        SAWPemeriksa::where('id_kategori', $kategori)->delete();
 
         // Insert new records
 
@@ -212,11 +212,7 @@ class PemeriksaKegiatanController extends Controller
         // dd($kategori);
         $jabatanValue = "Kaltara";
 
-        // $data = SAWPemeriksa::with('pegawai')->where('id_kategori',$kategori)
-        // ->whereHas('pegawai', function ($query) use ($jabatanValue) {
-        //     $query->where('jabatan', $jabatanValue); // Replace $jabatanValue with the desired jabatan value
-        // })
-        // ->get();
+
 
         $data = SAWPemeriksa::with('pegawai')->where('id_kategori',$kategori)->get();
 

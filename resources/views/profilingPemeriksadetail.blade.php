@@ -89,7 +89,6 @@
                 {{-- <small class="text-muted ">Nip</small>
                 <h6>19800112200201001</h6> --}}
                 <div class="alert-rekomendasi alert alert-info">
-                    Kami Merekomendasikan Untuk meningkatkan Komptensi di bidang <strong>
                         @foreach($jabatanKeahlian as $data)
                             @if($data->avg_total > $data->total)
                                 <span class="bidang-komp">{{ $data->kategori->name }}</span><br>
@@ -102,7 +101,7 @@
               </div>
 
             </div>
-        </div>  
+        </div>
         <div class="col-lg-6 col-xlg-9 col-md-7">
             <div class="card">
 
@@ -129,11 +128,11 @@
                     <h4 class="font-medium m-t-30">Poin Pemeriksa berdasarkan SAW</h4>
                     <hr>
                     <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <canvas id="radarChartPegawai" width="400" height="400"></canvas>
                     </div>
                     <div class="col-md-5">
-                        <canvas id="horizontalBarChart" width="400" height="400"></canvas>
+                        {{-- <canvas id="horizontalBarChart" width="400" height="400"></canvas> --}}
                     </div>
                     </div>
 

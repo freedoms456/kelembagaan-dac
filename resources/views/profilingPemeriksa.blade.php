@@ -66,7 +66,7 @@
                 <div class="card-body">
                     <div class="">
                         <div>
-                            <h5 class="card-title">Profiling Berdasarkan Pencapaian</h5>
+                            <h5 class="card-title">Profiling Berdasarkan Kompetensi</h5>
                             <div class="row">
                                 <div class="card-body">
                                     <div class="row">
@@ -210,7 +210,7 @@ function calculateSAW(){
                 columns: [
 
                     {data: 'pegawai.name', name: 'pegawai.name'},
-                    {data: 'pegawai.name', name: 'pegawai.name'},
+                    {data: 'pegawai.jabatan', name: 'pegawai.jabatan'},
                     {data: 'count_jenis_pemeriksaan', name: 'count_jenis_pemeriksaan'},
                     {data: 'count_LK', name: 'count_LK'},
                     {data: 'count_Kinerja', name: 'count_Kinerja'},

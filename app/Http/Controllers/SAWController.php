@@ -422,6 +422,81 @@ class SAWController extends Controller
 
     }
 
+
+
+    public static function Kmeans2(Request $request){
+        $kategoris =  $request->input('kategori');
+        list($kategori, $unsur) = explode('_', $kategoris);
+
+        $jabatan =  $request->input('jabatan');
+
+        $client = new Client();
+        $pythonEndpoint = 'http://localhost:5000/process_datas'; // Replace with your Python API endpoint
+        // return $jabatan;
+        // Assuming you have your dataset in the $data variable
+        if($jabatan == "all"){
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        } else {
+            $data = DB::table('pegawais')
+            ->select('pegawais.satuan_kerja',
+                    DB::raw('AVG(saws.diklat) AS avg_diklat'),
+                    DB::raw('AVG(saws.sertifikasi) AS avg_sertifikasi'),
+                    DB::raw('AVG(saws.kinerja) AS avg_kinerja'),
+                    DB::raw('AVG(saws.skp) AS avg_skp'),
+                    DB::raw('AVG(saws.total) AS avg_totals'))
+            ->join('saws', 'pegawais.id', '=', 'saws.id_pegawai')
+            ->where('saws.id_kategori', $kategori)
+            ->where('pegawais.jabatan', $jabatan)
+            ->groupBy('pegawais.satuan_kerja')
+            ->get();
+        }
+        // dd($data)
+        $datas = [];
+        foreach ($data as $row) {
+            $satuan_kerja = $row->satuan_kerja;
+            $avg_diklat = $row->avg_diklat;
+            $avg_sertifikasi = $row->avg_sertifikasi;
+
+
+            if (!isset($datas[$satuan_kerja])) {
+                $datas[$satuan_kerja] = [];
+            }
+
+            $datas[$satuan_kerja][] = $avg_diklat;
+        }
+        // dd($datas);
+
+        try {
+            $response = $client->post($pythonEndpoint, [
+                'json' => $datas,
+            ]);
+
+            $pythonResult = json_decode($response->getBody()->getContents(), true);
+
+            return $pythonResult;
+        } catch (\Exception $e) {
+
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+        // $k = 2; // Number of clusters
+
+        // $kmeans = new KMeans($k);
+        // $clusters = $kmeans->cluster($datas);
+
+
+
+    }
+
     public function getTableListDiklat(Request $request){
         $datas = $request->input('data');
         $idPegawai = $request->input('pegawai');
@@ -470,7 +545,7 @@ class SAWController extends Controller
     public function getPegawaiData(Request $request){
         $id = $request->input('pegawai');
         $pegawai = Pegawai::find($id);
-        $excludeList = ['Ahli', 'Muda','Pertama','/','Terampil','Madya'];
+        $excludeList = ['Ahli', 'Muda','Pertama','/','Terampil','Madya','Pertama/'];
         $string = $pegawai->jabatan;
 
         $namaJabatan = $this->excludeAndTrim($string, $excludeList);
@@ -494,6 +569,13 @@ class SAWController extends Controller
             $averages = SAW::select('id_kategori', DB::raw('AVG(total) as avg_total'))
             ->groupBy('id_kategori')
             ->pluck('avg_total', 'id_kategori')
+            ->toArray();
+
+            $averages = SAW::join('pegawais', 'saws.id_pegawai', '=', 'pegawais.id')
+            ->where('pegawais.jabatan', 'like', '%' .  $namaJabatan . '%')
+            ->select('saws.id_kategori', DB::raw('AVG(saws.total) as avg_total'))
+            ->groupBy('saws.id_kategori')
+            ->pluck('avg_total', 'saws.id_kategori')
             ->toArray();
 
             foreach ($aggregatedData as $data) {
