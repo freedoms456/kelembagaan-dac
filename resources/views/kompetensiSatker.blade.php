@@ -43,7 +43,7 @@
                                 @foreach($kategori as $kategoris)
                                 <option value="{{$kategoris->id }}_{{$kategoris->name}}">{{$kategoris->name}}</option>
                                 @endforeach
-                                </select>
+                            </select>
                         </div>
 
                         <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">

@@ -29,3 +29,21 @@ if (!function_exists('cosineSimilarity')) {
 
 }
 
+
+function mapDataToKt($kt, $data, $propertyName) {
+    return array_map(function ($item) use ($data, $propertyName) {
+        $matchingItems = array_filter($data, function ($dataItem) use ($item) {
+            return $dataItem['id_pegawai'] === $item['id_pegawai'];
+        });
+
+        if (!empty($matchingItems)) {
+            $matchingItem = reset($matchingItems);
+            $item[$propertyName] = $matchingItem['poin_kompentensiPemeriksa'];
+        } else {
+            $item[$propertyName] = null; // Or set default value if no match found
+        }
+
+        return $item;
+    }, $kt);
+}
+

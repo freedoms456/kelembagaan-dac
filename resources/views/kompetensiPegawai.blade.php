@@ -35,12 +35,7 @@
                         <div class="col-md-3  col-sm-12 ">
                             <label class="control-label">Perwakilan</label>
                             <select id="perwakilan" class="form-control custom-select">
-                                {{-- <option value="">Pilih Perwakilan</option> --}}
-                                <option value="all">Semua Perwakilan</option>
-                                <option value="Kaltara">Kalimantan Utara</option>
-                                <option value="Kalbar">Kalimantan Barat</option>
-                                <option value="Kalsel">Kalimantan Selatan</option>
-                                <option value="Kaltim">Kalimantan Timur</option>
+                            
                             </select>
                         </div>
                         <div class="col-md-3  col-sm-12 ">
@@ -190,6 +185,30 @@
                         ]
                         });
             }
+
+            var optionsArray = [
+        { value: 'all', text: 'Pilih Perwakilan' },
+        { value: 'all', text: 'Semua Perwakilan' },
+        { value: 'Banten', text: 'Banten' },
+        { value: 'Jogja', text: 'Yogyakarta' },
+        { value: 'Kalsel', text: 'Kalimantan Selatan' },
+        { value: 'Kaltara', text: 'Kalimantan Utara' },
+        { value: 'Kepri', text: 'Kepulauan Riau' },
+        { value: 'Maluku', text: 'Maluku' },
+        { value: 'NTB', text: 'Nusa Tenggara Barat' }
+        // Add more options as needed
+    ];
+
+    // Get the select element by its ID
+    var selectInput = document.getElementById('perwakilan');
+
+    // Loop through the array to create options and append them to the select element
+    optionsArray.forEach(function (option) {
+        var optionElement = document.createElement('option');
+        optionElement.value = option.value;
+        optionElement.text = option.text;
+        selectInput.appendChild(optionElement);
+    });
 
 
     </script>

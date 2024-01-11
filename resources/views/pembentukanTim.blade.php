@@ -66,18 +66,18 @@
                     <div class="d-flex">
                         <div>
                             <h5 class="card-title">Provinsi</h5>
-                            <div class="col-md-12 col-sm-12">
+                            {{-- <div class="col-md-12 col-sm-12">
                                 <label class="control-label">Jenis Tim</label>
                                 <select class="form-control custom-select">
-                                    <option value="">Hukum</option>
+                                    <option value="LK">LK</option>
                                     <option value="">Kinerja</option>
                                     <option value="">PDTT</option>
                                 </select>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
-                    <div class="table-responsive mt-3 no-wrap">
-                        <table class="table vm no-th-brd pro-of-month">
+                    {{-- <div class="table-responsive mt-3 no-wrap"> --}}
+                        {{-- <table class="table vm no-th-brd pro-of-month">
                             <thead>
                                 <tr>
                                     <th>Nama</th>
@@ -124,8 +124,9 @@
 
 
                             </tbody>
-                        </table>
-                    </div>
+                        </table> --}}
+                        <div id="provinsi"></div>
+                    {{-- </div> --}}
                 </div>
             </div>
         </div>
@@ -137,7 +138,7 @@
                             <h5 class="card-title">Kota Tarakan</h5>
                         </div>
                     </div>
-                    <div class="table-responsive mt-3 no-wrap">
+                    {{-- <div class="table-responsive mt-3 no-wrap">
                         <table class="table vm no-th-brd pro-of-month">
                             <thead>
                                 <tr>
@@ -186,7 +187,8 @@
 
                             </tbody>
                         </table>
-                    </div>
+                    </div> --}}
+                    <div id="tarakan"></div>
                 </div>
             </div>
         </div>
@@ -198,7 +200,7 @@
                             <h5 class="card-title">Malinau</h5>
                         </div>
                     </div>
-                    <div class="table-responsive mt-3 no-wrap">
+                    {{-- <div class="table-responsive mt-3 no-wrap">
                         <table class="table vm no-th-brd pro-of-month">
                             <thead>
                                 <tr>
@@ -247,7 +249,8 @@
 
                             </tbody>
                         </table>
-                    </div>
+                    </div> --}}
+                    <div id="malinau"></div>
                 </div>
             </div>
         </div>
@@ -259,7 +262,7 @@
                             <h5 class="card-title">Nunukan</h5>
                         </div>
                     </div>
-                    <div class="table-responsive mt-3 no-wrap">
+                    {{-- <div class="table-responsive mt-3 no-wrap">
                         <table class="table vm no-th-brd pro-of-month">
                             <thead>
                                 <tr>
@@ -308,7 +311,132 @@
 
                             </tbody>
                         </table>
+                    </div> --}}
+                    <div id="nunukan"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="card-title">Bulungan</h5>
+                        </div>
                     </div>
+                    {{-- <div class="table-responsive mt-3 no-wrap">
+                        <table class="table vm no-th-brd pro-of-month">
+                            <thead>
+                                <tr>
+                                    <th>Nama</th>
+                                    <th>Peran</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                      Tedi
+                                    </td>
+                                    <td>Pengendali Teknis</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Rendi Rahmat
+                                    </td>
+                                    <td>Ketua Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Ramadhan
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Santi
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Eki
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Rahmawati
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div> --}}
+                    <div id="bulungan"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="card-title">KTT</h5>
+                        </div>
+                    </div>
+                    {{-- <div class="table-responsive mt-3 no-wrap">
+                        <table class="table vm no-th-brd pro-of-month">
+                            <thead>
+                                <tr>
+                                    <th>Nama</th>
+                                    <th>Peran</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                      Tedi
+                                    </td>
+                                    <td>Pengendali Teknis</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Rendi Rahmat
+                                    </td>
+                                    <td>Ketua Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Ramadhan
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Santi
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Eki
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      Rahmawati
+                                    </td>
+                                    <td>Anggota Tim</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div> --}}
+                    <div id="ktt"></div>
                 </div>
             </div>
         </div>
@@ -319,7 +447,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
-                    <button type="submit" class="btn btn-success ">
+                    <button id="cari" type="submit" class="btn btn-success ">
                       Bentuk
                     </button>
                 </div>
@@ -333,111 +461,90 @@
     <!-- ============================================================== -->
     <!-- Notification And Feeds -->
     <!-- ============================================================== -->
-    {{-- <div class="row">
-        <!-- Start Notification -->
-        <div class="col-lg-8 col-md-12">
-            <div class="card card-body mailbox">
-                <h5 class="card-title">Data Kompetensi Pegawai</h5>
-                <div class="message-center" style="height: 420px !important;">
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Luanch Admin</h6> <span class="mail-desc">Just see the my new admin!</span>
-                            <span class="time">9:30 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-success btn-circle"><i class="fa fa-calendar-check-o"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Event today</h6> <span class="mail-desc">Just a reminder that you have
-                                event</span> <span class="time">9:10 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Settings</h6> <span class="mail-desc">You can customize this template as you
-                                want</span> <span class="time">9:08 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
-                                class="time">9:02 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-info btn-circle"><i class="fa fa-cog text-white"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Customize Themes</h6> <span class="mail-desc">You can customize this template as you
-                                want</span> <span class="time">9:08 AM</span>
-                        </div>
-                    </a>
-                    <!-- Message -->
-                    <a href="#">
-                        <div class="btn btn-primary btn-circle"><i class="fa fa-user"></i></div>
-                        <div class="mail-contnet">
-                            <h6 class="text-dark font-medium mb-0">Pavan kumar</h6> <span class="mail-desc">Just see the my admin!</span> <span
-                                class="time">9:02 AM</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <!-- End Notification -->
-        <!-- Start Feeds -->
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Feeds</h5>
-                    <ul class="feeds">
-                        <li>
-                            <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
-                            tasks. <span class="text-muted">Just Now</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-success"><i class="fa fa-server"></i></div> Server #1
-                            overloaded.<span class="text-muted">2 Hours ago</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-warning"><i class="fa fa-shopping-cart"></i></div> New
-                            order received.<span class="text-muted">31 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
-                            registered.<span class="text-muted">30 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> New Version
-                            just arrived. <span class="text-muted">27 May</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
-                            tasks. <span class="text-muted">Just Now</span>
-                        </li>
-                        <li>
-                            <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
-                            registered.<span class="text-muted">30 May</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- End Feeds -->
-    </div> --}}
-    <!-- ============================================================== -->
-    <!-- End Notification And Feeds -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- End Page Content -->
-    <!-- ============================================================== -->
 </div>
 
 @endsection
+
+
+@section('custom-script')
+<script type="text/javascript">
+
+$( document ).ready(function() {
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+        }
+    })
+
+    getDataTable();
+
+    $("#cari").click(function (e) {
+
+    // getDataTable();
+        calculateSAW();
+    });
+
+
+
+});
+var table2 = null;
+
+    function calculateSAW(){
+            // console.log("test");
+            $.ajax({
+                url: '/bentuktim/create', // URL to your Laravel route
+                method: 'POST',
+                data : {
+                    // kategori : document.getElementById('kategori').value
+                    kategori : "test"
+                },
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                },
+                success: function(response) {
+                    // console.log(response);
+                    console.log(response);
+                },
+                error: function(xhr, status, error) {
+                    // Handle errors
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+
+ function getDataTable(){
+
+        var table = $('#myTable').DataTable({
+        processing: true,
+        serverSide: true,
+        responsive: true,
+                ajax: {
+                    url : "/pemeriksaKegiatan/get-datatableHistori",
+                    method: "POST",
+                    headers: {
+                        "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
+                    },
+                    data : function(d) {
+                        // d.jabatan = document.getElementById('jabatan').value,
+                        // d.kategori = document.getElementById('kategori').value
+                    },
+                },
+                columns: [
+
+                    {data: 'pegawai.name', name: 'pegawai.name'},
+                    {data: 'pegawai.name', name: 'pegawai.name'},
+                    {data: 'count_jenis_pemeriksaan', name: 'count_jenis_pemeriksaan'},
+                    {data: 'count_LK', name: 'count_LK'},
+                    {data: 'count_Kinerja', name: 'count_Kinerja'},
+                    {data: 'count_PDTT', name: 'count_PDTT'},
+                    {data: 'action', name: 'action'},
+
+
+                ]
+                });
+    }
+
+</script>
+@endsection
+
