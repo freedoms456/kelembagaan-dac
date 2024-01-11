@@ -26,7 +26,7 @@
     <!-- ============================================================== -->
     <!-- Sales Chart and browser state-->
     <!-- ============================================================== -->
-    <div class="row">
+    {{-- <div class="row">
         <!-- Column -->
         <div class="col-lg-12">
             <div class="card">
@@ -47,16 +47,11 @@
                             <option value="">PDTT</option>
                         </select>
                     </div>
-                    <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
-                        <button type="submit" class="btn btn-success ">
-                          Bentuk
-                        </button>
-                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- Column -->
-    </div>
+    </div> --}}
     <!-- ============================================================== -->
     <!-- End Sales Chart -->
     <!-- ============================================================== -->
@@ -71,6 +66,14 @@
                     <div class="d-flex">
                         <div>
                             <h5 class="card-title">Provinsi</h5>
+                            <div class="col-md-12 col-sm-12">
+                                <label class="control-label">Jenis Tim</label>
+                                <select class="form-control custom-select">
+                                    <option value="">Hukum</option>
+                                    <option value="">Kinerja</option>
+                                    <option value="">PDTT</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <div class="table-responsive mt-3 no-wrap">
@@ -311,6 +314,18 @@
         </div>
         <!-- Column -->
         <!-- Column -->
+    </div>
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-sm-12 col-md-2 d-flex" style="align-items: end">
+                    <button type="submit" class="btn btn-success ">
+                      Bentuk
+                    </button>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- ============================================================== -->
     <!-- End Projects of the Month -->

@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\KategoriPemeriksaan;
 use App\Models\SAW;
 use App\Models\Pegawai;
 use Illuminate\Http\Request;
 use App\Models\PemeriksaKegiatan;
+use App\Models\SAWPemeriksa;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
 
@@ -42,8 +44,14 @@ class PemeriksaKegiatanController extends Controller
 
 
     }
+    function normalize($value, $min, $max)
+    {
+        return ($value/$max);
+        // return ($value - $min) / ($max - $min);
+    }
 
     public function calculateSAWPemeriksa(Request $request){
+        // return 1;
         // dd($request->input('kategori'));
         $kategori =  $request->input('kategori');
         // list($kategori, $unsur) = explode('_', $kategoris);
@@ -51,18 +59,22 @@ class PemeriksaKegiatanController extends Controller
         // return $unsur;
         // Call Data
 
+        // $kategori = "Akuntansi";
+        $kategoriBidang = KategoriPemeriksaan::where('bicdang', $kategori)->pluck('id_kategori');
+
 
         $dataSAW = SAW::join('pegawais', 'saws.id_pegawai', '=', 'pegawais.id')
-            ->select('pegawais.id', DB::raw('avg(total) as poin_saw'))
-            ->where('saws.id_kategori', $kategori) // Assuming 'id' is an integer value, no quotes around the value
-            ->groupBy('pegawais.id')
-            ->get()->toArray();
+                ->select('pegawais.id', DB::raw('avg(total) as poin_saw'))
+                ->whereIn('saws.id_kategori', $kategoriBidang)
+                ->groupBy('pegawais.id')
+                ->get()->toArray();
+                // dd($dataSAW);
         $dataJurusan = Pegawai::
             select('id','name', DB::raw('COUNT(id) as poin_jurusan'))
             ->where('jurusan_kategori', $kategori) // Assuming 'id' is an integer value, no quotes around the value
             ->groupBy('pegawais.id','name')
             ->get()->toArray();
-
+        // dd($dataJurusan);
             $mergedData = [];
 
             $mergedData = collect($dataJurusan)
@@ -75,7 +87,6 @@ class PemeriksaKegiatanController extends Controller
             })
             ->values()
             ->all();
-
         // Iterate through the merged data and fill missing 'diklat' or 'sertifikasi'
             $filledData = [];
             foreach ($mergedData as $item) {
@@ -89,6 +100,7 @@ class PemeriksaKegiatanController extends Controller
 
 
 
+
         $features = ['poin_saw', 'poin_jurusan'];
 
         // Calculate min and max for each feature
@@ -97,7 +109,7 @@ class PemeriksaKegiatanController extends Controller
             $minMaxValues[$feature]['min'] = min(array_column($filledData, $feature));
             $minMaxValues[$feature]['max'] = max(array_column($filledData, $feature));
         }
-
+        // dd($minMaxValues);
         // return $minMaxValues;
         // Normalize each feature using min-max normalization
         $normalizedData = [];
@@ -156,6 +168,7 @@ class PemeriksaKegiatanController extends Controller
             'poin_saw' => $normalizedWeights[0]*100,
             'poin_jurusan' => $normalizedWeights[1]*100,
         ];
+
         // END AHP
         // SAW CALCULATE
         foreach ($normalizedData as $item) {
@@ -172,19 +185,46 @@ class PemeriksaKegiatanController extends Controller
                 'id_kategori' => $kategori
             ];
         }
-
         // Sort the scores in descending order based on the calculated scores
         usort($weightedScores, function ($a, $b) {
             return $b['poin_kompentensiPemeriksa'] <=> $a['poin_kompentensiPemeriksa'];
         });
 
-        SAW::where('id_kategori', $kategori)->delete();
+        SAWPemeriksa::where('id_kategori', $kategori)->delete();
 
         // Insert new records
-        SAW::insert($weightedScores);
+        SAWPemeriksa::insert($weightedScores);
 
         return $weightedScores;
 
-       }
+    }
+
+
+    public static function SAWPemeriksaTable(Request $request){
+        $kategori =  $request->input('kategori');
+        $kategori = "Akuntansi";
+        // dd($kategori);
+        $jabatanValue = "Kaltara";
+
+        // $data = SAWPemeriksa::with('pegawai')->where('id_kategori',$kategori)
+        // ->whereHas('pegawai', function ($query) use ($jabatanValue) {
+        //     $query->where('jabatan', $jabatanValue); // Replace $jabatanValue with the desired jabatan value
+        // })
+        // ->get();
+
+        $data = SAWPemeriksa::with('pegawai')->where('id_kategori',$kategori)->get();
+
+
+            return DataTables::of($data)->addIndexColumn()->addColumn('action', function ($row)
+            {
+                $actionBtn = '<a href="/profiling-pemeriksaDetail/'.$row->pegawai->id.'"><span class="label label-success">view</span></a>' ;
+                return $actionBtn;
+
+            })->rawColumns(['action'])->make(true);
+
+
+
+
+    }
 
 }
