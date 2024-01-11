@@ -43,14 +43,9 @@
                     <div class="col-3">
                         <label for="kategori-sert">Kategori/Bidang Sertifikasi</label>
                         <select name="bidang" id="bidang" class="form-control" placeholder="Pilih Kategori">
-                            <option value="all">Pilih Bidang</option>
-                            <option value="all">Semua Bidang</option>
-                            <option value="akuntansi">Akuntansi</option>
-                            <option value="Audit">Audit</option>
-                            <option value="Audit Forensik">Audit Forensik</option>
-                            <option value="Coaching">Coaching</option>
-                            <option value="Data Analitik">Data Analitik</option>
-                            <option value="Forensik">Forensik</option>
+                            @foreach($kategori as $kategoris)
+                            <option value="{{$kategoris->id }}_{{$kategoris->name}}">{{$kategoris->name}}</option>
+                            @endforeach
                         </select>
                     </div>
                     <div class="col-3">

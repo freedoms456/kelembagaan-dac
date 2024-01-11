@@ -20,7 +20,12 @@ class DashboardController extends Controller
     }
     public function sertifikasi(){
 
-        return view('sertifikasi');
+        $data = [
+            'kategori' => Kategori::all(),
+            // 'jabatan' => $jabatan
+
+          ];
+        return view('sertifikasi',$data);
     }
     public function kediklatan(){
         $data = [
@@ -58,7 +63,7 @@ class DashboardController extends Controller
         $id = request()->segment(2);
         $pegawai = Pegawai::find($id);
 
-        $excludeList = ['Ahli', 'Muda','Pertama'];
+        $excludeList = ['Ahli', 'Muda','Pertama','/','Terampil','Madya'];
         $string = $pegawai->jabatan;
 
         $trimmedString = $this->excludeAndTrim($string, $excludeList);
