@@ -16,5 +16,9 @@ class SAWPemeriksa extends Model
         return $this->belongsTo(Pegawai::class , 'id_pegawai');
     }
 
-
+    public function Kategori()
+    {
+        return $this->belongsTo(Kategori::class , 'id_kategori');
+    }
+    
 }
