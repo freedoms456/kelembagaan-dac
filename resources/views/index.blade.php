@@ -20,132 +20,205 @@
                 Pro</a> --}}
         </div>
     </div>
-    <!-- ============================================================== -->
-    <!-- End Bread crumb and right sidebar toggle -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Sales Chart and browser state-->
-    <!-- ============================================================== -->
-    <div>
-        <!-- Column -->
-        <div class="col-lg-12">
-            <div class="card d-flex flex-row">
-                <div class="card-body col-lg-3">
-                        <div class=" mb-4">
-                            <h5 class="card-title mb-0 align-self-center">Our Visitors</h5>
-                            <div class="ms-auto">
-                                <select class="form-select b-0">
-                                    <option selected="">Today</option>
-                                    <option value="1">Tomorrow</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div id="visitor" style="height:260px; width:100%;"></div>
-                        <ul class="list-inline mt-4 text-center font-12">
-                            <li><i class="fa fa-circle text-purple"></i> Tablet</li>
-                            <li><i class="fa fa-circle text-success"></i> Desktops</li>
-                            <li><i class="fa fa-circle text-info"></i> Mobile</li>
-                        </ul>
+
+    <div class="row">
+         <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex mb-4 no-block">
+                        <h5 class="card-title mb-0 align-self-center">Jumlah Diklat</h5>
                     </div>
-                    <div class="card-body col-lg-4">
-                        <div class="d-flex no-block">
-                            <div>
-                                <h5 class="card-title mb-0">Sales Chart</h5>
-                            </div>
-                            <div class="ms-auto">
-                                <ul class="list-inline text-center font-12">
-                                    <li><i class="fa fa-circle text-success"></i> SITE A</li>
-                                    <li><i class="fa fa-circle text-info"></i> SITE B</li>
-                                    <li><i class="fa fa-circle text-primary"></i> SITE C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="" id="sales-chart" style="height: 355px;"></div>
-                    </div>
+                    <div id="jumlah_diklat" style="height:240px; width:100%;"></div>
                 </div>
             </div>
         </div>
         <!-- Column -->
-        <div class="col-lg-12">
+        <div class="col-lg-6">
             <div class="card">
-            <div class="card-body col-lg-4">
-                        <div class="d-flex no-block">
-                            <div>
-                                <h5 class="card-title mb-0">Sales Chart</h5>
-                            </div>
-                            <div class="ms-auto">
-                                <ul class="list-inline text-center font-12">
-                                    <li><i class="fa fa-circle text-success"></i> SITE A</li>
-                                    <li><i class="fa fa-circle text-info"></i> SITE B</li>
-                                    <li><i class="fa fa-circle text-primary"></i> SITE C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="" id="bar-satker" style="height: 355px;"></div>
+                <div class="card-body">
+                    <div class="d-flex mb-4 no-block">
+                        <h5 class="card-title mb-0 align-self-center">Jumlah Sertifikasi</h5>
                     </div>
+                    <div id="jumlah_sertifikasi" style="height:240px; width:100%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <div class="card income-o-year">
+                <div class="card-body">
+                <div class="d-flex m-b-30 no-block">
+                    <h5 class="card-title m-b-0 align-self-center">
+                        Kinerja Satker
+                    </h5>
+                </div>
+                <div
+                    id="kinerja-satker"
+                ></div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- ============================================================== -->
-    <!-- End Sales Chart -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Projects of the Month -->
-    <!-- ============================================================== -->
-   
-    <!-- ============================================================== -->
-    <!-- End Projects of the Month -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Notification And Feeds -->
-    <!-- ============================================================== -->
     
-    <!-- ============================================================== -->
-    <!-- End Notification And Feeds -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- End Page Content -->
-    <!-- ============================================================== -->
 </div>
 
 @endsection
 
 
-<script type="text/javascript">
-var barSatker = null;
-var myChart = null;
+@section('custom-script')
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+    
+    
+    $(function() {
+        "use strict";       
 
-$.ajax({
-                method: 'GET',
-                url: '/dashboard/kinerjaSatker',
-                data: {
-                    perwakilan: perwakilan,
-                    skp: skp
+        kinerjaSatker();
+    });
+
+    function kinerjaSatker(){
+            // console.log("test");
+            $.ajax({
+                url: '/perhitungan/dashboard/kinerja-satker', // URL to your Laravel route
+                method: 'POST',
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content')
                 },
-                success: function (data) {
-                    let labels = data.map(item => item.nama);
-                    let values = data.map(item => item.total);
+                success: function(data) {
+                  
+                    data = JSON.parse(data);                   
+                    generatechart1(data);
+                    generatechart2(data);
+                    generatechart3(data);
+                    
+                    
+                },
+                error: function(xhr, status, error) {
+                    // Handle errors
+                    console.error(xhr.responseText);
                 }
-                var ctx = document.getElementById('bar-satker');
+            });
 
-                    // If myChart exists, remove the previous chart
-                    if (myChart !== null) {
-                        myChart.destroy();
-                    };
 
-                    // Create the new chart
-                    myChart = new Chart(ctx, {
-                        type: 'bar',
-                        data: chartData,
-                        options: {
-                            indexAxis: 'y',
-                            scales: {
-                                y: {
-                                    beginAtZero: true
-                                }
-                            }
-                        }
-                    });
-                });
+    }
 
+    function generatechart1(data) {
+        const barpersatker_satker = data.barpersatker.satker;
+        const barpersatker_total = data.barpersatker.total;
+
+        var options = {
+            series: [{
+            data: barpersatker_total
+            }],
+            chart: {
+            height: 350,
+            type: 'bar',
+            events: {
+                click: function(chart, w, e) {
+                // console.log(chart, w, e)
+                }
+            }
+            },
+            plotOptions: {
+            bar: {
+                columnWidth: '45%',
+                distributed: true,
+            }
+            },
+            dataLabels: {
+            enabled: false
+            },
+            legend: {
+            show: false
+            },
+            xaxis: {
+            categories: barpersatker_satker,
+            labels: {
+                style: {
+                fontSize: '12px'
+                }
+            }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#kinerja-satker"), options);
+        chart.render();
+        
+    }   
+
+    function generatechart2(data) {
+        const sertifikasi_per_satker_satker = data.sertifikasi_per_satker.satker;
+        const sertifikasi_per_satker_total = data.sertifikasi_per_satker.total.map(Number);
+        
+        var options = {        
+        series: sertifikasi_per_satker_total,
+         labels: sertifikasi_per_satker_satker,
+          chart: {
+          type: 'pie',
+        },
+        dataLabels: {
+            enabled: true,
+            formatter: function (val, opts) {
+      return opts.w.globals.series[opts.seriesIndex];
+    },
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#jumlah_sertifikasi"), options);
+        chart.render();
+        
+    }
+
+    function generatechart3(data) {
+        const sertifikasi_per_satker_satker = data.diklat_per_satker.satker;
+        const sertifikasi_per_satker_total = data.diklat_per_satker.total.map(Number);
+        
+        var options = {        
+        series: sertifikasi_per_satker_total,
+        labels: sertifikasi_per_satker_satker,
+          chart: {
+          type: 'donut',
+        },
+        dataLabels: {
+        enabled: true,
+        formatter: function (val, opts) {
+      return opts.w.globals.series[opts.seriesIndex];
+    },
+  },
+        tooltip: {
+            y: {
+            formatter: function (val) {
+                return val;
+            }
+            }
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#jumlah_diklat"), options);
+        chart.render();
+        
+    }
 </script>
+
+@endsection
