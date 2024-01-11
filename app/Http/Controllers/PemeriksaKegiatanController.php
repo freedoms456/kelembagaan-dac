@@ -60,14 +60,8 @@ class PemeriksaKegiatanController extends Controller
         // Call Data
         // return $kategori;
         // $kategori = "Akuntansi";
-<<<<<<< HEAD
-        $kategoriBidang = KategoriPemeriksaan::where('bicdang', $kategori)->pluck('id_kategori');
-
-
-=======
         $kategoriBidang = KategoriPemeriksaan::where('bidang', $kategori)->pluck('id_kategori');
         // return $kategoriBidang;
->>>>>>> 57642dd444711cd8422cd091f8a0864e18e97af1
         $dataSAW = SAW::join('pegawais', 'saws.id_pegawai', '=', 'pegawais.id')
                 ->select('pegawais.id', DB::raw('avg(total) as poin_saw'))
                 ->orWhereIn('saws.id_kategori', $kategoriBidang)

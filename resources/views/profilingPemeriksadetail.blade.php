@@ -76,71 +76,33 @@
               <div class="card-body">
                 <center class="m-t-30">
                   <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" class="img-circle" width="150" height="150">
-                  <h4 class="card-title m-t-10">Kurniawan</h4>
-                  <h6 class="card-subtitle">Pemeriksa ahli Muda</h6>
+                  <h4 class="card-title m-t-10"><?= $pegawai->name ?></h4>
+                  <h6 class="card-subtitle"><?= $pegawai->jabatan ?></h6>
                   <hr>
 
-                  <h4 class="card-title">Pengendali Teknis</h4>
-                  <div class="row text-center justify-content-md-center">
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">LK<br>
-                        <font class="font-medium">4</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">Kinerja<br>
-                        <font class="font-medium">1</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">PDTT<br>
-                        <font class="font-medium">2</font></a>
-                    </div>
-                  </div>
-                  <hr>
-                  <h4 class="card-title">Ketua Tim</h4>
-                  <div class="row text-center justify-content-md-center">
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">LK<br>
-                        <font class="font-medium">24</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">Kinerja<br>
-                        <font class="font-medium">14</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">PDTT<br>
-                        <font class="font-medium">24</font></a>
-                    </div>
-                  </div>
-                  <hr>
-                  <h4 class="card-title">Anggota Tim</h4>
-                  <div class="row text-center justify-content-md-center">
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">LK<br>
-                        <font class="font-medium">44</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">Kinerja<br>
-                        <font class="font-medium">14</font></a>
-                    </div>
-                    <div class="col-4">
-                      <a href="javascript:void(0)" class="link">PDTT<br>
-                        <font class="font-medium">24</font></a>
-                    </div>
-                  </div>
-                </center>
-              </div>
-              <div>
-                <hr>
               </div>
               <div class="card-body">
-                <small class="text-muted">Email </small>
-                <h6>kurniawan@bpk.go.id</h6>
-                <small class="text-muted p-t-30 db">Nip</small>
-                <h6>19800112200201001</h6>
+                <small class="text-muted">Masa Kerja </small>
+                <h6><?= $pegawai->masa_kerja ?> Tahun</h6>
+                <small class="text-muted">Satuan kerja </small>
+                <h6>BPK Provinsi <?= $pegawai->satuan_kerja ?></h6>
+                {{-- <small class="text-muted ">Nip</small>
+                <h6>19800112200201001</h6> --}}
+                <div class="alert-rekomendasi alert alert-info">
+                    Kami Merekomendasikan Untuk meningkatkan Komptensi di bidang <strong>
+                        @foreach($jabatanKeahlian as $data)
+                            @if($data->avg_total > $data->total)
+                                <span class="bidang-komp">{{ $data->kategori->name }}</span><br>
 
+                            @endif
+
+                        @endforeach
+                    </strong>
+                  </div>
               </div>
+
             </div>
-        </div>
+        </div>  
         <div class="col-lg-6 col-xlg-9 col-md-7">
             <div class="card">
 
@@ -301,16 +263,22 @@
 @endsection
 @section('custom-script')
 <script type="text/javascript">
+
+    const ketegori_pegawai = @json($ketegori_pegawai);
+    const poin_pegawai_ps = @json($poin_pegawai_ps);
+    const riwayat_pemeriksaan = @json($riwayat_pemeriksaan);
+    const riwayat_pemeriksaan_jumlah = @json($riwayat_pemeriksaan_jumlah);
+
  var table = $('.yajra-datatable').DataTable({});
     // Data for the radar chart
     var radarData = {
-            labels: ['Akun Pendapatan', 'Akun Kas', 'Akun Belanja', 'Akun Aset', 'Kepemimpinan', 'Administrasi pelaporan'],
+            labels: ketegori_pegawai,
             datasets: [{
                 label: 'Nilai',
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgba(54, 162, 235, 1)',
                 pointBackgroundColor: 'rgba(54, 162, 235, 1)',
-                data: [3, 4, 5, 3, 4, 4] // Replace with the actual data for the person's skills
+                data: poin_pegawai_ps // Replace with the actual data for the person's skills
             }]
         };
 
@@ -337,14 +305,14 @@
             options: radarOptions
     });
 
-    var barData = {
-            labels: ['Provinsi', 'Bulungan', 'Tarakan', 'Malinau', 'Nunukan','KTT'],
+        var barData = {
+            labels: riwayat_pemeriksaan ,
             datasets: [{
                 label: 'Jumlah',
                 backgroundColor: 'rgba(54, 162, 235, 0.6)',
                 borderColor: 'rgba(54, 162, 235, 1)',
                 borderWidth: 1,
-                data: [20, 35, 40, 15, 25,20] // Replace with your data values
+                data: riwayat_pemeriksaan_jumlah // Replace with your data values
             }]
         };
 
