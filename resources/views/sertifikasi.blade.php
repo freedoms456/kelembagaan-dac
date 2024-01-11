@@ -33,11 +33,10 @@
                     <div class="col-3">
                         <label class="control-label">Perwakilan</label>
                         <select id="perwakilan" class="form-control custom-select">
-                            <option value="all">Pilih Perwakilan</option>
+                            <!-- <option value="all">Pilih Perwakilan</option>
                             <option value="all">Semua Perwakilan</option>
                             <option value="Jogja">Yogyakarta</option>
-                            <option value="Kaltara">Kalimantan Utara</option>
-
+                            <option value="Kaltara">Kalimantan Utara</option> -->
                         </select>
                     </div>
                     <div class="col-3">
@@ -128,6 +127,30 @@
  var myChart = null;
  var table = null;
  var table2 = null;
+
+var optionsArray = [
+        { value: 'all', text: 'Pilih Perwakilan' },
+        { value: 'all', text: 'Semua Perwakilan' },
+        { value: 'Banten', text: 'Banten' },
+        { value: 'Jogja', text: 'Yogyakarta' },
+        { value: 'Kalsel', text: 'Kalimantan Selatan' },
+        { value: 'Kaltara', text: 'Kalimantan Utara' },
+        { value: 'Kepri', text: 'Kepulauan Riau' },
+        { value: 'Maluku', text: 'Maluku' },
+        { value: 'NTB', text: 'Nusa Tenggara Barat' }
+        // Add more options as needed
+    ];
+
+    // Get the select element by its ID
+    var selectInput = document.getElementById('perwakilan');
+
+    // Loop through the array to create options and append them to the select element
+    optionsArray.forEach(function (option) {
+        var optionElement = document.createElement('option');
+        optionElement.value = option.value;
+        optionElement.text = option.text;
+        selectInput.appendChild(optionElement);
+    });
 var pieSatker = null;
     $(function() {
 
