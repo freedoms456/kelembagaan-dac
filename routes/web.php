@@ -70,3 +70,5 @@ Route::post('/pemeriksaSAW/tableresult', [PemeriksaKegiatanController::class, 'S
 Route::post('/pemeriksaKegiatan/get-datatableHistori', [PemeriksaKegiatanController::class, 'getTableHistori']);
 Route::post('/bentuktim/create/', [PemeriksaKegiatanController::class, 'bentukTim']);
 
+Route::post('/perhitungan/dashboard/kinerja-satker', [DashboardController::class, 'kinerjaSatker']);
+

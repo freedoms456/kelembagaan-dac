@@ -232,19 +232,61 @@ class DashboardController extends Controller
         return $result;
     }
 
-    public function kinerjaSatker(Request $request){
+    public function kinerjaSatker(){
 
-        $satker = Satker::select('id')->groupBy('satuan_kerja')->get();
+        $rs = DB::table('mengikuti_kegiatans as m')
+        ->leftJoin('pegawais as p', 'p.id', '=', 'm.id_pegawai')
+        ->select('p.satuan_kerja', DB::raw('avg(m.nilai_skp) as total'))
+        ->groupBy('p.satuan_kerja')
+        ->get();
+
+        $barpersatker = ['satker' => [], 'total' => []];
+
+        // Loop melalui hasil query dan mengisi array yang diinginkan
+        foreach ($rs as $item) {
+            $barpersatker['satker'][] = $item->satuan_kerja;
+            $barpersatker['total'][] = number_format($item->total,2);
+        }
+
+        $rs = DB::table('mengikuti_sertifikasis')
+            ->leftJoin('pegawais', 'pegawais.id', '=', 'mengikuti_sertifikasis.id_pegawai')
+            ->groupBy('pegawais.satuan_kerja')
+            ->select('pegawais.satuan_kerja', DB::raw('COUNT(mengikuti_sertifikasis.id_sertifikasi) as total'))
+            ->get();
+        
+        $sertifikasi_per_satker = ['satker' => [], 'total' => []];
+
+        // Loop melalui hasil query dan mengisi array yang diinginkan
+        foreach ($rs as $item) {
+            $sertifikasi_per_satker['satker'][] = $item->satuan_kerja;
+            $sertifikasi_per_satker['total'][] = number_format($item->total,0);
+        }
+
+        $rs = DB::table('mengikuti_diklats')
+        ->leftJoin('pegawais', 'pegawais.id', '=', 'mengikuti_diklats.id_pegawai')
+        ->groupBy('pegawais.satuan_kerja')
+        ->select('pegawais.satuan_kerja', DB::raw('COUNT(mengikuti_diklats.id_diklat) as total'))
+        ->get();
+    
+        $diklat_per_satker = ['satker' => [], 'total' => []];
+
+        // Loop melalui hasil query dan mengisi array yang diinginkan
+        foreach ($rs as $item) {
+            $diklat_per_satker['satker'][] = $item->satuan_kerja;
+            $diklat_per_satker['total'][] = number_format($item->total,0);
+        }
+
         $data = [
-            'kategori' => Kategori::all(),
-            'satker' => $satker
+            'barpersatker' => $barpersatker,
+            'sertifikasi_per_satker' => $sertifikasi_per_satker,
+            'diklat_per_satker' => $diklat_per_satker
+        ];
 
-          ];
-          // dd($data);
-        return view('index',$data);
-
-
+        
+        return json_encode($data);
     }
+
+
 
 
 
