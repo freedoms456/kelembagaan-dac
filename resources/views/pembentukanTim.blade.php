@@ -63,6 +63,7 @@
         <div class="col-lg-6 d-flex align-items-stretch">
             <div class="card w-100">
                 <div class="card-body">
+
                     <div class="d-flex">
                         <div>
                             <h5 class="card-title">Provinsi</h5>
@@ -126,6 +127,7 @@
                             </tbody>
                         </table> --}}
                         <div id="provinsi"></div>
+                        <div id="team-container0"></div>
                     {{-- </div> --}}
                 </div>
             </div>
@@ -189,6 +191,7 @@
                         </table>
                     </div> --}}
                     <div id="tarakan"></div>
+                    <div id="team-container1"></div>
                 </div>
             </div>
         </div>
@@ -251,6 +254,7 @@
                         </table>
                     </div> --}}
                     <div id="malinau"></div>
+                    <div id="team-container2"></div>
                 </div>
             </div>
         </div>
@@ -262,57 +266,8 @@
                             <h5 class="card-title">Nunukan</h5>
                         </div>
                     </div>
-                    {{-- <div class="table-responsive mt-3 no-wrap">
-                        <table class="table vm no-th-brd pro-of-month">
-                            <thead>
-                                <tr>
-                                    <th>Nama</th>
-                                    <th>Peran</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                      Tedi
-                                    </td>
-                                    <td>Pengendali Teknis</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Rendi Rahmat
-                                    </td>
-                                    <td>Ketua Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Ramadhan
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Santi
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Eki
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Rahmawati
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-
-
-                            </tbody>
-                        </table>
-                    </div> --}}
                     <div id="nunukan"></div>
+                    <div id="team-container3"></div>
                 </div>
             </div>
         </div>
@@ -324,57 +279,9 @@
                             <h5 class="card-title">Bulungan</h5>
                         </div>
                     </div>
-                    {{-- <div class="table-responsive mt-3 no-wrap">
-                        <table class="table vm no-th-brd pro-of-month">
-                            <thead>
-                                <tr>
-                                    <th>Nama</th>
-                                    <th>Peran</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                      Tedi
-                                    </td>
-                                    <td>Pengendali Teknis</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Rendi Rahmat
-                                    </td>
-                                    <td>Ketua Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Ramadhan
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Santi
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Eki
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      Rahmawati
-                                    </td>
-                                    <td>Anggota Tim</td>
-                                </tr>
-
-
-                            </tbody>
-                        </table>
-                    </div> --}}
                     <div id="bulungan"></div>
+                    <div id="team-container4"></div>
+
                 </div>
             </div>
         </div>
@@ -437,6 +344,7 @@
                         </table>
                     </div> --}}
                     <div id="ktt"></div>
+                    <div id="team-container5"></div>
                 </div>
             </div>
         </div>
@@ -504,7 +412,8 @@ var table2 = null;
                 },
                 success: function(response) {
                     // console.log(response);
-                    console.log(response);
+                    displayTeamInfo(response);
+
                 },
                 error: function(xhr, status, error) {
                     // Handle errors
@@ -543,6 +452,33 @@ var table2 = null;
 
                 ]
                 });
+    }
+
+
+    function displayTeamInfo(data) {
+        const teamContainer = document.getElementById('team-container');
+
+        // Iterate over each team
+        data.forEach((team, index) => {
+            // Display team name (using index as the team name)
+            const teamContainer = document.getElementById('team-container'+index);
+            $('#team-container'+index).html('')
+            // Display team members
+            teamContainer.innerHTML += '<ul>';
+            team.players.forEach(player => {
+                teamContainer.innerHTML += `
+                    <li>
+                        <strong>${player.pegawai.name}</strong><span>(${player.id_kategori})</span>
+                    </li>`;
+            });
+            // teamContainer.innerHTML += '</ul>';
+
+            // Display total score
+            // teamContainer.innerHTML += `<p>Total Team Score: ${team.totalScore}</p>`;
+
+            // Add some separation between teams
+            teamContainer.innerHTML += '<hr>';
+        });
     }
 
 </script>

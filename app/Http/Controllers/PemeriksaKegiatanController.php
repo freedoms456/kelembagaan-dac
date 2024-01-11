@@ -60,14 +60,8 @@ class PemeriksaKegiatanController extends Controller
         // Call Data
         // return $kategori;
         // $kategori = "Akuntansi";
-<<<<<<< HEAD
-        $kategoriBidang = KategoriPemeriksaan::where('bicdang', $kategori)->pluck('id_kategori');
-
-
-=======
         $kategoriBidang = KategoriPemeriksaan::where('bidang', $kategori)->pluck('id_kategori');
         // return $kategoriBidang;
->>>>>>> 57642dd444711cd8422cd091f8a0864e18e97af1
         $dataSAW = SAW::join('pegawais', 'saws.id_pegawai', '=', 'pegawais.id')
                 ->select('pegawais.id', DB::raw('avg(total) as poin_saw'))
                 ->orWhereIn('saws.id_kategori', $kategoriBidang)
@@ -335,7 +329,7 @@ class PemeriksaKegiatanController extends Controller
         $teams = array_fill(0, 6, ['players' => [], 'totalScore' => 0]);
 
         // Sort players by their total scores in descending order
-        arsort($allPlayers);
+        shuffle($allPlayers);
         // Initialize counters for KT and PT players in teams
         $ktCounters = array_fill(0, 6, 0);
         $ptCounters = array_fill(0, 6, 0);
@@ -347,6 +341,107 @@ class PemeriksaKegiatanController extends Controller
 
         $usedPlayer = [];
         // Distribute players to teams while balancing total scores and maintaining constraints
+
+        // foreach($pt as $player){
+        //     if (
+        //         in_array($player['id_pegawai'], $usedPlayer)
+
+        //     ) {
+        //         continue; // Skip this player if already used in another category
+        //     }
+        //     $minTeamIndex = array_search(min(array_map('count', array_column($teams, 'players'))), array_map('count', array_column($teams, 'players')));
+
+        //     // If the team hasn't reached the maximum member count, add the player to the team
+        //         if (count($teams[$minTeamIndex]['players']) < 8) {
+        //             // Ensure each KT and PT player is in position 1 or 2
+        //           if(($player['id_kategori'] == 'PT' && $ptCounters[$minTeamIndex] < 1)){
+        //                 $teams[$minTeamIndex]['players'][] = $player;
+        //                 $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
+        //                 $usedPlayer[] = $player['id_pegawai'];
+
+        //                 if ($player['id_kategori'] == 'PT') {
+        //                     $ptCounters[$minTeamIndex]++;
+        //                 }
+        //             }
+
+        //         }
+        // }
+
+        foreach($ktalls as $player){
+            if (
+                in_array($player['id_pegawai'], $usedPlayer)
+
+            ) {
+                continue; // Skip this player if already used in another category
+            }
+            $minTeamIndex = array_search(min(array_map('count', array_column($teams, 'players'))), array_map('count', array_column($teams, 'players')));
+
+            // If the team hasn't reached the maximum member count, add the player to the team
+                if (count($teams[$minTeamIndex]['players']) < 8) {
+                    // Ensure each KT and PT player is in position 1 or 2
+                  if(($player['id_kategori'] == 'Ketua Tim' && $ktCounters[$minTeamIndex] < 1)){
+                        $teams[$minTeamIndex]['players'][] = $player;
+                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
+                        $usedPlayer[] = $player['id_pegawai'];
+
+                        if ($player['id_kategori'] == 'Ketua Tim') {
+                            $ktCounters[$minTeamIndex]++;
+                        }
+                    }
+
+                }
+        }
+
+        foreach($it as $player){
+            if (
+                in_array($player['id_pegawai'], $usedPlayer)
+
+            ) {
+                continue; // Skip this player if already used in another category
+            }
+            $minTeamIndex = array_search(min(array_map('count', array_column($teams, 'players'))), array_map('count', array_column($teams, 'players')));
+
+            // If the team hasn't reached the maximum member count, add the player to the team
+                if (count($teams[$minTeamIndex]['players']) < 8) {
+                    // Ensure each KT and PT player is in position 1 or 2
+                    if(($player['id_kategori'] == 'IT' && $itCounters[$minTeamIndex] < 1)){
+                        $teams[$minTeamIndex]['players'][] = $player;
+                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
+                        $usedPlayer[] = $player['id_pegawai'];
+
+                        if ($player['id_kategori'] == 'IT') {
+                            $itCounters[$minTeamIndex]++;
+                        }
+                    }
+
+                }
+        }
+        foreach($teknikSipil as $player){
+            if (
+                in_array($player['id_pegawai'], $usedPlayer)
+
+            ) {
+                continue; // Skip this player if already used in another category
+            }
+            $minTeamIndex = array_search(min(array_map('count', array_column($teams, 'players'))), array_map('count', array_column($teams, 'players')));
+
+            // If the team hasn't reached the maximum member count, add the player to the team
+                if (count($teams[$minTeamIndex]['players']) < 8) {
+                    // Ensure each KT and PT player is in position 1 or 2
+                    if(($player['id_kategori'] == 'Teknik Sipil' && $teknikSipilCounters[$minTeamIndex] < 1)){
+                        $teams[$minTeamIndex]['players'][] = $player;
+                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
+                        $usedPlayer[] = $player['id_pegawai'];
+
+                        if ($player['id_kategori'] == 'Teknik Sipil') {
+                            $teknikSipilCounters[$minTeamIndex]++;
+                        }
+                    }
+
+                }
+        }
+
+
         foreach ($allPlayers as $player) {
             // Find the team with the lowest total score
             // dd($player['id_pegawai']);
@@ -361,40 +456,8 @@ class PemeriksaKegiatanController extends Controller
             // If the team hasn't reached the maximum member count, add the player to the team
                 if (count($teams[$minTeamIndex]['players']) < 8) {
                     // Ensure each KT and PT player is in position 1 or 2
-                    if (($player['id_kategori'] == 'Ketua Tim' && $ktCounters[$minTeamIndex] < 1)
-                    ) {
-                        $teams[$minTeamIndex]['players'][] = $player;
-                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
 
-                        // Increment counters for KT and PT players
-                        if ($player['id_kategori'] == 'Ketua Tim') {
-                            $ktCounters[$minTeamIndex]++;
-                        } elseif ($player['id_kategori'] == 'PT') {
-                            $ptCounters[$minTeamIndex]++;
-                        }
-
-                        $usedPlayer[] = $player['id_pegawai'];
-                    }
-
-                    else if(($player['id_kategori'] == 'PT' && $ptCounters[$minTeamIndex] < 1)){
-                        $teams[$minTeamIndex]['players'][] = $player;
-                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
-                        $usedPlayer[] = $player['id_pegawai'];
-
-                        if ($player['id_kategori'] == 'PT') {
-                            $ptCounters[$minTeamIndex]++;
-                        }
-                    }
-                    else if(($player['id_kategori'] == 'IT' && $itCounters[$minTeamIndex] < 1)){
-                        $teams[$minTeamIndex]['players'][] = $player;
-                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
-                        $usedPlayer[] = $player['id_pegawai'];
-
-                        if ($player['id_kategori'] == 'IT') {
-                            $itCounters[$minTeamIndex]++;
-                        }
-                    }
-                    else if(($player['id_kategori'] == 'Hukum' && $hukumCounters[$minTeamIndex] < 2)){
+                 if(($player['id_kategori'] == 'Hukum' && $hukumCounters[$minTeamIndex] < 1)){
                         $teams[$minTeamIndex]['players'][] = $player;
                         $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
                         $usedPlayer[] = $player['id_pegawai'];
@@ -403,15 +466,7 @@ class PemeriksaKegiatanController extends Controller
                             $hukumCounters[$minTeamIndex]++;
                         }
                     }
-                    else if(($player['id_kategori'] == 'Teknik Sipil' && $teknikSipilCounters[$minTeamIndex] < 2)){
-                        $teams[$minTeamIndex]['players'][] = $player;
-                        $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
-                        $usedPlayer[] = $player['id_pegawai'];
 
-                        if ($player['id_kategori'] == 'Teknik Sipil') {
-                            $teknikSipilCounters[$minTeamIndex]++;
-                        }
-                    }
                     else if(($player['id_kategori'] == 'Akuntansi' && $akuntansiCounters[$minTeamIndex] < 6)){
                         $teams[$minTeamIndex]['players'][] = $player;
                         $teams[$minTeamIndex]['totalScore'] += $player['poin_kompentensiPemeriksa']; // Assuming 'poin_kompentensiPemeriksa' is the score field
@@ -424,8 +479,33 @@ class PemeriksaKegiatanController extends Controller
                 }
         }
 
-            dd($teams);
+        // Sort players within each team based on category
+            foreach ($teams as &$team) {
+                usort($team['players'], function($player1, $player2) {
+                    // Define the order of categories
+                    $categoryOrder = [
+                        'Ketua Tim' => 2,
+                        'PT' => 1,
+                        'IT' => 6,
+                        'Hukum' => 5,
+                        'Teknik Sipil' => 4,
+                        'Akuntansi' => 3,
+                    ];
+
+                    // Get the category order for each player
+                    $categoryOrder1 = $categoryOrder[$player1['id_kategori']];
+                    $categoryOrder2 = $categoryOrder[$player2['id_kategori']];
+
+                    // Compare players based on their category order
+                    return $categoryOrder1 - $categoryOrder2;
+                });
+            }
+
+
+            return $teams;
         }
     }
+
+
 
 }
